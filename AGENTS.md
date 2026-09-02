@@ -105,3 +105,18 @@ For exploratory ML and mechanistic interpretability work:
 - Treat in-memory kernel state as convenient but disposable: important results must also exist on disk.
 - Run genuinely long training or batch jobs as scripts under tmux with logs rather than blocking notebook cells.
 - Before launching expensive GPU work, follow the compute-discipline rules above.
+
+## Code simplicity and human understanding
+
+Optimize for code the researcher can understand, inspect, and explain end-to-end.
+
+* Prefer the simplest transparent implementation that answers the research question.
+* Prefer one small script or notebook over a large framework, abstraction layer, or configuration system when practical.
+* Do not introduce abstractions, helper classes, orchestration machinery, or general-purpose infrastructure unless they clearly reduce complexity for the current experiment.
+* Use released research code as a reference implementation when useful, but do not automatically adopt an entire toolkit if a small faithful implementation is easier to understand.
+* Before writing substantial experimental code, be able to explain in plain language what the computation does and why it answers the question.
+* Keep the scientific logic visible in the code: model inputs, measured quantities, comparisons, baselines, and outputs should be easy to locate.
+* Avoid clever or compressed code when straightforward code is easier to audit.
+* The researcher should be able to explain every important experimental choice and result without relying on the coding agent's interpretation.
+* Agent-generated code must be sanity-checked. Do not treat successful execution as evidence that the experiment is scientifically correct.
+* For feasibility probes, optimize for a minimal experiment that produces an interpretable result, not for building reusable research infrastructure.
