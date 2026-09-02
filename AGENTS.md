@@ -87,3 +87,21 @@ mechanistic interpretability questions:
   the entire file unnecessarily.
 - Treat the corpus as reference material, not unquestionable ground truth; maintain
   skepticism and check claims against experiment results and primary sources when needed.
+
+## Persistent research kernel
+
+A persistent Jupyter kernel is available to Codex through the `jupyter` MCP server.
+
+For exploratory ML and mechanistic interpretability work:
+
+- Prefer the persistent Jupyter kernel over repeatedly launching cold Python processes.
+- Load models, tokenizers, datasets, and other expensive state in dedicated initialization cells.
+- Reuse already-loaded models and activations whenever practical.
+- Never restart, interrupt, or shut down the research kernel without explicit approval.
+- Do not reload a model merely to make an isolated experiment script self-contained.
+- Keep exploratory work in notebooks/kernel state, but move reusable logic into `src/`.
+- Save important plots to disk as well as displaying them in the notebook.
+- Checkpoint expensive-to-reproduce activations, datasets, probes, or other artifacts to persistent storage.
+- Treat in-memory kernel state as convenient but disposable: important results must also exist on disk.
+- Run genuinely long training or batch jobs as scripts under tmux with logs rather than blocking notebook cells.
+- Before launching expensive GPU work, follow the compute-discipline rules above.

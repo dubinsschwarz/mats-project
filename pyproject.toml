@@ -7,3 +7,9 @@ dependencies = [
     "torch>=2.13.0",
     "transformer-lens>=3.8.1",
 ]
+
+[dependency-groups]
+dev = [
+    "jupyter-collaboration>=5.0.2",
+    "jupyter-mcp-tools>=0.1.7",
+]
