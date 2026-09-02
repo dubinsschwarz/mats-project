@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+export PATH="$HOME/.local/bin:$PATH"
+
+grep -Fq 'export PATH="$HOME/.local/bin:$PATH"' "$HOME/.bashrc" 2>/dev/null || \
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> "$HOME/.bashrc"
+
 PROJECT="/workspace/mats-project"
 PERSISTENT_KEY="/workspace/.secrets/mats_github"
 JUPYTER_PORT=8890
@@ -200,3 +205,29 @@ echo
 echo "Then:"
 echo "  cd $PROJECT"
 echo "  codex"
+
+# Persist Codex defaults across fresh pods.
+CODEX_CONFIG="$HOME/.codex/config.toml"
+mkdir -p "$HOME/.codex"
+touch "$CODEX_CONFIG"
+
+grep -q '^approval_policy = ' "$CODEX_CONFIG" 2>/dev/null || \
+    sed -i '1i approval_policy = "on-request"' "$CODEX_CONFIG"
+
+grep -q '^approvals_reviewer = ' "$CODEX_CONFIG" 2>/dev/null || \
+    sed -i '1i approvals_reviewer = "auto_review"' "$CODEX_CONFIG"
+
+grep -q '^sandbox_mode = ' "$CODEX_CONFIG" 2>/dev/null || \
+    sed -i '1i sandbox_mode = "workspace-write"' "$CODEX_CONFIG"
+
+if ! grep -q '^alternate_screen = "never"$' "$CODEX_CONFIG" 2>/dev/null; then
+    if grep -q '^\[tui\]$' "$CODEX_CONFIG" 2>/dev/null; then
+        sed -i '/^\[tui\]$/a alternate_screen = "never"' "$CODEX_CONFIG"
+    else
+        cat >> "$CODEX_CONFIG" <<'TUIEOF'
+
+[tui]
+alternate_screen = "never"
+TUIEOF
+    fi
+fi
