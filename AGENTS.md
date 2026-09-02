@@ -66,3 +66,24 @@ This repository is for a short mechanistic interpretability research project.
 - When debugging, first identify the smallest test that can isolate the problem.
 - Do not make substantial research-direction decisions without surfacing the tradeoff to the user.
 - The user's understanding matters: explain non-obvious methodological or implementation choices rather than only producing code.
+
+## Research reference corpus
+
+The primary mechanistic interpretability reference corpus is:
+
+`references/neel/default_600k.md`
+
+This contains research-process guidance, mechanistic interpretability background,
+papers, tutorials, and tooling references curated for this project.
+
+When doing research planning, experiment design, interpreting results, or answering
+mechanistic interpretability questions:
+
+- Consult this corpus when relevant rather than relying only on generic prior knowledge.
+- Search for and read the sections relevant to the current question.
+- For high-level research-direction decisions, read the relevant research philosophy
+  and research taste sections before proposing a substantial plan.
+- Prefer targeted use of the corpus for routine coding/debugging rather than reading
+  the entire file unnecessarily.
+- Treat the corpus as reference material, not unquestionable ground truth; maintain
+  skepticism and check claims against experiment results and primary sources when needed.
