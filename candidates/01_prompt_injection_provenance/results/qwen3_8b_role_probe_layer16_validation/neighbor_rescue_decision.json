@@ -1,0 +1,13 @@
+{
+  "layers_zero_based": [
+    12,
+    20
+  ],
+  "validated_layers": [],
+  "precommitted_downstream_handling": "stop_role_confusion_probe_attempt",
+  "rules": {
+    "neither": "stop the Role Confusion probe attempt on Qwen3-8B",
+    "exactly_one": "freeze that probe",
+    "both": "retain both and require downstream conclusions to be qualitatively consistent across them"
+  }
+}

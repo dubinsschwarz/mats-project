@@ -4,7 +4,8 @@ version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
     "nnsight>=0.7.0",
-    "torch>=2.13.0",
+    "scikit-learn>=1.9.0",
+    "torch==2.9.1",
     "transformer-lens>=3.8.1",
 ]
 
@@ -13,3 +14,6 @@ dev = [
     "jupyter-collaboration>=5.0.2",
     "jupyter-mcp-tools>=0.1.7",
 ]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu128"

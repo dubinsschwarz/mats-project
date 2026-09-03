@@ -1,0 +1,227 @@
+{
+  "16": {
+    "authors_prompt_level": {
+      "token_accuracy": 0.40810227461397974,
+      "nll": 1.005380392074585,
+      "per_role_accuracy": {
+        "user": 0.16087097822554436,
+        "assistant": 0.9123897806918381,
+        "tool": 0.08479982402111746
+      },
+      "confusion_matrix": [
+        [
+          990,
+          2,
+          5162
+        ],
+        [
+          150,
+          8071,
+          625
+        ],
+        [
+          8270,
+          51,
+          771
+        ]
+      ],
+      "prompt_equal_accuracy": 0.5167724610874098,
+      "n_tokens": 24092,
+      "n_prompts": 45,
+      "n_train_tokens": 215122
+    },
+    "passage_grouped": {
+      "token_accuracy": 0.6870462361482613,
+      "nll": 0.787580132484436,
+      "per_role_accuracy": {
+        "user": 0.6225958476627181,
+        "assistant": 0.9868806521462234,
+        "tool": 0.45166220863584255
+      },
+      "confusion_matrix": [
+        [
+          4888,
+          736,
+          2227
+        ],
+        [
+          17,
+          7748,
+          86
+        ],
+        [
+          3582,
+          723,
+          3546
+        ]
+      ],
+      "prompt_equal_accuracy": 0.7082990035007976,
+      "n_tokens": 23553,
+      "n_prompts": 42,
+      "n_train_tokens": 215661
+    },
+    "validation_decision": {
+      "validated": false,
+      "primary_split": "passage_grouped",
+      "prompt_equal_accuracy_min": 0.85,
+      "each_role_accuracy_min": 0.8,
+      "grouped_prompt_equal_accuracy_pass": false,
+      "grouped_per_role_pass": {
+        "user": false,
+        "assistant": true,
+        "tool": false
+      },
+      "failure_policy": "do not apply or interpret the probe on injection data"
+    }
+  },
+  "12": {
+    "authors_prompt_level": {
+      "token_accuracy": 0.3898389506890254,
+      "nll": 1.1536945104599,
+      "per_role_accuracy": {
+        "user": 0.1571335716607085,
+        "assistant": 0.865136784987565,
+        "tool": 0.08490981082270127
+      },
+      "confusion_matrix": [
+        [
+          967,
+          4,
+          5183
+        ],
+        [
+          201,
+          7653,
+          992
+        ],
+        [
+          8202,
+          118,
+          772
+        ]
+      ],
+      "prompt_equal_accuracy": 0.5045549960249875,
+      "n_tokens": 24092,
+      "n_prompts": 45,
+      "n_train_tokens": 215122
+    },
+    "passage_grouped": {
+      "token_accuracy": 0.6788094934827835,
+      "nll": 0.8732361793518066,
+      "per_role_accuracy": {
+        "user": 0.5167494586676856,
+        "assistant": 0.9830594828684244,
+        "tool": 0.5366195389122405
+      },
+      "confusion_matrix": [
+        [
+          4057,
+          946,
+          2848
+        ],
+        [
+          19,
+          7718,
+          114
+        ],
+        [
+          2683,
+          955,
+          4213
+        ]
+      ],
+      "prompt_equal_accuracy": 0.7103322890503547,
+      "n_tokens": 23553,
+      "n_prompts": 42,
+      "n_train_tokens": 215661
+    },
+    "validation_decision": {
+      "validated": false,
+      "primary_split": "passage_grouped",
+      "prompt_equal_accuracy_min": 0.85,
+      "each_role_accuracy_min": 0.8,
+      "grouped_prompt_equal_accuracy_pass": false,
+      "grouped_per_role_pass": {
+        "user": false,
+        "assistant": true,
+        "tool": false
+      },
+      "failure_policy": "do not apply or interpret the probe on injection data"
+    }
+  },
+  "20": {
+    "authors_prompt_level": {
+      "token_accuracy": 0.4162377552714594,
+      "nll": 0.9638217687606812,
+      "per_role_accuracy": {
+        "user": 0.1574585635359116,
+        "assistant": 0.9285552792222473,
+        "tool": 0.0929388473383194
+      },
+      "confusion_matrix": [
+        [
+          969,
+          2,
+          5183
+        ],
+        [
+          80,
+          8214,
+          552
+        ],
+        [
+          8227,
+          20,
+          845
+        ]
+      ],
+      "prompt_equal_accuracy": 0.5163207290348842,
+      "n_tokens": 24092,
+      "n_prompts": 45,
+      "n_train_tokens": 215122
+    },
+    "passage_grouped": {
+      "token_accuracy": 0.6929478198106398,
+      "nll": 0.6965817213058472,
+      "per_role_accuracy": {
+        "user": 0.6811871099223029,
+        "assistant": 0.9927397783721819,
+        "tool": 0.40491657113743473
+      },
+      "confusion_matrix": [
+        [
+          5348,
+          549,
+          1954
+        ],
+        [
+          13,
+          7794,
+          44
+        ],
+        [
+          4143,
+          529,
+          3179
+        ]
+      ],
+      "prompt_equal_accuracy": 0.7137809498694159,
+      "n_tokens": 23553,
+      "n_prompts": 42,
+      "n_train_tokens": 215661
+    },
+    "validation_decision": {
+      "validated": false,
+      "primary_split": "passage_grouped",
+      "prompt_equal_accuracy_min": 0.85,
+      "each_role_accuracy_min": 0.8,
+      "grouped_prompt_equal_accuracy_pass": false,
+      "grouped_per_role_pass": {
+        "user": false,
+        "assistant": true,
+        "tool": false
+      },
+      "failure_policy": "do not apply or interpret the probe on injection data"
+    }
+  }
+}

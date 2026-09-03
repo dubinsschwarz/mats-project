@@ -1,0 +1,51 @@
+{
+  "primary_hidden_state_index": 18,
+  "control_hidden_state_index": 14,
+  "results": {
+    "14": {
+      "overall": {
+        "accuracy": 0.94921875,
+        "balanced_accuracy": 0.94921875,
+        "auroc": 0.98699951171875,
+        "n": 256
+      },
+      "provenance_within_user_style": {
+        "accuracy": 0.9765625,
+        "balanced_accuracy": 0.9765625,
+        "auroc": 0.988525390625,
+        "n": 128
+      },
+      "validated": true,
+      "n_iter": [
+        83
+      ],
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "18": {
+      "overall": {
+        "accuracy": 0.98046875,
+        "balanced_accuracy": 0.98046875,
+        "auroc": 0.99700927734375,
+        "n": 256
+      },
+      "provenance_within_user_style": {
+        "accuracy": 0.9765625,
+        "balanced_accuracy": 0.9765625,
+        "auroc": 0.9970703125,
+        "n": 128
+      },
+      "validated": true,
+      "n_iter": [
+        81
+      ],
+      "classes": [
+        0,
+        1
+      ]
+    }
+  },
+  "attack_stage_started": true
+}

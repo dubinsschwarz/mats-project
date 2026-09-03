@@ -1,0 +1,22 @@
+{
+  "layer_zero_based": 20,
+  "completed_splits": [
+    "authors_prompt_level",
+    "passage_grouped"
+  ],
+  "last_completed_split": "passage_grouped",
+  "scientific_status": "complete",
+  "validation_decision": {
+    "validated": false,
+    "primary_split": "passage_grouped",
+    "prompt_equal_accuracy_min": 0.85,
+    "each_role_accuracy_min": 0.8,
+    "grouped_prompt_equal_accuracy_pass": false,
+    "grouped_per_role_pass": {
+      "user": false,
+      "assistant": true,
+      "tool": false
+    },
+    "failure_policy": "do not apply or interpret the probe on injection data"
+  }
+}

@@ -1,0 +1,57 @@
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   7%|▋         | 28/399 [00:00<00:01, 266.77it/s]Loading weights:  17%|█▋        | 67/399 [00:00<00:01, 331.99it/s]Loading weights:  25%|██▌       | 101/399 [00:00<00:00, 316.78it/s]Loading weights:  33%|███▎      | 133/399 [00:00<00:01, 265.36it/s]Loading weights:  44%|████▍     | 176/399 [00:00<00:00, 314.59it/s]Loading weights:  53%|█████▎    | 212/399 [00:00<00:00, 325.10it/s]Loading weights:  62%|██████▏   | 247/399 [00:00<00:00, 312.11it/s]Loading weights:  70%|██████▉   | 279/399 [00:00<00:00, 305.65it/s]Loading weights:  78%|███████▊  | 311/399 [00:01<00:00, 290.84it/s]Loading weights:  85%|████████▌ | 341/399 [00:01<00:00, 288.88it/s]Loading weights:  93%|█████████▎| 373/399 [00:01<00:00, 283.95it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 305.33it/s]
+/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/rescue_qwen_role_probe_neighbors.py:203: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:206.)
+  physical = valid[torch.as_tensor(token_ix, device=valid.device)]
+layers [12, 20] activation prompts 0/447
+layers [12, 20] activation prompts 100/447
+layers [12, 20] activation prompts 200/447
+layers [12, 20] activation prompts 300/447
+layers [12, 20] activation prompts 400/447
+/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1403: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1403: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+fitted layer 12: {'authors_prompt_level': {'token_accuracy': 0.3898389506890254, 'nll': 1.1536945104599, 'per_role_accuracy': {'user': 0.1571335716607085, 'assistant': 0.865136784987565, 'tool': 0.08490981082270127}, 'confusion_matrix': [[967, 4, 5183], [201, 7653, 992], [8202, 118, 772]], 'prompt_equal_accuracy': 0.5045549960249875, 'n_tokens': 24092, 'n_prompts': 45, 'n_train_tokens': 215122}, 'passage_grouped': {'token_accuracy': 0.6788094934827835, 'nll': 0.8732361793518066, 'per_role_accuracy': {'user': 0.5167494586676856, 'assistant': 0.9830594828684244, 'tool': 0.5366195389122405}, 'confusion_matrix': [[4057, 946, 2848], [19, 7718, 114], [2683, 955, 4213]], 'prompt_equal_accuracy': 0.7103322890503547, 'n_tokens': 23553, 'n_prompts': 42, 'n_train_tokens': 215661}, 'validation_decision': {'validated': False, 'primary_split': 'passage_grouped', 'prompt_equal_accuracy_min': 0.85, 'each_role_accuracy_min': 0.8, 'grouped_prompt_equal_accuracy_pass': False, 'grouped_per_role_pass': {'user': False, 'assistant': True, 'tool': False}, 'failure_policy': 'do not apply or interpret the probe on injection data'}}
+/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1403: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1403: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/rescue_qwen_role_probe_neighbors.py", line 288, in <module>
+    main()
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/rescue_qwen_role_probe_neighbors.py", line 233, in main
+    probe.fit(x[train_mask], y[train_mask])
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py", line 1545, in fit
+    coefs, _, n_iter = _logistic_regression_path(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py", line 584, in _logistic_regression_path
+    opt_res = optimize.minimize(
+              ^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/scipy/optimize/_minimize.py", line 784, in minimize
+    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/scipy/optimize/_lbfgsb_py.py", line 420, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+           ^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/scipy/optimize/_differentiable_functions.py", line 412, in fun_and_grad
+    self._update_fun()
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/scipy/optimize/_differentiable_functions.py", line 362, in _update_fun
+    fx = self._wrapped_fun(self.x)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/scipy/_lib/_util.py", line 544, in __call__
+    fx = self.f(np.copy(x), *self.args)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/scipy/optimize/_optimize.py", line 80, in __call__
+    self._compute_if_needed(x, *args)
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/scipy/optimize/_optimize.py", line 74, in _compute_if_needed
+    fg = self.fun(x, *args)
+         ^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_linear_loss.py", line 370, in loss_gradient
+    move_to(grad_X, xp=np, device="cpu") + l2_reg_strength * weights
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/utils/_array_api.py", line 519, in move_to
+    def move_to(*arrays, xp, device):
+    
+KeyboardInterrupt

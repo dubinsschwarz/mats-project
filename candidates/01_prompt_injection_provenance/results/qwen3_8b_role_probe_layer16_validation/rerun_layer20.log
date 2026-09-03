@@ -1,0 +1,29 @@
+RESOURCE stage=startup peak_rss_mib=795.2
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  10%|▉         | 38/399 [00:00<00:01, 348.70it/s]Loading weights:  19%|█▊        | 74/399 [00:00<00:00, 353.67it/s]Loading weights:  28%|██▊       | 111/399 [00:00<00:00, 325.38it/s]Loading weights:  37%|███▋      | 149/399 [00:00<00:00, 316.59it/s]Loading weights:  46%|████▌     | 184/399 [00:00<00:00, 324.94it/s]Loading weights:  57%|█████▋    | 229/399 [00:00<00:00, 346.87it/s]Loading weights:  67%|██████▋   | 266/399 [00:00<00:00, 325.76it/s]Loading weights:  75%|███████▌  | 301/399 [00:00<00:00, 297.32it/s]Loading weights:  88%|████████▊ | 353/399 [00:01<00:00, 333.92it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 344.81it/s]
+RESOURCE stage=model_loaded peak_rss_mib=4978.2
+/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/rerun_qwen_role_probe_layer20.py:212: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:206.)
+  physical = valid[torch.as_tensor(token_ix, device=valid.device)]
+layers [20] activation prompts 0/447
+RESOURCE stage=activation_0 peak_rss_mib=4978.2
+layers [20] activation prompts 100/447
+RESOURCE stage=activation_100 peak_rss_mib=4978.2
+layers [20] activation prompts 200/447
+RESOURCE stage=activation_200 peak_rss_mib=4978.2
+layers [20] activation prompts 300/447
+RESOURCE stage=activation_300 peak_rss_mib=4978.2
+layers [20] activation prompts 400/447
+RESOURCE stage=activation_400 peak_rss_mib=4978.2
+RESOURCE stage=activation_complete peak_rss_mib=4978.2
+RESOURCE stage=before_fit_layer_20_authors_prompt_level peak_rss_mib=7310.7
+/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1403: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+RESOURCE stage=after_fit_layer_20_authors_prompt_level peak_rss_mib=11097.7
+RESOURCE stage=before_fit_layer_20_passage_grouped peak_rss_mib=11097.7
+/workspace/mats-project/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1403: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+RESOURCE stage=after_fit_layer_20_passage_grouped peak_rss_mib=11097.7
+fitted layer 20: {'authors_prompt_level': {'token_accuracy': 0.4162377552714594, 'nll': 0.9638217687606812, 'per_role_accuracy': {'user': 0.1574585635359116, 'assistant': 0.9285552792222473, 'tool': 0.0929388473383194}, 'confusion_matrix': [[969, 2, 5183], [80, 8214, 552], [8227, 20, 845]], 'prompt_equal_accuracy': 0.5163207290348842, 'n_tokens': 24092, 'n_prompts': 45, 'n_train_tokens': 215122}, 'passage_grouped': {'token_accuracy': 0.6929478198106398, 'nll': 0.6965817213058472, 'per_role_accuracy': {'user': 0.6811871099223029, 'assistant': 0.9927397783721819, 'tool': 0.40491657113743473}, 'confusion_matrix': [[5348, 549, 1954], [13, 7794, 44], [4143, 529, 3179]], 'prompt_equal_accuracy': 0.7137809498694159, 'n_tokens': 23553, 'n_prompts': 42, 'n_train_tokens': 215661}, 'validation_decision': {'validated': False, 'primary_split': 'passage_grouped', 'prompt_equal_accuracy_min': 0.85, 'each_role_accuracy_min': 0.8, 'grouped_prompt_equal_accuracy_pass': False, 'grouped_per_role_pass': {'user': False, 'assistant': True, 'tool': False}, 'failure_policy': 'do not apply or interpret the probe on injection data'}}
+neighbor rescue decision: {'layers_zero_based': [12, 20], 'validated_layers': [], 'precommitted_downstream_handling': 'stop_role_confusion_probe_attempt', 'rules': {'neither': 'stop the Role Confusion probe attempt on Qwen3-8B', 'exactly_one': 'freeze that probe', 'both': 'retain both and require downstream conclusions to be qualitatively consistent across them'}}
+RESOURCE stage=completed peak_rss_mib=11097.7
+
+PROCESS_EXIT_STATUS=0

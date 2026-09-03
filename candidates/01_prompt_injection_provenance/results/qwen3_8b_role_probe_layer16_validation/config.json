@@ -1,0 +1,68 @@
+{
+  "seed": 123,
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "tokenizer_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "dataset_revisions": {
+    "c4": "1588ec454efa1a09f29cd18ddd04fe05fc8653a2",
+    "dolma3": "3a8349c2f7946cdc56f8ccf22c555672be0b3208"
+  },
+  "requested_n_base_passages": 150,
+  "actual_n": 150,
+  "sources": {
+    "dolma3": 113,
+    "c4": 37
+  },
+  "seq_len": 1024,
+  "num_hidden_layers": 36,
+  "released_layer_rule": "range(0, model_n_layers, 4) if model_n_layers >= 30 else range(0, model_n_layers, 2)",
+  "released_layer_grid_zero_based": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32
+  ],
+  "layer_selection": "mechanical middle element of released grid; selected before validation or injection results",
+  "layers_zero_based": [
+    16
+  ],
+  "roles": [
+    "user",
+    "assistant",
+    "tool"
+  ],
+  "released_prompt_roles": [
+    "user",
+    "tool",
+    "cot",
+    "assistant"
+  ],
+  "skip_first": 32,
+  "activation": "post_attention_layernorm output (normalized pre-MLP)",
+  "C": 0.1,
+  "scaling": false,
+  "validation_criterion": {
+    "primary_split": "passage_grouped",
+    "prompt_equal_accuracy_min": 0.85,
+    "each_role_accuracy_min": 0.8,
+    "failure_policy": "do not apply or interpret the probe on injection data",
+    "paper_style_role": "supporting/comparability evidence only"
+  },
+  "solver": "sklearn LogisticRegression (cuML/CuPy unavailable)",
+  "author_repo": "https://github.com/role-confusion/prompt-injection-as-role-confusion",
+  "author_commit": "ec333c40fd43fe991e1ebf66765051b6d7e35784",
+  "parser_sha256": "e806280cfb25dc278d4c86f8253173fa64c1eda53f40c01a768ca439f2c03a51",
+  "artifact_sha256": {
+    "sampled_texts.jsonl": "11dc308a2aa8a033f6b67379095338d0c7feafbcd7322bf64478898d1d69125b",
+    "prompts_and_token_ids.jsonl": "4be8d9bd6d8f4121af464e043941cf8000308670d501159d467fe23226a5ca23",
+    "selected_tokens.parquet": "1acdfae638d522d35bc21bf1c9e9643cdd4ca3de0cb4b1d4c63d28cba4b9259e",
+    "prompts_metadata.csv": "26117c171f1c3c8aef183fdb87e19a5c229d7e654a1066c8d8593bb04ab83df5",
+    "splits.npz": "1444b73e6ebaa0f5b09a7e66c17687a66138e7d021e4413d62d27e659a31fd6a",
+    "released_role_assignments.py": "e806280cfb25dc278d4c86f8253173fa64c1eda53f40c01a768ca439f2c03a51"
+  }
+}
