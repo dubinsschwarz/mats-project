@@ -1,0 +1,14 @@
+[project]
+name = "prompt-injection-provenance"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "datasets>=5.0.1",
+  "numpy>=2.0",
+  "pandas>=3.0,<3.0.4",
+  "scikit-learn>=1.5",
+  "torch>=2.5",
+  "transformers>=4.51",
+  "zstandard>=0.25.0",
+]
+

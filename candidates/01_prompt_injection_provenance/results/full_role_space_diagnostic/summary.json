@@ -1,0 +1,93 @@
+{
+  "config": {
+    "seed": 42,
+    "model": "Qwen/Qwen3-0.6B",
+    "layers_zero_based": [
+      8,
+      12,
+      16
+    ],
+    "activation": "post_attention_layernorm output (normalized pre-MLP)",
+    "roles": [
+      "user",
+      "assistant",
+      "tool"
+    ],
+    "C": 0.1,
+    "scaling": false,
+    "n_base_sequences": 16,
+    "base_sequence_tokens": 128,
+    "skip_first_content_tokens": 32,
+    "training_unit": "individual content tokens",
+    "prompt_level_test_fraction": 0.1
+  },
+  "validation": {
+    "8": {
+      "accuracy": 0.59375,
+      "n_train_tokens": 4129,
+      "n_test_tokens": 480
+    },
+    "12": {
+      "accuracy": 0.6291666666666667,
+      "n_train_tokens": 4129,
+      "n_test_tokens": 480
+    },
+    "16": {
+      "accuracy": 0.65,
+      "n_train_tokens": 4129,
+      "n_test_tokens": 480
+    }
+  },
+  "controlled_user_style_under_tool": {
+    "8": {
+      "mean_user_probability": 0.4355464412348158,
+      "mean_tool_probability": 0.5625090471058346,
+      "fraction_tokens_argmax_user": 0.4342857142857143,
+      "fraction_texts_mean_argmax_user": 0.40625
+    },
+    "12": {
+      "mean_user_probability": 0.8437864237176421,
+      "mean_tool_probability": 0.14724210161287277,
+      "fraction_tokens_argmax_user": 0.8742857142857143,
+      "fraction_texts_mean_argmax_user": 0.9375
+    },
+    "16": {
+      "mean_user_probability": 0.38939732176875236,
+      "mean_tool_probability": 0.6086271169012044,
+      "fraction_tokens_argmax_user": 0.38571428571428573,
+      "fraction_texts_mean_argmax_user": 0.28125
+    }
+  },
+  "actual_injections": {
+    "layer_8_success": {
+      "mean_user_probability": 0.21902364185390275,
+      "mean_tool_probability": 0.692359084263444,
+      "max_user_probability": 0.9534536004066467
+    },
+    "layer_8_failure": {
+      "mean_user_probability": 0.18082580957849761,
+      "mean_tool_probability": 0.7563487579988568,
+      "max_user_probability": 0.9940021634101868
+    },
+    "layer_12_success": {
+      "mean_user_probability": 0.06756580446866442,
+      "mean_tool_probability": 0.5602852672571317,
+      "max_user_probability": 0.8161236047744751
+    },
+    "layer_12_failure": {
+      "mean_user_probability": 0.07930267430794855,
+      "mean_tool_probability": 0.6358440711283712,
+      "max_user_probability": 0.9462692737579346
+    },
+    "layer_16_success": {
+      "mean_user_probability": 0.009424058709471009,
+      "mean_tool_probability": 0.8430218755371041,
+      "max_user_probability": 0.28886678814888
+    },
+    "layer_16_failure": {
+      "mean_user_probability": 0.01767018776074008,
+      "mean_tool_probability": 0.8911173362974767,
+      "max_user_probability": 0.8254244327545166
+    }
+  }
+}

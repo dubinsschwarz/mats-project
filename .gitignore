@@ -32,3 +32,8 @@ results/*
 .DS_Store
 .vscode/
 references/neel/
+
+# Local research environments / large activation caches
+**/.venv/
+**/__pycache__/
+*.f16

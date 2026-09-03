@@ -1,0 +1,146 @@
+[
+  {
+    "attack_index": 0,
+    "previous_userness": 0.045760154724121094,
+    "reconstructed_userness": 0.045760154724121094,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 1,
+    "previous_userness": 0.0328826904296875,
+    "reconstructed_userness": 0.0328826904296875,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 2,
+    "previous_userness": 0.024335861206054688,
+    "reconstructed_userness": 0.024335861206054688,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 3,
+    "previous_userness": 0.024958789348602295,
+    "reconstructed_userness": 0.024958789348602295,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 4,
+    "previous_userness": 0.04275107383728027,
+    "reconstructed_userness": 0.04275107383728027,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 5,
+    "previous_userness": 0.02606987953186035,
+    "reconstructed_userness": 0.02606987953186035,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 6,
+    "previous_userness": 0.026916086673736572,
+    "reconstructed_userness": 0.026916205883026123,
+    "absolute_difference": 1.1920928955078125e-07
+  },
+  {
+    "attack_index": 7,
+    "previous_userness": 0.02652186155319214,
+    "reconstructed_userness": 0.02652186155319214,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 8,
+    "previous_userness": 0.043454766273498535,
+    "reconstructed_userness": 0.043454885482788086,
+    "absolute_difference": 1.1920928955078125e-07
+  },
+  {
+    "attack_index": 9,
+    "previous_userness": 0.032122015953063965,
+    "reconstructed_userness": 0.032122015953063965,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 10,
+    "previous_userness": 0.019888341426849365,
+    "reconstructed_userness": 0.019888341426849365,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 11,
+    "previous_userness": 0.023780763149261475,
+    "reconstructed_userness": 0.023780763149261475,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 12,
+    "previous_userness": 0.04055672883987427,
+    "reconstructed_userness": 0.04055672883987427,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 13,
+    "previous_userness": 0.026778697967529297,
+    "reconstructed_userness": 0.026778817176818848,
+    "absolute_difference": 1.1920928955078125e-07
+  },
+  {
+    "attack_index": 14,
+    "previous_userness": 0.020761191844940186,
+    "reconstructed_userness": 0.020761191844940186,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 15,
+    "previous_userness": 0.021602749824523926,
+    "reconstructed_userness": 0.021602749824523926,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 16,
+    "previous_userness": 0.038109540939331055,
+    "reconstructed_userness": 0.038109540939331055,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 17,
+    "previous_userness": 0.024702608585357666,
+    "reconstructed_userness": 0.024702727794647217,
+    "absolute_difference": 1.1920928955078125e-07
+  },
+  {
+    "attack_index": 18,
+    "previous_userness": 0.01980602741241455,
+    "reconstructed_userness": 0.01980602741241455,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 19,
+    "previous_userness": 0.020563066005706787,
+    "reconstructed_userness": 0.020563066005706787,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 20,
+    "previous_userness": 0.0334354043006897,
+    "reconstructed_userness": 0.0334354043006897,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 21,
+    "previous_userness": 0.02748018503189087,
+    "reconstructed_userness": 0.02748018503189087,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 22,
+    "previous_userness": 0.019145727157592773,
+    "reconstructed_userness": 0.019145727157592773,
+    "absolute_difference": 0.0
+  },
+  {
+    "attack_index": 23,
+    "previous_userness": 0.022602736949920654,
+    "reconstructed_userness": 0.022602736949920654,
+    "absolute_difference": 0.0
+  }
+]

@@ -1,0 +1,540 @@
+{
+  "config": {
+    "seed": 42,
+    "n_repetitions": 100,
+    "shuffle": "global permutation across all training examples",
+    "model": "Qwen/Qwen3-0.6B",
+    "hidden_state_index": 14,
+    "probe_C": 0.01,
+    "n_train_examples": 768,
+    "n_test_examples": 256,
+    "test_text_ids_match_primary": true
+  },
+  "real_provenance_metrics_from_primary_run": {
+    "accuracy": 0.96484375,
+    "balanced_accuracy": 0.96484375,
+    "auroc": 0.9974365234375
+  },
+  "summary": {
+    "balanced_accuracy": {
+      "mean": 0.4929296875,
+      "median": 0.4921875,
+      "min": 0.41796875,
+      "max": 0.58984375,
+      "p90": 0.54296875,
+      "p95": 0.5509765625,
+      "p99": 0.5782421875000001
+    },
+    "auroc": {
+      "mean": 0.49153564453125,
+      "median": 0.487396240234375,
+      "min": 0.39044189453125,
+      "max": 0.6143798828125,
+      "p90": 0.549615478515625,
+      "p95": 0.5747589111328125,
+      "p99": 0.6090020751953126
+    }
+  },
+  "raw_scores": [
+    {
+      "repetition": 0,
+      "balanced_accuracy": 0.49609375,
+      "auroc": 0.5068359375
+    },
+    {
+      "repetition": 1,
+      "balanced_accuracy": 0.453125,
+      "auroc": 0.42626953125
+    },
+    {
+      "repetition": 2,
+      "balanced_accuracy": 0.58984375,
+      "auroc": 0.60894775390625
+    },
+    {
+      "repetition": 3,
+      "balanced_accuracy": 0.45703125,
+      "auroc": 0.4447021484375
+    },
+    {
+      "repetition": 4,
+      "balanced_accuracy": 0.50390625,
+      "auroc": 0.503173828125
+    },
+    {
+      "repetition": 5,
+      "balanced_accuracy": 0.44140625,
+      "auroc": 0.4180908203125
+    },
+    {
+      "repetition": 6,
+      "balanced_accuracy": 0.45703125,
+      "auroc": 0.4306640625
+    },
+    {
+      "repetition": 7,
+      "balanced_accuracy": 0.484375,
+      "auroc": 0.49639892578125
+    },
+    {
+      "repetition": 8,
+      "balanced_accuracy": 0.5546875,
+      "auroc": 0.57470703125
+    },
+    {
+      "repetition": 9,
+      "balanced_accuracy": 0.4609375,
+      "auroc": 0.46868896484375
+    },
+    {
+      "repetition": 10,
+      "balanced_accuracy": 0.484375,
+      "auroc": 0.478515625
+    },
+    {
+      "repetition": 11,
+      "balanced_accuracy": 0.4375,
+      "auroc": 0.42041015625
+    },
+    {
+      "repetition": 12,
+      "balanced_accuracy": 0.5390625,
+      "auroc": 0.5726318359375
+    },
+    {
+      "repetition": 13,
+      "balanced_accuracy": 0.51171875,
+      "auroc": 0.495849609375
+    },
+    {
+      "repetition": 14,
+      "balanced_accuracy": 0.5234375,
+      "auroc": 0.5452880859375
+    },
+    {
+      "repetition": 15,
+      "balanced_accuracy": 0.55859375,
+      "auroc": 0.58172607421875
+    },
+    {
+      "repetition": 16,
+      "balanced_accuracy": 0.46484375,
+      "auroc": 0.42242431640625
+    },
+    {
+      "repetition": 17,
+      "balanced_accuracy": 0.51171875,
+      "auroc": 0.50042724609375
+    },
+    {
+      "repetition": 18,
+      "balanced_accuracy": 0.4921875,
+      "auroc": 0.48162841796875
+    },
+    {
+      "repetition": 19,
+      "balanced_accuracy": 0.42578125,
+      "auroc": 0.408935546875
+    },
+    {
+      "repetition": 20,
+      "balanced_accuracy": 0.48046875,
+      "auroc": 0.45819091796875
+    },
+    {
+      "repetition": 21,
+      "balanced_accuracy": 0.41796875,
+      "auroc": 0.39044189453125
+    },
+    {
+      "repetition": 22,
+      "balanced_accuracy": 0.49609375,
+      "auroc": 0.47369384765625
+    },
+    {
+      "repetition": 23,
+      "balanced_accuracy": 0.4375,
+      "auroc": 0.4444580078125
+    },
+    {
+      "repetition": 24,
+      "balanced_accuracy": 0.484375,
+      "auroc": 0.47393798828125
+    },
+    {
+      "repetition": 25,
+      "balanced_accuracy": 0.49609375,
+      "auroc": 0.4876708984375
+    },
+    {
+      "repetition": 26,
+      "balanced_accuracy": 0.46484375,
+      "auroc": 0.4537353515625
+    },
+    {
+      "repetition": 27,
+      "balanced_accuracy": 0.43359375,
+      "auroc": 0.40203857421875
+    },
+    {
+      "repetition": 28,
+      "balanced_accuracy": 0.484375,
+      "auroc": 0.47772216796875
+    },
+    {
+      "repetition": 29,
+      "balanced_accuracy": 0.51171875,
+      "auroc": 0.51171875
+    },
+    {
+      "repetition": 30,
+      "balanced_accuracy": 0.5078125,
+      "auroc": 0.49981689453125
+    },
+    {
+      "repetition": 31,
+      "balanced_accuracy": 0.44921875,
+      "auroc": 0.425537109375
+    },
+    {
+      "repetition": 32,
+      "balanced_accuracy": 0.50390625,
+      "auroc": 0.52032470703125
+    },
+    {
+      "repetition": 33,
+      "balanced_accuracy": 0.515625,
+      "auroc": 0.51422119140625
+    },
+    {
+      "repetition": 34,
+      "balanced_accuracy": 0.47265625,
+      "auroc": 0.4652099609375
+    },
+    {
+      "repetition": 35,
+      "balanced_accuracy": 0.47265625,
+      "auroc": 0.46697998046875
+    },
+    {
+      "repetition": 36,
+      "balanced_accuracy": 0.51953125,
+      "auroc": 0.51708984375
+    },
+    {
+      "repetition": 37,
+      "balanced_accuracy": 0.5078125,
+      "auroc": 0.51708984375
+    },
+    {
+      "repetition": 38,
+      "balanced_accuracy": 0.453125,
+      "auroc": 0.45550537109375
+    },
+    {
+      "repetition": 39,
+      "balanced_accuracy": 0.48828125,
+      "auroc": 0.47198486328125
+    },
+    {
+      "repetition": 40,
+      "balanced_accuracy": 0.421875,
+      "auroc": 0.395263671875
+    },
+    {
+      "repetition": 41,
+      "balanced_accuracy": 0.4921875,
+      "auroc": 0.48712158203125
+    },
+    {
+      "repetition": 42,
+      "balanced_accuracy": 0.46875,
+      "auroc": 0.4716796875
+    },
+    {
+      "repetition": 43,
+      "balanced_accuracy": 0.4609375,
+      "auroc": 0.4417724609375
+    },
+    {
+      "repetition": 44,
+      "balanced_accuracy": 0.4296875,
+      "auroc": 0.414306640625
+    },
+    {
+      "repetition": 45,
+      "balanced_accuracy": 0.47265625,
+      "auroc": 0.469970703125
+    },
+    {
+      "repetition": 46,
+      "balanced_accuracy": 0.49609375,
+      "auroc": 0.49822998046875
+    },
+    {
+      "repetition": 47,
+      "balanced_accuracy": 0.4765625,
+      "auroc": 0.46697998046875
+    },
+    {
+      "repetition": 48,
+      "balanced_accuracy": 0.578125,
+      "auroc": 0.6143798828125
+    },
+    {
+      "repetition": 49,
+      "balanced_accuracy": 0.54296875,
+      "auroc": 0.54559326171875
+    },
+    {
+      "repetition": 50,
+      "balanced_accuracy": 0.48046875,
+      "auroc": 0.45281982421875
+    },
+    {
+      "repetition": 51,
+      "balanced_accuracy": 0.515625,
+      "auroc": 0.53070068359375
+    },
+    {
+      "repetition": 52,
+      "balanced_accuracy": 0.51953125,
+      "auroc": 0.5361328125
+    },
+    {
+      "repetition": 53,
+      "balanced_accuracy": 0.52734375,
+      "auroc": 0.54461669921875
+    },
+    {
+      "repetition": 54,
+      "balanced_accuracy": 0.453125,
+      "auroc": 0.44451904296875
+    },
+    {
+      "repetition": 55,
+      "balanced_accuracy": 0.46875,
+      "auroc": 0.4588623046875
+    },
+    {
+      "repetition": 56,
+      "balanced_accuracy": 0.4921875,
+      "auroc": 0.49249267578125
+    },
+    {
+      "repetition": 57,
+      "balanced_accuracy": 0.47265625,
+      "auroc": 0.4530029296875
+    },
+    {
+      "repetition": 58,
+      "balanced_accuracy": 0.4765625,
+      "auroc": 0.4832763671875
+    },
+    {
+      "repetition": 59,
+      "balanced_accuracy": 0.53515625,
+      "auroc": 0.53759765625
+    },
+    {
+      "repetition": 60,
+      "balanced_accuracy": 0.515625,
+      "auroc": 0.52789306640625
+    },
+    {
+      "repetition": 61,
+      "balanced_accuracy": 0.50390625,
+      "auroc": 0.5198974609375
+    },
+    {
+      "repetition": 62,
+      "balanced_accuracy": 0.51953125,
+      "auroc": 0.52911376953125
+    },
+    {
+      "repetition": 63,
+      "balanced_accuracy": 0.48828125,
+      "auroc": 0.4930419921875
+    },
+    {
+      "repetition": 64,
+      "balanced_accuracy": 0.46875,
+      "auroc": 0.442138671875
+    },
+    {
+      "repetition": 65,
+      "balanced_accuracy": 0.4765625,
+      "auroc": 0.47509765625
+    },
+    {
+      "repetition": 66,
+      "balanced_accuracy": 0.55859375,
+      "auroc": 0.57574462890625
+    },
+    {
+      "repetition": 67,
+      "balanced_accuracy": 0.46875,
+      "auroc": 0.47528076171875
+    },
+    {
+      "repetition": 68,
+      "balanced_accuracy": 0.54296875,
+      "auroc": 0.55511474609375
+    },
+    {
+      "repetition": 69,
+      "balanced_accuracy": 0.46484375,
+      "auroc": 0.464111328125
+    },
+    {
+      "repetition": 70,
+      "balanced_accuracy": 0.4375,
+      "auroc": 0.44940185546875
+    },
+    {
+      "repetition": 71,
+      "balanced_accuracy": 0.49609375,
+      "auroc": 0.49066162109375
+    },
+    {
+      "repetition": 72,
+      "balanced_accuracy": 0.51953125,
+      "auroc": 0.52484130859375
+    },
+    {
+      "repetition": 73,
+      "balanced_accuracy": 0.546875,
+      "auroc": 0.5250244140625
+    },
+    {
+      "repetition": 74,
+      "balanced_accuracy": 0.54296875,
+      "auroc": 0.55230712890625
+    },
+    {
+      "repetition": 75,
+      "balanced_accuracy": 0.46484375,
+      "auroc": 0.446044921875
+    },
+    {
+      "repetition": 76,
+      "balanced_accuracy": 0.51953125,
+      "auroc": 0.5447998046875
+    },
+    {
+      "repetition": 77,
+      "balanced_accuracy": 0.484375,
+      "auroc": 0.47064208984375
+    },
+    {
+      "repetition": 78,
+      "balanced_accuracy": 0.4921875,
+      "auroc": 0.48974609375
+    },
+    {
+      "repetition": 79,
+      "balanced_accuracy": 0.5,
+      "auroc": 0.4954833984375
+    },
+    {
+      "repetition": 80,
+      "balanced_accuracy": 0.46875,
+      "auroc": 0.4796142578125
+    },
+    {
+      "repetition": 81,
+      "balanced_accuracy": 0.48046875,
+      "auroc": 0.498779296875
+    },
+    {
+      "repetition": 82,
+      "balanced_accuracy": 0.50390625,
+      "auroc": 0.490966796875
+    },
+    {
+      "repetition": 83,
+      "balanced_accuracy": 0.546875,
+      "auroc": 0.58758544921875
+    },
+    {
+      "repetition": 84,
+      "balanced_accuracy": 0.515625,
+      "auroc": 0.540771484375
+    },
+    {
+      "repetition": 85,
+      "balanced_accuracy": 0.49609375,
+      "auroc": 0.475341796875
+    },
+    {
+      "repetition": 86,
+      "balanced_accuracy": 0.52734375,
+      "auroc": 0.5467529296875
+    },
+    {
+      "repetition": 87,
+      "balanced_accuracy": 0.5234375,
+      "auroc": 0.54931640625
+    },
+    {
+      "repetition": 88,
+      "balanced_accuracy": 0.5078125,
+      "auroc": 0.51025390625
+    },
+    {
+      "repetition": 89,
+      "balanced_accuracy": 0.55078125,
+      "auroc": 0.56097412109375
+    },
+    {
+      "repetition": 90,
+      "balanced_accuracy": 0.453125,
+      "auroc": 0.44390869140625
+    },
+    {
+      "repetition": 91,
+      "balanced_accuracy": 0.5078125,
+      "auroc": 0.53057861328125
+    },
+    {
+      "repetition": 92,
+      "balanced_accuracy": 0.5234375,
+      "auroc": 0.53131103515625
+    },
+    {
+      "repetition": 93,
+      "balanced_accuracy": 0.48828125,
+      "auroc": 0.4820556640625
+    },
+    {
+      "repetition": 94,
+      "balanced_accuracy": 0.48046875,
+      "auroc": 0.4862060546875
+    },
+    {
+      "repetition": 95,
+      "balanced_accuracy": 0.47265625,
+      "auroc": 0.44940185546875
+    },
+    {
+      "repetition": 96,
+      "balanced_accuracy": 0.4921875,
+      "auroc": 0.49603271484375
+    },
+    {
+      "repetition": 97,
+      "balanced_accuracy": 0.5,
+      "auroc": 0.48638916015625
+    },
+    {
+      "repetition": 98,
+      "balanced_accuracy": 0.49609375,
+      "auroc": 0.48577880859375
+    },
+    {
+      "repetition": 99,
+      "balanced_accuracy": 0.51953125,
+      "auroc": 0.52215576171875
+    }
+  ]
+}

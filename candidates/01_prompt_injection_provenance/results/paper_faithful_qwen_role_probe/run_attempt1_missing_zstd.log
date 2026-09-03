@@ -1,0 +1,49 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/paper_faithful_qwen_role_probe.py", line 169, in <module>
+    if __name__ == "__main__": main()
+                               ^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/paper_faithful_qwen_role_probe.py", line 96, in main
+    raw = get_data()
+          ^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/paper_faithful_qwen_role_probe.py", line 45, in get_data
+    dolma = load_dataset("allenai/dolma3_mix-150B-1025", split="train", revision="3a8349c", streaming=True).shuffle(seed=SEED, buffer_size=50_000)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/datasets/load.py", line 1713, in load_dataset
+    return builder_instance.as_streaming_dataset(split=split)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/datasets/builder.py", line 1129, in as_streaming_dataset
+    splits_generators = {sg.name: sg for sg in self._split_generators(dl_manager)}
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/datasets/packaged_modules/json/json.py", line 101, in _split_generators
+    pa_table = next(iter(self._generate_tables(**splits[0].gen_kwargs, allow_full_read=False)))[1]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/datasets/packaged_modules/json/json.py", line 156, in _generate_tables
+    for file in files_iterable:
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/datasets/utils/track.py", line 49, in __iter__
+    for x in self.generator(*self.args):
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/datasets/utils/file_utils.py", line 1432, in _iter_from_urlpaths
+    elif xisdir(urlpath, download_config=download_config):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/datasets/utils/file_utils.py", line 797, in xisdir
+    return fs.isdir(inner_path)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/fsspec/spec.py", line 740, in isdir
+    return self.info(path)["type"] == "directory"
+           ^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/fsspec/archive.py", line 40, in info
+    self._get_dirs()
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/datasets/filesystems/compression.py", line 66, in _get_dirs
+    f = {**self._open_with_fsspec().fs.info(self.fo), "name": self.uncompressed_name}
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/fsspec/core.py", line 508, in open
+    out = open_files(
+          ^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/fsspec/core.py", line 315, in open_files
+    OpenFile(
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/fsspec/core.py", line 78, in __init__
+    self.compression = get_compression(path, compression)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-project/candidates/01_prompt_injection_provenance/.venv/lib/python3.12/site-packages/fsspec/core.py", line 561, in get_compression
+    raise ValueError(f"Compression type {compression} not supported")
+ValueError: Compression type zstd not supported

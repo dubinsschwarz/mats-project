@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "model": "Qwen/Qwen3-0.6B",
+  "nominal_n": 250,
+  "actual_n": 249,
+  "sources": {
+    "c4": 62,
+    "dolma3": 187
+  },
+  "seq_len": 1024,
+  "layers_zero_based": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26
+  ],
+  "roles": [
+    "user",
+    "assistant",
+    "tool"
+  ],
+  "skip_first": 32,
+  "C": 0.1,
+  "scaling": false,
+  "solver": "sklearn LogisticRegression (cuML/CuPy unavailable)",
+  "author_commit": "ec333c40fd43fe991e1ebf66765051b6d7e35784",
+  "parser_sha256": "e806280cfb25dc278d4c86f8253173fa64c1eda53f40c01a768ca439f2c03a51"
+}
