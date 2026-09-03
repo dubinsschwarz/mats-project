@@ -1,0 +1,388 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  19%|█▉        | 76/399 [00:00<00:00, 685.50it/s]Loading weights:  36%|███▋      | 145/399 [00:00<00:00, 458.85it/s]Loading weights:  49%|████▉     | 195/399 [00:00<00:00, 320.33it/s]Loading weights:  58%|█████▊    | 232/399 [00:00<00:00, 324.18it/s]Loading weights:  67%|██████▋   | 268/399 [00:00<00:00, 320.22it/s]Loading weights:  77%|███████▋  | 307/399 [00:00<00:00, 335.40it/s]Loading weights:  86%|████████▌ | 343/399 [00:00<00:00, 335.76it/s]Loading weights:  95%|█████████▍| 378/399 [00:01<00:00, 324.41it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 356.00it/s]
+Generated both mappings for 1/50
+Generated both mappings for 2/50
+Generated both mappings for 3/50
+Generated both mappings for 4/50
+Generated both mappings for 5/50
+Generated both mappings for 6/50
+Generated both mappings for 7/50
+Generated both mappings for 8/50
+Generated both mappings for 9/50
+Generated both mappings for 10/50
+Generated both mappings for 11/50
+Generated both mappings for 12/50
+Generated both mappings for 13/50
+Generated both mappings for 14/50
+Generated both mappings for 15/50
+Generated both mappings for 16/50
+Generated both mappings for 17/50
+Generated both mappings for 18/50
+Generated both mappings for 19/50
+Generated both mappings for 20/50
+Generated both mappings for 21/50
+Generated both mappings for 22/50
+Generated both mappings for 23/50
+Generated both mappings for 24/50
+Generated both mappings for 25/50
+Generated both mappings for 26/50
+Generated both mappings for 27/50
+Generated both mappings for 28/50
+Generated both mappings for 29/50
+Generated both mappings for 30/50
+Generated both mappings for 31/50
+Generated both mappings for 32/50
+Generated both mappings for 33/50
+Generated both mappings for 34/50
+Generated both mappings for 35/50
+Generated both mappings for 36/50
+Generated both mappings for 37/50
+Generated both mappings for 38/50
+Generated both mappings for 39/50
+Generated both mappings for 40/50
+Generated both mappings for 41/50
+Generated both mappings for 42/50
+Generated both mappings for 43/50
+Generated both mappings for 44/50
+Generated both mappings for 45/50
+Generated both mappings for 46/50
+Generated both mappings for 47/50
+Generated both mappings for 48/50
+Generated both mappings for 49/50
+Generated both mappings for 50/50
+
+RAW PHASE-2 GENERATIONS (inspect before aggregates)
+
+[01] ID=9002 DOMAIN=math PHASE1='G' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[02] ID=7915 DOMAIN=math PHASE1='B' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[03] ID=7738 DOMAIN=math PHASE1='D. 9' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[04] ID=8252 DOMAIN=math PHASE1='D' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[05] ID=8190 DOMAIN=math PHASE1='C' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[06] ID=9501 DOMAIN=physics PHASE1='D' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[07] ID=9329 DOMAIN=physics PHASE1='C' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[08] ID=9253 DOMAIN=physics PHASE1='J' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[09] ID=10169 DOMAIN=physics PHASE1='A' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[10] ID=9222 DOMAIN=physics PHASE1='A' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[11] ID=4397 DOMAIN=chemistry PHASE1='H' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[12] ID=3591 DOMAIN=chemistry PHASE1='D' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[13] ID=3587 DOMAIN=chemistry PHASE1='F' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[14] ID=3719 DOMAIN=chemistry PHASE1='B' CORRECT=True
+  normal raw: 'A'
+  normal parsed: A; semantic: SUBMIT
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[15] ID=3975 DOMAIN=chemistry PHASE1='D' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[16] ID=11525 DOMAIN=engineering PHASE1='A' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[17] ID=11804 DOMAIN=engineering PHASE1='J' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[18] ID=11904 DOMAIN=engineering PHASE1='A\n\nThe van der Waals constant' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[19] ID=11312 DOMAIN=engineering PHASE1='F' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[20] ID=11861 DOMAIN=engineering PHASE1='B' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[21] ID=10460 DOMAIN=computer science PHASE1='C' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[22] ID=10730 DOMAIN=computer science PHASE1='G' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[23] ID=10696 DOMAIN=computer science PHASE1='F' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[24] ID=10723 DOMAIN=computer science PHASE1='F' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[25] ID=10641 DOMAIN=computer science PHASE1='I\n\nThe shortest path from node' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[26] ID=3238 DOMAIN=biology PHASE1='C' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[27] ID=3031 DOMAIN=biology PHASE1='A' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[28] ID=3268 DOMAIN=biology PHASE1='F' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[29] ID=3412 DOMAIN=biology PHASE1='J' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[30] ID=3090 DOMAIN=biology PHASE1='C' CORRECT=True
+  normal raw: 'A'
+  normal parsed: A; semantic: SUBMIT
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[31] ID=879 DOMAIN=law PHASE1='I' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[32] ID=1198 DOMAIN=law PHASE1='A' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[33] ID=1749 DOMAIN=law PHASE1='C' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[34] ID=1576 DOMAIN=law PHASE1='A' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[35] ID=1448 DOMAIN=law PHASE1='F' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[36] ID=6986 DOMAIN=economics PHASE1='A' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[37] ID=7049 DOMAIN=economics PHASE1='D' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[38] ID=7624 DOMAIN=economics PHASE1='D' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[39] ID=7175 DOMAIN=economics PHASE1='D' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[40] ID=6931 DOMAIN=economics PHASE1='A' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[41] ID=10823 DOMAIN=philosophy PHASE1='A' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[42] ID=10972 DOMAIN=philosophy PHASE1='G' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[43] ID=10826 DOMAIN=philosophy PHASE1='A' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[44] ID=10961 DOMAIN=philosophy PHASE1='C' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[45] ID=11218 DOMAIN=philosophy PHASE1='A' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[46] ID=6357 DOMAIN=health PHASE1='H' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[47] ID=6625 DOMAIN=health PHASE1='E' CORRECT=True
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[48] ID=6274 DOMAIN=health PHASE1='B' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'B'
+  reversed parsed: B; semantic: SUBMIT
+
+[49] ID=6046 DOMAIN=health PHASE1='E' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+[50] ID=6755 DOMAIN=health PHASE1='E' CORRECT=False
+  normal raw: 'B'
+  normal parsed: B; semantic: ABSTAIN
+  reversed raw: 'A'
+  reversed parsed: A; semantic: ABSTAIN
+
+AGGREGATE SUMMARY
+{
+  "n": 50,
+  "phase_1_correct": 25,
+  "phase_1_incorrect": 25,
+  "by_mapping": {
+    "normal": {
+      "decision_counts": {
+        "SUBMIT": 2,
+        "ABSTAIN": 48,
+        "INVALID": 0
+      },
+      "submit_rate_if_phase_1_correct": 0.08,
+      "submit_rate_if_phase_1_incorrect": 0.0
+    },
+    "reversed": {
+      "decision_counts": {
+        "SUBMIT": 9,
+        "ABSTAIN": 41,
+        "INVALID": 0
+      },
+      "submit_rate_if_phase_1_correct": 0.28,
+      "submit_rate_if_phase_1_incorrect": 0.08
+    }
+  },
+  "paired_valid": 50,
+  "semantic_agreement_count": 43,
+  "semantic_agreement_rate": 0.86,
+  "letter_agreement_count": 7,
+  "letter_agreement_rate": 0.14,
+  "diagnostic_interpretation": "semantic decisions are substantially more stable than letters"
+}
+Saved complete results to /workspace/mats-project/candidates/02_commitment_transfer/results/fresh_context_mapping_replication.json

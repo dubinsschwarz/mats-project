@@ -1,0 +1,943 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  11%|█         | 42/399 [00:00<00:00, 393.51it/s]Loading weights:  21%|██        | 82/399 [00:00<00:00, 368.55it/s]Loading weights:  30%|██▉       | 119/399 [00:00<00:00, 343.83it/s]Loading weights:  39%|███▊      | 154/399 [00:00<00:00, 344.72it/s]Loading weights:  48%|████▊     | 192/399 [00:00<00:00, 348.86it/s]Loading weights:  57%|█████▋    | 227/399 [00:00<00:00, 303.02it/s]Loading weights:  65%|██████▍   | 259/399 [00:00<00:00, 299.49it/s]Loading weights:  73%|███████▎  | 290/399 [00:00<00:00, 297.88it/s]Loading weights:  85%|████████▍ | 339/399 [00:01<00:00, 341.50it/s]Loading weights:  94%|█████████▎| 374/399 [00:01<00:00, 316.20it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 334.94it/s]
+Generated 1/50
+Generated 2/50
+Generated 3/50
+Generated 4/50
+Generated 5/50
+Generated 6/50
+Generated 7/50
+Generated 8/50
+Generated 9/50
+Generated 10/50
+Generated 11/50
+Generated 12/50
+Generated 13/50
+Generated 14/50
+Generated 15/50
+Generated 16/50
+Generated 17/50
+Generated 18/50
+Generated 19/50
+Generated 20/50
+Generated 21/50
+Generated 22/50
+Generated 23/50
+Generated 24/50
+Generated 25/50
+Generated 26/50
+Generated 27/50
+Generated 28/50
+Generated 29/50
+Generated 30/50
+Generated 31/50
+Generated 32/50
+Generated 33/50
+Generated 34/50
+Generated 35/50
+Generated 36/50
+Generated 37/50
+Generated 38/50
+Generated 39/50
+Generated 40/50
+Generated 41/50
+Generated 42/50
+Generated 43/50
+Generated 44/50
+Generated 45/50
+Generated 46/50
+Generated 47/50
+Generated 48/50
+Generated 49/50
+Generated 50/50
+
+RAW GENERATIONS (inspect before aggregates)
+
+[01] ID=9002 DOMAIN=math
+Find the number that makes the statement 2 over 9 = 14 over ? true.
+A. 15
+B. 50
+C. 18
+D. 36
+E. 28
+F. 14
+G. 63
+H. 16
+I. 32
+J. 45
+Phase-1 response: 'G'
+Parsed option: G
+Correct option: G; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[02] ID=7915 DOMAIN=math
+A correlation of 0.6 indicates that the percentage of variation in y that is explained by the variation in x is how many times the percentage indicated by a correlation of 0.3?
+A. 2
+B. 4
+C. 8
+D. 6
+E. 2.5
+F. 3
+G. 1.5
+H. 0.5
+I. 0.2
+J. 5
+Phase-1 response: 'B'
+Parsed option: B
+Correct option: B; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[03] ID=7738 DOMAIN=math
+Suppose that $f(x)$ is a polynomial that has degree $6$ and $g(x)$ is a polynomial that has degree $3$. If $h(x)$ is also a polynomial such that $f(g(x)) + g(h(x)) + h(f(x))$ is a polynomial of degree $36$, then what is the degree of the polynomial $h$?
+A. 3
+B. 21
+C. 6
+D. 9
+E. 30
+F. 72
+G. 12
+H. 15
+I. 24
+J. 18
+Phase-1 response: 'D. 9'
+Parsed option: None
+Correct option: C; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[04] ID=8252 DOMAIN=math
+Find the mean of the set of data 18, 9, 9, 10, 11, 14, 30, 19.
+A. 11
+B. 18
+C. 19
+D. 15
+E. 10
+F. 30
+G. 9
+H. 16
+I. 20
+J. 14
+Phase-1 response: 'D'
+Parsed option: D
+Correct option: D; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[05] ID=8190 DOMAIN=math
+Using n=8 approximate the value of $\int_{0}^4 cos(1 + \sqrt{x}) dx$ using the Simpson's rule.
+A. 2.71828183
+B. -1.41421356
+C. 0.98765432
+D. 3.14159265
+E. 1.57079633
+F. -3.14159265
+G. -2.47160136
+H. 1.23456789
+I. -0.78539816
+J. 0.69314718
+Phase-1 response: 'C'
+Parsed option: C
+Correct option: G; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[06] ID=9501 DOMAIN=physics
+A bell circuit consists of 150 feet of No. 18 wire which has a resistance of 1 ohm, a bell which has a resistance of 5 ohms, and a battery of two dry cells, each having an emf of 1.5 volts. What is the current through the circuit, assuming that the resistance of the battery is negligible?
+A. 0.9 amp
+B. 0.6 amp
+C. 0.2 amp
+D. 0.3 amp
+E. 1 amp
+F. 0.4 amp
+G. 0.5 amp
+H. 2 amps
+I. 1.5 amps
+J. 0.75 amp
+Phase-1 response: 'D'
+Parsed option: D
+Correct option: G; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[07] ID=9329 DOMAIN=physics
+An athlete whirls a discus in a circle of radius 80.0 cm. At a certain instant, the athlete is rotating at 10.0 rad / s and the angular speed is increasing at 50.0 rad / s^2. At this instant, find the magnitude (Unit: m / s^2) of the acceleration. Return the numeric value.
+A. 110.5
+B. 70.2
+C. 89.4
+D. 82.5
+E. 102.1
+F. 120.7
+G. 96.3
+H. 75.6
+I. 58.0
+J. 64.2
+Phase-1 response: 'C'
+Parsed option: C
+Correct option: C; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[08] ID=9253 DOMAIN=physics
+From laboratory measurements we know that a particular spectral line formed by hydrogen appears at a wavelength of 486.1 nanometers (nm). The spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 485.9 nm. What can we conclude?
+A. The star's brightness is fluctuating.
+B. The star's size is increasing.
+C. The star's size is decreasing.
+D. The star's temperature is constant.
+E. The star is getting hotter.
+F. The star is not moving.
+G. The star is rotating on its axis.
+H. The star is getting colder.
+I. The star is moving away from us.
+J. The star is moving toward us.
+Phase-1 response: 'J'
+Parsed option: J
+Correct option: J; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[09] ID=10169 DOMAIN=physics
+The equation E = mc^2 indicates that energy
+A. and mass are closely related.
+B. is equal to the square of the speed of light.
+C. equals moving mass.
+D. is fundamentally different than mass.
+E. equals mass divided by the speed of light squared.
+F. and mass are not related at all.
+G. equals the sum of mass and the speed of light squared.
+H. is inversely proportional to mass.
+I. equals mass moving at the speed of light squared.
+J. equals mass multiplied by the speed of light.
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: A; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[10] ID=9222 DOMAIN=physics
+Given that the spacing between vibrational energy levels of the HCl molecule is 0.36 eV, calculate the effective force constant in N/m.
+A. 450.0
+B. 550.0
+C. 300.0
+D. 520.0
+E. 600.0
+F. 200.0
+G. 350.0
+H. 490.0
+I. 575.0
+J. 420.0
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: H; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[11] ID=4397 DOMAIN=chemistry
+A chemist dissolves 10 g of an unknown protein in a liter of water at 25°C. The osmotic pressure is found to be 9.25 mmHg. What is the protein's molecular weight. Based upon the number of moles in 10 g of protein, what would the freezing point depression and boiling point elevation be? Assume R = Universal Gas Constant = .0821 (liter- atm / mole°K), k_f = (1.86°C / m), and k_b = (.52°C / m).
+A. Molecular weight: 21,500 (g / mole), ∆T_f = 8.8 × 10^-4 °C, ∆T_b = 2.34 × 10^-4 °C
+B. Molecular weight: 18,500 (g / mole), ∆T_f = 10.3 × 10^-4 °C, ∆T_b = 2.79 × 10^-4°C
+C. Molecular weight: 15,000 (g / mole), ∆T_f = 12.6 × 10^-4 °C, ∆T_b = 3.35 × 10^-4 °C
+D. Molecular weight: 25,000 (g / mole), ∆T_f = 7.2 × 10^-4 °C, ∆T_b = 1.89 × 10^-4 °C
+E. Molecular weight: 22,000 (g / mole), ∆T_f = 8.3 × 10^-4 °C, ∆T_b = 2.09 × 10^-4°C
+F. Molecular weight: 23,000 (g / mole), ∆T_f = 6.5 × 10^-4 °C, ∆T_b = 1.73 × 10^-4 °C
+G. Molecular weight: 17,800 (g / mole), ∆T_f = 10.9 × 10^-4 °C, ∆T_b = 2.92 × 10^-4 °C
+H. Molecular weight: 20,100 (g / mole), ∆T_f = 9.3 × 10^-4 °C, ∆T_b = 2.59 × 10^-4°C
+I. Molecular weight: 22,500 (g / mole), ∆T_f = 8.1 × 10^-4 °C, ∆T_b = 2.15 × 10^-4 °C
+J. Molecular weight: 19,100 (g / mole), ∆T_f = 1.3 × 10^-4 °C, ∆T_b = 3.59 × 10^-4°C
+Phase-1 response: 'H'
+Parsed option: H
+Correct option: H; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[12] ID=3591 DOMAIN=chemistry
+Calculate the mean free path for oxygen at 25°C at (a) 1atm pressure and (b) 10^-3torr.
+A. 7.02 × 10^-8 m, 4.3 cm
+B. 6.02 × 10^-8 m, 6.3 cm
+C. 7.02 × 10^-7 m, 53 cm
+D. 7.02 × 10^-8 m, 5.3 cm
+E. 8.02 × 10^-8 m, 4.3 cm
+F. 6.02 × 10^-8 m, 4.3 mm
+G. 7.02 × 10^-9 m, 0.53 cm
+H. 7.02 × 10^-8 m, 6.3 cm
+I. 7.02 × 10^-8 m, 5.3 mm
+J. 6.02 × 10^-8 m, 5.3 cm
+Phase-1 response: 'D'
+Parsed option: D
+Correct option: D; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[13] ID=3587 DOMAIN=chemistry
+Two moles of gaseous NH_3 are introduced into a 1.0-liter vessel and allowed to undergo partial decomposition at high temperature ac-cording to the reaction 2NH_3 (g) \rightleftarrows N_2 (g) + 3H_2 (g) . At equilibrium, 1.0 mole of NH_3 (g) remains. What is the value of the equilibrium constant?
+A. 0.25
+B. 4.0
+C. 1.5
+D. 2.0
+E. 3.0
+F. 1.6875
+G. 0.5
+H. 1.0
+I. 2.5
+J. 0.75
+Phase-1 response: 'F'
+Parsed option: F
+Correct option: F; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[14] ID=3719 DOMAIN=chemistry
+Substances whose Lewis structures must be drawn with an unpaired electron are called
+A. hydrogen bonds
+B. free radicals
+C. allotropes
+D. isotopes
+E. nonpolar molecules
+F. polar molecules
+G. covalent compounds
+H. resonance structures
+I. dipole moments
+J. ionic compounds
+Phase-1 response: 'B'
+Parsed option: B
+Correct option: B; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[15] ID=3975 DOMAIN=chemistry
+At 1308° K 1 mole of ruthenium changes from the \beta (beta) to the \alpha solid state. \DeltaH for the transition = - 34 cal mol^-1. Calculate the entropy changes if the surrounding cooling bath is at STP.
+A. 0.34(J / °K)
+B. 0.29(J / °K)
+C. 0.41(J / °K)
+D. 0.25(J / °K)
+Phase-1 response: 'D'
+Parsed option: D
+Correct option: C; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[16] ID=11525 DOMAIN=engineering
+Using the definition of the bilateral z transform F (z) = ^\infty\sum_n=-\infty f[n] z^-n, find the z - transform of f[n] = 3\delta [n+2] + 4\delta [n-1] + 2\delta [n-3].
+A. 3z^-2 + 4z^-1 + 2z^3
+B. 3z^2+ 4z^-1 + 2z^-3
+C. 2z^3 + 4z^-2 + 3z^-1
+D. 4z^2+ 3z^-1 + 2z^-3
+E. 4z^-3 + 3z^-2 + 2z^-1
+F. 3z^2+ 2z^-1 + 4z^-3
+G. 2z^2+ 4z^-1 + 3z^-3
+H. 3z^3 + 4z + 2z^-2
+I. 4z^3 + 2z + 3z^-2
+J. 2z^-1 + 3z^-3 + 4z^2
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: B; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[17] ID=11804 DOMAIN=engineering
+The directivity of an antenna is 50 and the antenna operates ata wavelength of 4 meters. What is its maximumeffective aperture?
+A. 100 meter^2
+B. 50 meter^2
+C. 12.7 meter^2
+D. 200 meter^2
+E. 25 meter^2
+F. 4 meter^2
+G. 80 meter^2
+H. 63.6 meter^2
+I. 16 meter^2
+J. 31.8 meter^2
+Phase-1 response: 'J'
+Parsed option: J
+Correct option: H; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[18] ID=11904 DOMAIN=engineering
+A gas obeys the vanderWaals equation, with P_c = 30atm andT_c= 200°C. The compressibility factor (PV / RT) will be more than one (at P = 50atm, T = 250°C; at P = 1atm, T = 100°C; P = 500atm, T = 500°C; none of these). Calculate the vanderWaals constant b for this gas.
+A. 0.202 liter/mole
+B. 0.4848 liter/mole
+C. 0.054 liter/mole
+D. 0.081 liter/mole
+E. 0.162 liter/mole
+F. 0.365 liter/mole
+G. 0.324 liter/mole
+H. 0.097 liter/mole
+I. 0.648 liter/mole
+J. 0.243 liter/mole
+Phase-1 response: 'A\n\nThe van der Waals constant'
+Parsed option: None
+Correct option: E; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[19] ID=11312 DOMAIN=engineering
+(i) (a) A triplex lap-wound armature is used in a 14-pole machine with fourteen brush sets, each spanning three commutator bars. Calculate the number of paths in the armature. (b) Repeat (a) for a triplex wave-wound armature having two such brush sets and 14 poles. (ii) Calculate the generated emf in each of the above problems if the flux per pole is 4.2 × 10^6 lines, the generator speed is 60 rpm, and there are 420 coils on the armature, each coil having 20 turns.
+A. 35 paths; 5 paths; 200 V; 1500 V
+B. 50 paths; 3 paths; 245 V; 1750 V
+C. 44 paths; 12 paths; 210 V; 1550 V
+D. 38 paths; 10 paths; 225 V; 1650 V
+E. 48 paths; 4 paths; 260 V; 1900 V
+F. 42 paths; 6 paths; 235.2 V; 1646.4 V
+G. 36 paths; 9 paths; 220 V; 1600 V
+H. 34 paths; 11 paths; 230 V; 1625 V
+I. 40 paths; 7 paths; 240 V; 1700 V
+J. 45 paths; 8 paths; 250 V; 1800 V
+Phase-1 response: 'F'
+Parsed option: F
+Correct option: F; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[20] ID=11861 DOMAIN=engineering
+A pulley 15 inches in diameter rotates at 1200 rpm and transmits15 hp. If a (1/4) in. thick single leather belt is used, calculatethe width of the belt if the ratio of tensions on the tightto slack side is 2:1 and design stress is 200 psi.
+A. 2.5 in.
+B. 4.8 in.
+C. 4.5 in.
+D. 5.6 in.
+E. 5.2 in.
+F. 3.8 in.
+G. 3.2 in.
+H. 4.2 in.
+I. 6.0 in.
+J. 2.8 in.
+Phase-1 response: 'B'
+Parsed option: B
+Correct option: H; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[21] ID=10460 DOMAIN=computer science
+Let I = (S,V)I=(S,V) be a MAC. Suppose S(k,m)S(k,m) is always 5 bits long. Can this MAC be secure?
+A. Yes, the attacker cannot generate a valid tag for any message
+B. Yes, the PRG is pseudorandom
+C. No, an attacker can simply guess the tag for messages
+D. No, the attacker can simply guess the key
+E. Yes, the key length is sufficiently long
+F. No, the key length is not long enough
+G. Yes, the tag length is sufficiently long
+H. It depends on the complexity of the PRG
+I. It depends on the details of the MAC
+J. It depends on the encryption algorithm used in the MAC
+Phase-1 response: 'C'
+Parsed option: C
+Correct option: C; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[22] ID=10730 DOMAIN=computer science
+Which among the following prevents overfitting when we perform bagging?
+A. The use of all data without sampling
+B. The practice of validation performed on a random subset of classifiers trained
+C. The use of underfitting to counterbalance overfitting
+D. The use of weak classifiers
+E. The use of classification algorithms which are prone to overfitting
+F. The use of classification algorithms which are not prone to overfitting
+G. The use of sampling with replacement as the sampling technique
+H. The practice of validation performed on every classifier trained
+I. The use of strong classifiers
+J. The use of sampling without replacement as the sampling technique
+Phase-1 response: 'G'
+Parsed option: G
+Correct option: D; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[23] ID=10696 DOMAIN=computer science
+What are the port states determined by Nmap?
+A. Closed, unused, half-closed
+B. Open, half-open, closed 
+C. Open, blocked, filtered
+D. Active, passive, blocked
+E. Closed, filtered, unfiltered
+F. Open, filtered, unfiltered
+G. Active, inactive, standby
+H. Open, unused, blocked
+I. Active, closed, unused
+J. Active, passive, filtered
+Phase-1 response: 'F'
+Parsed option: F
+Correct option: F; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[24] ID=10723 DOMAIN=computer science
+TCP protocol is responsible (among other things) for
+A. Ensuring secure and encrypted communication between machines
+B. Enabling communication between different network protocols
+C. Routing packets through the network
+D. Managing the energy consumption of network devices
+E. Dealing with differences among operating system architectures
+F. Reliable delivery of large (multi-packet) messages between machines that are not necessarily directly connected
+G. Managing the physical layer of network communication
+H. Providing a user interface for network communication
+I. Reliable delivery of packets between directly connected machines
+Phase-1 response: 'F'
+Parsed option: F
+Correct option: F; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[25] ID=10641 DOMAIN=computer science
+Let a undirected graph G with edges E = {<0,2>,<2,1>,<2,3>,<3,4>,<4,1>}, which <A,B> represent Node A is connected to Node B. What is the shortest path from node 4 to node 0? Represent the path as a list.
+A. [4, 3, 1, 0]
+B. [4, 2, 1, 0]
+C. [4, 3, 2, 0]
+D. [4, 1, 0]
+E. [4, 3, 2, 1, 0]
+F. [4, 3, 1, 2, 0]
+G. [4, 1, 3, 2, 0]
+H. [4, 3, 0]
+I. [4, 1, 2, 0]
+J. [4, 2, 3, 1, 0]
+Phase-1 response: 'I\n\nThe shortest path from node'
+Parsed option: None
+Correct option: I; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[26] ID=3238 DOMAIN=biology
+What is meant by a gene pool, balanced polymorphism, and genetic load?
+A. Gene pool is the total number of organisms in a population; balanced polymorphism is a genetic imbalance; genetic load is the genetic weight of an organism.
+B. Gene pool refers to the physical pool where genes are stored; balanced polymorphism is the imbalance of allele frequencies; genetic load is the amount of genetic information carried by an organism.
+C. Gene pool is the sum total of genes in a population; balanced polymorphism is when different forms of a genotype are maintained in equilibrium over time; genetic load is the reduction in average fitness due to presence of suboptimal forms.
+D. Gene pool is the total genetic information in the gametes of a population; balanced polymorphism is the consistent occurrence of a single allele; genetic load is the genetic diversity within a species.
+E. Gene pool is the collection of genes in a single organism; balanced polymorphism is the variation of a single gene; genetic load is the number of genes in an organism.
+F. Gene pool refers to a single gene; balanced polymorphism refers to a dominance of one gene; genetic load refers to the genetic burden of an organism.
+G. Gene pool is the total number of alleles in a population; balanced polymorphism is the maintenance of two or more alleles at a locus by natural selection; genetic load is the proportion of individuals in a population with genetic defects.
+H. Gene pool is the diversity of genes in a population; balanced polymorphism is the dominance of a single gene; genetic load is the genetic capacity of an organism.
+I. Gene pool is the sum of all genetic variations in a closed environment; balanced polymorphism is the equal representation of all alleles in a population; genetic load is the accumulated genetic mutations in a population.
+J. Gene pool is the set of all genetic traits in a biological community; balanced polymorphism is when one allele is favored over others; genetic load is the genetic contribution of an organism to its offspring.
+Phase-1 response: 'C'
+Parsed option: C
+Correct option: C; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[27] ID=3031 DOMAIN=biology
+The hormone which brings about metamorphosis of the cecropia moth is secreted by a gland in the thorax. However, no metamorphosis takes place if the head is cut off, even though the larva continues to live. Explain.
+A. The gland in the thorax is the only gland involved, but it requires a signal from the head to start metamorphosis.
+B. Only the gland in the head is necessary for metamorphosis.
+C. The gland in the head secretes a different hormone necessary for the initiation of the metamorphosis process.
+D. The gland in the thorax secretes the hormone, but the head must be present to activate it.
+E. Metamorphosis is triggered by environmental factors, not by hormones secreted by glands.
+F. Metamorphosis is controlled by a gland in the abdomen, not the thorax or the head.
+G. The head contains an inhibitor that prevents the gland in the thorax from inducing metamorphosis.
+H. Neither the gland in the head nor the gland in the thorax are necessary for metamorphosis.
+I. Both the gland in the head and the gland in the thorax of the cecropia moth are necessary for the process of metamorphosis.
+J. Only the gland in the thorax is necessary for metamorphosis.
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: I; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[28] ID=3268 DOMAIN=biology
+Which of the following is an example of a cline?
+A. Males of some species have long antlers to fight other males for females.
+B. A population of moths in a forest has evolved different color patterns depending on the type of tree they inhabit.
+C. A species of fish has developed a unique color pattern in response to changes in water temperature.
+D. Certain species of spiders have evolved different web-building behaviors depending on the availability of prey.
+E. The hybrid tomato plant is stronger and produces better fruit than the pure genotype.
+F. A certain type of beetle exhibits a wide range of body size, with larger individuals found in colder regions.
+G. There are two distinct varieties in one population of snail that inhabits an island in the Pacific Ocean.
+H. In one species of rabbit, the ones that evolved in the cold, snowy north are white, while the ones that evolved in the south are brown.
+I. Some plants produce toxins that deter herbivores.
+J. The frequency of a particular gene in a population of birds varies depending on the altitude of their habitat.
+Phase-1 response: 'F'
+Parsed option: F
+Correct option: H; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[29] ID=3412 DOMAIN=biology
+Mostmarine vertebrates have body fluids with osmotic marine vertebrates have body fluids with osmotic pressure lower than that of their saline environment. How do these organismsosmoregulatein face of aprepetualthreat of dehydration?
+A. Marine organisms osmoregulate by secreting excess water through their gills.
+B. Marine organisms osmoregulate by periodically releasing salt crystals through their digestive tract.
+C. Marine organisms osmoregulate by reducing their body fluid concentration
+D. Marine organisms osmoregulate by avoiding sea water
+E. Marine organisms osmoregulate by retaining urea in their bloodstream to balance the osmotic pressure.
+F. Marine organisms osmoregulate by undergoing periodic dehydration and rehydration cycles.
+G. Marine organisms osmoregulate by producing large amounts of mucus to trap salt particles.
+H. Marine organisms osmoregulate by absorbing salt through their skin to match the sea water's salinity.
+I. Marine organisms osmoregulate by consuming more sea water
+J. Marine organisms osmoregulate by actively transporting out excess salt from their body fluids, often through specialized glands.
+Phase-1 response: 'J'
+Parsed option: J
+Correct option: J; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[30] ID=3090 DOMAIN=biology
+Why is a moss plant restricted to a height of less thanabout 15 cm?
+A. Moss plants are limited in height by the competitive shading of taller plants
+B. Moss plants require direct sunlight, which limits their height
+C. Moss plants are restricted to a height of less than 15 cm due to the inefficiency of the rhizoids in absorbing water and minerals, absence of True vascular and supporting tissues, and the reproductive process requiring a moist environment.
+D. Moss plants are always preyed upon by insects
+E. Moss plants have weak seed dispersal mechanisms limiting their height
+F. Moss plants cannot photosynthesize effectively
+G. Moss plants rely on water absorption through leaves, which limits their height
+H. Moss plants have specialized leaves that restrict their growth
+I. Moss plants have a rapid growth rate
+J. Moss plants are genetically designed to be short
+Phase-1 response: 'C'
+Parsed option: C
+Correct option: C; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[31] ID=879 DOMAIN=law
+A high school junior was charged by the school administration with violating certain sections of the disciplinary code, specifically, he was charged with being disrespectful to a teacher by using profanity and with using abusive language to a fellow student. The principal, sent the student's parents a letter notifying them of the three-day suspension for the above-mentioned charges. The suspension was to take effect on February 1. The principal also included a copy of the disciplinary code in the letter. On January 19, the student and his mother met with the principal in his office to discuss the matter, and the student admitted that he used abusive language to a fellow student. On January 22, the student's parents received a letter informing them that his teacher had upheld the school administration's decision to suspend their son. They were then notified of a hearing on the recommended suspension to be held at the school. The parents did not attend this hearing, but were advised that the school board upheld the suspension, effective February 1. Which of the following most accurately summarizes the applicable rule of constitutional law with respect to the student's suspension?
+A. The student's suspension did not constitute a denial of due process.
+B. The student's suspension was a violation of his Fifth Amendment rights to due process.
+C. The school did not have the right to suspend the student without the presence of his parents at the hearing.
+D. The student's suspension was a violation of the Eighth Amendment's prohibition of cruel and unusual punishment.
+E. The student's suspension violated his right to a fair trial.
+F. The disciplinary code violated the student's Fourth Amendment rights against unreasonable searches and seizures.
+G. The disciplinary code violated the student's right to a compulsory school education.
+H. The school administration's decision was protected under the Tenth Amendment's guarantee of states' rights.
+I. The student's suspension deprived him of liberty and property without due process, as guaranteed by the Fourteenth Amendment.
+J. The student's conduct was protected under the First Amendment's guarantee of freedom of speech.
+Phase-1 response: 'I'
+Parsed option: I
+Correct option: A; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[32] ID=1198 DOMAIN=law
+A man informed the police that he wanted to confess to a murder. After they read him his constitutional rights, he insisted that he was acting voluntarily. He then took them to the scene of the murder where they found the victim's body. By the next day, the man claimed that "voices" had ordered him to confess and he didn't act voluntarily. A physician verified that the man suffered from hallucinations that impaired his volitional abilities, preventing a voluntary confession. Will the court suppress the statements?
+A. Yes, because the man was suffering from hallucinations at the time of his confession.
+B. No, there was no police misconduct or overreaching, and as a result the confession is voluntary.
+C. No, a confession is admissible when accompanied by actions by the defendant that prove the truth of the statements.
+D. No, because the man insisted initially that he was acting voluntarily.
+E. Yes, because the man later retracted his confession.
+F. Yes, the police overreached by not having him mentally evaluated before questioning him.
+G. Yes, he was insane and could not have given a voluntary confession.
+H. No, because the man led the police to the victim's body which supports his confession.
+I. No, because the police read the man his constitutional rights before he confessed.
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: B; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[33] ID=1749 DOMAIN=law
+A brick mason was hired by a builder under a written one-year contract, at an annual salary of $45,000, with employment to begin on March 1. Because the builder was unable to secure enough building contracts to keep all its employees busy during the season beginning March 1, it notified the brick mason on February 15 that it could not afford to employ him as a mason. At the same time, however, the builder offered to employ the mason, for the same contract period, as a night guard at an annual salary of $25,000. The mason declined the offer and remained unemployed during the year. No offer and remained unemployed during the year. No employment for brick masons was available in the community during the year, but the mason could have obtained other employment as a day laborer that would have paid up to $25,000 a year. At the end of the year, in an action against the builder for breach of contract, how much, if anything, is the mason entitled to recover?
+A. $20,000 (the difference between the mason's contract price and the salary offered for the night guard position).
+B. $45,000 (the contract price).
+C. Nothing, because the mason turned down a reasonable alternative employment offer.
+D. Nothing, because the mason did not mitigate his damages.
+E. $20,000 (the $45,000 contract price less the $25,000 the mason could have earned in other employment).
+F. $45,000 plus damages for emotional distress.
+G. Nothing, because the builder did not act in bad faith when it discharged the mason.
+H. $25,000 (the amount he could have earned as a day laborer).
+I. $45,000 minus any unemployment benefits the mason received during the year.
+J. $25,000 (the amount he could have earned as a night guard).
+Phase-1 response: 'C'
+Parsed option: C
+Correct option: B; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[34] ID=1576 DOMAIN=law
+Which one of the following statements is false?
+A. Protocol 14 established the Human Rights Council
+B. Protocol 14 mandated a two judge formation for hearing admissibility cases
+C. Protocol 14 reduced the jurisdiction of the European Court of Human Rights
+D. Protocol 14 shortened the judicial term of office for the European Court of Human Rights
+E. Protocol 14 introduced a requirement for unanimous decision-making in admissibility cases
+F. Protocol 14 added a new criterion for admissibility
+G. Protocol 14 eliminated the right to individual petition
+H. Protocol 14 changed the committee that hears admissibility cases from a three judge to a one judge formation
+I. Protocol 14 extended the judicial term of office for the European Court of Human Rights
+J. Protocol 14 abolished the Commission of Human Rights
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: J; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[35] ID=1448 DOMAIN=law
+A construction company was doing repairs and replacing portions of a sidewalk and railing next to a lake. The construction crew started tearing out the old sidewalk and railing, but stopped work when it started to get dark. The construction crew left without putting up a warning sign or barrier around the work area. A few hours later, a jogger came along the sidewalk. Not realizing the construction work was in progress there, the jogger stumbled and fell at the spot where the construction crew had torn up the sidewalk and railing. The jogger fell into the lake. As the jogger was attempting to stay afloat, he began screaming, "Help! Help! I can't swim. I'm drowning. " His screams attracted the attention of a person who was passing on his bicycle. The cyclist immediately hurried to assist the jogger. As the cyclist was leaning over the edge of the lake, trying to help the jogger get out of the water, he lost his balance and fell into the lake. Both the jogger and cyclist suffered serious bodily injuries before they were pulled out of the water by police. In a negligence action by the cyclist to recover for his personal injuries, the construction company will most probably
+A. not be held liable, because the construction company could not foresee that anyone would be hurt while trying to rescue someone from the lake.
+B. not be held liable, because the cyclist assumed the risk by leaning over the edge of the lake.
+C. not be held liable, because it was the jogger's responsibility to avoid the construction area.
+D. be held liable, because they did not properly secure the worksite after finishing for the day.
+E. be held liable, because the construction company would be strictly liable to anyone injured by the failure to put adequate warnings or barriers around the site of the sidewalk repairs.
+F. be held liable, because the cyclist's attempt to rescue the jogger was foreseeable.
+G. not be held liable, because the jogger should have been aware of the construction work.
+H. be held liable, because they failed to provide adequate lighting for the construction site.
+I. not be held liable, because the cyclist voluntarily put himself in danger.
+Phase-1 response: 'F'
+Parsed option: F
+Correct option: F; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[36] ID=6986 DOMAIN=economics
+The demand curve for labor is derived from
+A. the demand curve for the output produced by labor
+B. the demand curve for the input used by labor
+C. the aggregate demand in the economy
+D. the market labor demand curve
+E. the equilibrium employment level in the labor market
+F. the labor supply curve for the firm
+G. the price elasticity of demand for labor
+H. the product supply curve for the firm
+I. the labor demand curve for the industry
+J. the equilibrium wage in the labor market
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: A; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[37] ID=7049 DOMAIN=economics
+Which of the following will increase wages for tuba makers?
+A. A decrease in the cost of tuba-making materials
+B. An increase in the number of graduates at tuba maker training school
+C. An increase in the tax on tubas
+D. An increase in the number of tuba maker training schools
+E. An increase in the price of tubas
+Phase-1 response: 'D'
+Parsed option: D
+Correct option: E; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[38] ID=7624 DOMAIN=economics
+When a nation is operating at the natural rate of unemployment
+A. the nation is in a state of deflation.
+B. the nation is experiencing an economic boom.
+C. there is no structural unemployment.
+D. there is no cyclical unemployment.
+E. the nation is experiencing a recession.
+F. the inflation rate is zero.
+G. the nation is at its highest rate of employment.
+H. the nation's GDP is at its peak.
+I. the nation is experiencing hyperinflation.
+J. there is no frictional unemployment.
+Phase-1 response: 'D'
+Parsed option: D
+Correct option: D; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[39] ID=7175 DOMAIN=economics
+Consider a profit-maximizing firm in a perfectly competitive market with several sellers and several buyers (i.e., the firm is a "price taker" of the goods it sells and a "price taker" of the hourly wages it pays its workers). If a technological innovation made by someone in this firm were to significantly raise the firm's marginal physical product (but not that of any other firm's), then this innovation would
+A. lead the firm to reduce workers' wages as they now contribute less marginal revenue
+B. lead the firm to hire more workers but not to raise their wages
+C. reduce the firm's employment level but raise workers' wages
+D. lead the firm to hire more workers and to pay them higher wages
+E. raise the workers’ hourly wage as they now contribute more marginal revenue
+F. reduce the firm's employment level and lower workers' wages
+G. cause the firm to hire fewer workers but pay them higher wages
+H. lead the firm to hire the same number of workers but pay them higher wages
+I. reduce the firm’s employment level, because fewer workers are now needed
+J. have no effect on the firm's employment level or workers' wages
+Phase-1 response: 'D'
+Parsed option: D
+Correct option: B; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[40] ID=6931 DOMAIN=economics
+Define Gross National Product (GNP).
+A. The total income earned by a nation's residents in a year
+B. The total amount of money in circulation in an economy in a year
+C. The total market value of all final goods and services produced in the economy in one year
+D. The market value of all goods and services produced abroad by the residents of a nation in a year
+E. The total cost of all goods and services purchased in a year
+F. The total savings rate of a nation's residents plus the value of imports minus the value of exports in a year
+G. The aggregate of all wages paid to employees, plus profits of businesses and taxes, minus any subsidies
+H. The sum of all financial transactions within a country's borders in a year
+I. The total value of all consumer spending, government spending, investments, and net exports in a year
+J. The total value of all goods and services produced by a nation's residents, regardless of the location
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: C; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[41] ID=10823 DOMAIN=philosophy
+ What is an example of "mutual coercion, mutually agreed upon"?
+A. all countries cooperating to change the existing incentive structure by introducing a system of enforceable sanctions to curb climate change.
+B. the agreement of more powerful nations to require less powerful nations to curb greenhouse gas emissions for the benefit of all humanity.
+C. the agreement of less powerful nations to boycott trade with more powerful nations until the latter agree to curb their greenhouse gas emissions.
+D. the agreement of a large number of individual agents to restrict their own pollution.
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: A; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[42] ID=10972 DOMAIN=philosophy
+ Which Hindu festival involves decorating the house with lights, setting off firecrackers and wearing new clothes?
+A. Pongal
+B. Ganesh Chaturthi
+C. Janmashtami
+D. Holi
+E. Karva Chauth
+F. Makar Sankranti
+G. Deepavali
+H. Navaratri
+I. Raksha Bandhan
+Phase-1 response: 'G'
+Parsed option: G
+Correct option: G; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[43] ID=10826 DOMAIN=philosophy
+ Which of the following is the term used to refer to a stage in prenatal development which in humans begins at roughly the second week of pregnancy and lasts until roughly the eighth week?
+A. embryonic stage
+B. fetal stage
+C. pre-embryonic stage
+D. zygotic stage
+E. viability
+F. postnatal stage
+G. neonatal stage
+H. implantation stage
+I. gestational stage
+J. fertilization
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: A; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[44] ID=10961 DOMAIN=philosophy
+ Which of the following is a value that Arthur believes is more fundamental than rights and desert?
+A. justice
+B. fairness
+C. respect for other persons
+D. all of the above
+Phase-1 response: 'C'
+Parsed option: C
+Correct option: D; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[45] ID=11218 DOMAIN=philosophy
+Anscombe claims that the notion of moral obligation is derived from the concept of:
+A. preference.
+B. natural law.
+C. self-interest.
+D. maximizing utility.
+E. ethical relativism.
+F. personal desire.
+G. positive law.
+H. divine law.
+I. societal norms.
+J. consequentialism.
+Phase-1 response: 'A'
+Parsed option: A
+Correct option: H; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[46] ID=6357 DOMAIN=health
+A 37-year-old woman with right lower extremity edema is evaluated because of the sudden onset of shortness of breath and pleuritic chest pain. A diagnosis of pulmonary embolism is made. Which of the following signs, if present on physical examination, would be the most specific indicator of pulmonary arterial hypertension in this patient?
+A. Blue lips or skin
+B. Peripheral edema
+C. Rapid heart rate
+D. Constant chest pain
+E. Presence of an S3
+F. Wheezing or whistling sound when breathing
+G. Shortness of breath after slight activity
+H. P2 louder than A2
+I. Increased jugular venous pressure
+J. Coughing up blood
+Phase-1 response: 'H'
+Parsed option: H
+Correct option: H; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[47] ID=6625 DOMAIN=health
+Which of the following statements is incorrect regarding fatty acid ß-oxidation?
+
+A. The rate of ß-oxidation is regulated by the availability of carbohydrates and the rate of utilisation of ß-oxidation products
+B. Peroxisomes are the site for the degradation of xenobiotics and eicosanoids
+C. Within the liver peroxisomes serve to oxidise very long chain fatty acids to medium chain products
+D. The rate of b-oxidation is regulated by the availability of fatty acids and the rate of utilisation of b-oxidation products
+E. The major site of fatty acid ß-oxidation is the peroxisomes, the mitochondria also contain enzymes for this pathway
+Phase-1 response: 'E'
+Parsed option: E
+Correct option: E; correct=True
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[48] ID=6274 DOMAIN=health
+The best available evidence for an association between amount of sugars and risk of dental caries comes from which type of study design?
+
+A. Case-control study
+B. Longitudinal study
+C. Non-randomised controlled
+D. Cross sectional observational
+E. Experimental study
+F. Meta-analysis
+G. Qualitative study
+H. Randomised controlled
+I. Cohort
+J. Ecological study
+Phase-1 response: 'B'
+Parsed option: B
+Correct option: I; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[49] ID=6046 DOMAIN=health
+A 72-year-old man comes to the physician because of a 7-month history of leg weakness and dry eyes and mouth. He also has had a 10.4-kg (23-lb) weight loss over the past 4 months despite no change in appetite. He has smoked one and a half packs of cigarettes daily for 50 years. He drinks 4 oz of alcohol daily. He has peptic ulcer disease and emphysema. Medications include cimetidine, theophylline, and low-dose prednisone. Examination shows mild ptosis. He has a barrelshaped chest. Breath sounds are distant. There is moderate weakness of proximal muscles of the lower extremities. Reflexes are absent. He has difficulty rising from a chair. Sensory examination shows no abnormalities. An x-ray shows a hyperinflated chest and a 3 x 4-cm mass in the right hilum. His neurologic findings are most likely due to a lesion involving which of the following?
+A. Presynaptic neuromuscular junction
+B. Spinal cord
+C. Muscle membrane
+D. Central nervous system
+E. Parasympathetic nervous system
+F. Motor cortex
+G. Postsynaptic neuromuscular junction
+H. Peripheral nerve
+I. Sympathetic nervous system
+J. Sensory nerve
+Phase-1 response: 'E'
+Parsed option: E
+Correct option: A; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+[50] ID=6755 DOMAIN=health
+A 13-month-old child is brought to the emergency department because of urticaria, swelling of the lips, and difficulty breathing immediately after eating an egg. A potential risk for hypersensitivity reaction is posed by vaccination against which of the following illnesses?
+A. Influenza
+B. Rotavirus
+C. Human papillomavirus
+D. Poliomyelitis
+E. Measles
+F. Meningitis
+G. Varicella
+H. Tuberculosis
+I. Pertussis
+J. Hepatitis
+Phase-1 response: 'E'
+Parsed option: E
+Correct option: A; correct=False
+Phase-2 response: 'COMMIT'
+Parsed decision: COMMIT
+
+AGGREGATE SUMMARY
+{
+  "n": 50,
+  "overall_correctness": 0.5,
+  "correct_count": 25,
+  "incorrect_count": 25,
+  "decision_counts": {
+    "COMMIT": 50,
+    "ABSTAIN": 0,
+    "INVALID": 0
+  },
+  "overall_commitment_rate_valid_decisions": 1.0,
+  "commitment_rate_if_correct": 1.0,
+  "commitment_rate_if_incorrect": 1.0,
+  "near_constant_decision": true,
+  "source_positive_control_viable": false
+}
+Saved complete results to /workspace/mats-project/candidates/02_commitment_transfer/results/mmlu_pro_rescue.json

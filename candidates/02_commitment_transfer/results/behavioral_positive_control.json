@@ -1,0 +1,1491 @@
+{
+  "status": "exploratory",
+  "created_at_utc": "2026-09-03T13:54:02.326444+00:00",
+  "config": {
+    "model": "Qwen/Qwen3-8B",
+    "seed": 42,
+    "decoding": "greedy",
+    "thinking": false,
+    "max_answer_tokens": 48,
+    "max_decision_tokens": 8,
+    "questions_path": "/workspace/mats-project/candidates/02_commitment_transfer/data/questions.json"
+  },
+  "summary": {
+    "n": 40,
+    "overall_accuracy": 0.925,
+    "valid_decisions": 40,
+    "decision_counts": {
+      "COMMIT": 40
+    },
+    "invalid_decisions": 0,
+    "committed_accuracy": 0.925,
+    "abstained_accuracy": null,
+    "accuracy_gap_commit_minus_abstain": null,
+    "majority_decision_baseline": 1.0,
+    "by_difficulty": {
+      "easy": {
+        "n": 14,
+        "accuracy": 1.0,
+        "commit": 14,
+        "abstain": 0,
+        "invalid": 0
+      },
+      "medium": {
+        "n": 13,
+        "accuracy": 1.0,
+        "commit": 13,
+        "abstain": 0,
+        "invalid": 0
+      },
+      "hard": {
+        "n": 13,
+        "accuracy": 0.7692307692307693,
+        "commit": 13,
+        "abstain": 0,
+        "invalid": 0
+      }
+    },
+    "pre_registered_feasibility_pass": false
+  },
+  "records": [
+    {
+      "id": "easy_01",
+      "difficulty": "easy",
+      "question": "What is the capital of France?",
+      "accepted_answers": [
+        "Paris"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of France?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of France?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Paris",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of France?"
+        },
+        {
+          "role": "assistant",
+          "content": "Paris"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of France?<|im_end|>\n<|im_start|>assistant\nParis<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Paris"
+    },
+    {
+      "id": "easy_02",
+      "difficulty": "easy",
+      "question": "Which planet is known as the Red Planet?",
+      "accepted_answers": [
+        "Mars"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which planet is known as the Red Planet?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which planet is known as the Red Planet?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Mars",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which planet is known as the Red Planet?"
+        },
+        {
+          "role": "assistant",
+          "content": "Mars"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which planet is known as the Red Planet?<|im_end|>\n<|im_start|>assistant\nMars<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Mars"
+    },
+    {
+      "id": "easy_03",
+      "difficulty": "easy",
+      "question": "Who wrote the novel 'Pride and Prejudice'?",
+      "accepted_answers": [
+        "Jane Austen",
+        "Austen"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote the novel 'Pride and Prejudice'?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote the novel 'Pride and Prejudice'?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Jane Austen",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote the novel 'Pride and Prejudice'?"
+        },
+        {
+          "role": "assistant",
+          "content": "Jane Austen"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote the novel 'Pride and Prejudice'?<|im_end|>\n<|im_start|>assistant\nJane Austen<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Jane Austen"
+    },
+    {
+      "id": "easy_04",
+      "difficulty": "easy",
+      "question": "What is the chemical symbol for gold?",
+      "accepted_answers": [
+        "Au"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the chemical symbol for gold?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the chemical symbol for gold?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Au",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the chemical symbol for gold?"
+        },
+        {
+          "role": "assistant",
+          "content": "Au"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the chemical symbol for gold?<|im_end|>\n<|im_start|>assistant\nAu<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Au"
+    },
+    {
+      "id": "easy_05",
+      "difficulty": "easy",
+      "question": "How many sides does a hexagon have?",
+      "accepted_answers": [
+        "6",
+        "six"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: How many sides does a hexagon have?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: How many sides does a hexagon have?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "6",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: How many sides does a hexagon have?"
+        },
+        {
+          "role": "assistant",
+          "content": "6"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: How many sides does a hexagon have?<|im_end|>\n<|im_start|>assistant\n6<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "6"
+    },
+    {
+      "id": "easy_06",
+      "difficulty": "easy",
+      "question": "What is the largest ocean on Earth?",
+      "accepted_answers": [
+        "Pacific Ocean",
+        "Pacific"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest ocean on Earth?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest ocean on Earth?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Pacific Ocean",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest ocean on Earth?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pacific Ocean"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest ocean on Earth?<|im_end|>\n<|im_start|>assistant\nPacific Ocean<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Pacific Ocean"
+    },
+    {
+      "id": "easy_07",
+      "difficulty": "easy",
+      "question": "In what year did the Second World War end?",
+      "accepted_answers": [
+        "1945"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In what year did the Second World War end?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In what year did the Second World War end?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "1945",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In what year did the Second World War end?"
+        },
+        {
+          "role": "assistant",
+          "content": "1945"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In what year did the Second World War end?<|im_end|>\n<|im_start|>assistant\n1945<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "1945"
+    },
+    {
+      "id": "easy_08",
+      "difficulty": "easy",
+      "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+      "accepted_answers": [
+        "carbon dioxide",
+        "CO2",
+        "CO₂"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What gas do plants absorb from the atmosphere during photosynthesis?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What gas do plants absorb from the atmosphere during photosynthesis?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Carbon dioxide",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What gas do plants absorb from the atmosphere during photosynthesis?"
+        },
+        {
+          "role": "assistant",
+          "content": "Carbon dioxide"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What gas do plants absorb from the atmosphere during photosynthesis?<|im_end|>\n<|im_start|>assistant\nCarbon dioxide<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "carbon dioxide"
+    },
+    {
+      "id": "easy_09",
+      "difficulty": "easy",
+      "question": "Who painted the Mona Lisa?",
+      "accepted_answers": [
+        "Leonardo da Vinci",
+        "da Vinci",
+        "Leonardo"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who painted the Mona Lisa?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who painted the Mona Lisa?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Leonardo da Vinci",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who painted the Mona Lisa?"
+        },
+        {
+          "role": "assistant",
+          "content": "Leonardo da Vinci"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who painted the Mona Lisa?<|im_end|>\n<|im_start|>assistant\nLeonardo da Vinci<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Leonardo da Vinci"
+    },
+    {
+      "id": "easy_10",
+      "difficulty": "easy",
+      "question": "What is the square root of 144?",
+      "accepted_answers": [
+        "12",
+        "twelve"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the square root of 144?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the square root of 144?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "12",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the square root of 144?"
+        },
+        {
+          "role": "assistant",
+          "content": "12"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the square root of 144?<|im_end|>\n<|im_start|>assistant\n12<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "12"
+    },
+    {
+      "id": "easy_11",
+      "difficulty": "easy",
+      "question": "Which language is primarily spoken in Brazil?",
+      "accepted_answers": [
+        "Portuguese"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which language is primarily spoken in Brazil?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which language is primarily spoken in Brazil?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Portuguese",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which language is primarily spoken in Brazil?"
+        },
+        {
+          "role": "assistant",
+          "content": "Portuguese"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which language is primarily spoken in Brazil?<|im_end|>\n<|im_start|>assistant\nPortuguese<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Portuguese"
+    },
+    {
+      "id": "easy_12",
+      "difficulty": "easy",
+      "question": "What is the freezing point of pure water in degrees Celsius at standard pressure?",
+      "accepted_answers": [
+        "0",
+        "0 degrees Celsius",
+        "0°C",
+        "zero degrees Celsius"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the freezing point of pure water in degrees Celsius at standard pressure?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the freezing point of pure water in degrees Celsius at standard pressure?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "0",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the freezing point of pure water in degrees Celsius at standard pressure?"
+        },
+        {
+          "role": "assistant",
+          "content": "0"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the freezing point of pure water in degrees Celsius at standard pressure?<|im_end|>\n<|im_start|>assistant\n0<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "0"
+    },
+    {
+      "id": "easy_13",
+      "difficulty": "easy",
+      "question": "Who was the first person to walk on the Moon?",
+      "accepted_answers": [
+        "Neil Armstrong",
+        "Armstrong"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who was the first person to walk on the Moon?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who was the first person to walk on the Moon?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Neil Armstrong",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who was the first person to walk on the Moon?"
+        },
+        {
+          "role": "assistant",
+          "content": "Neil Armstrong"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who was the first person to walk on the Moon?<|im_end|>\n<|im_start|>assistant\nNeil Armstrong<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Neil Armstrong"
+    },
+    {
+      "id": "easy_14",
+      "difficulty": "easy",
+      "question": "What is the currency of Japan?",
+      "accepted_answers": [
+        "yen",
+        "Japanese yen"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the currency of Japan?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the currency of Japan?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Japanese yen",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the currency of Japan?"
+        },
+        {
+          "role": "assistant",
+          "content": "Japanese yen"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the currency of Japan?<|im_end|>\n<|im_start|>assistant\nJapanese yen<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Japanese yen"
+    },
+    {
+      "id": "medium_01",
+      "difficulty": "medium",
+      "question": "What is the capital of Slovenia?",
+      "accepted_answers": [
+        "Ljubljana"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of Slovenia?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of Slovenia?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Ljubljana",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of Slovenia?"
+        },
+        {
+          "role": "assistant",
+          "content": "Ljubljana"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of Slovenia?<|im_end|>\n<|im_start|>assistant\nLjubljana<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Ljubljana"
+    },
+    {
+      "id": "medium_02",
+      "difficulty": "medium",
+      "question": "Which element has atomic number 74?",
+      "accepted_answers": [
+        "tungsten",
+        "wolfram",
+        "W"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which element has atomic number 74?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which element has atomic number 74?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Tungsten",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which element has atomic number 74?"
+        },
+        {
+          "role": "assistant",
+          "content": "Tungsten"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which element has atomic number 74?<|im_end|>\n<|im_start|>assistant\nTungsten<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "tungsten"
+    },
+    {
+      "id": "medium_03",
+      "difficulty": "medium",
+      "question": "Who composed the opera 'The Magic Flute'?",
+      "accepted_answers": [
+        "Wolfgang Amadeus Mozart",
+        "Mozart",
+        "W. A. Mozart"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who composed the opera 'The Magic Flute'?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who composed the opera 'The Magic Flute'?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Wolfgang Amadeus Mozart",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who composed the opera 'The Magic Flute'?"
+        },
+        {
+          "role": "assistant",
+          "content": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who composed the opera 'The Magic Flute'?<|im_end|>\n<|im_start|>assistant\nWolfgang Amadeus Mozart<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Wolfgang Amadeus Mozart"
+    },
+    {
+      "id": "medium_04",
+      "difficulty": "medium",
+      "question": "In which year was the Treaty of Versailles signed?",
+      "accepted_answers": [
+        "1919"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In which year was the Treaty of Versailles signed?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In which year was the Treaty of Versailles signed?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "1919",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In which year was the Treaty of Versailles signed?"
+        },
+        {
+          "role": "assistant",
+          "content": "1919"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In which year was the Treaty of Versailles signed?<|im_end|>\n<|im_start|>assistant\n1919<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "1919"
+    },
+    {
+      "id": "medium_05",
+      "difficulty": "medium",
+      "question": "What is the largest moon of Saturn?",
+      "accepted_answers": [
+        "Titan"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest moon of Saturn?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest moon of Saturn?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Titan",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest moon of Saturn?"
+        },
+        {
+          "role": "assistant",
+          "content": "Titan"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest moon of Saturn?<|im_end|>\n<|im_start|>assistant\nTitan<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Titan"
+    },
+    {
+      "id": "medium_06",
+      "difficulty": "medium",
+      "question": "Which river flows through Budapest?",
+      "accepted_answers": [
+        "Danube",
+        "Danube River"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which river flows through Budapest?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which river flows through Budapest?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Danube River",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which river flows through Budapest?"
+        },
+        {
+          "role": "assistant",
+          "content": "Danube River"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which river flows through Budapest?<|im_end|>\n<|im_start|>assistant\nDanube River<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Danube River"
+    },
+    {
+      "id": "medium_07",
+      "difficulty": "medium",
+      "question": "Who wrote 'The Master and Margarita'?",
+      "accepted_answers": [
+        "Mikhail Bulgakov",
+        "Bulgakov"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote 'The Master and Margarita'?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote 'The Master and Margarita'?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Mikhail Bulgakov",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote 'The Master and Margarita'?"
+        },
+        {
+          "role": "assistant",
+          "content": "Mikhail Bulgakov"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote 'The Master and Margarita'?<|im_end|>\n<|im_start|>assistant\nMikhail Bulgakov<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Mikhail Bulgakov"
+    },
+    {
+      "id": "medium_08",
+      "difficulty": "medium",
+      "question": "What is the SI unit of electric capacitance?",
+      "accepted_answers": [
+        "farad",
+        "F"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the SI unit of electric capacitance?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the SI unit of electric capacitance?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Farad",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the SI unit of electric capacitance?"
+        },
+        {
+          "role": "assistant",
+          "content": "Farad"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the SI unit of electric capacitance?<|im_end|>\n<|im_start|>assistant\nFarad<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "farad"
+    },
+    {
+      "id": "medium_09",
+      "difficulty": "medium",
+      "question": "Which country has the most natural lakes?",
+      "accepted_answers": [
+        "Canada"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which country has the most natural lakes?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which country has the most natural lakes?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Canada",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which country has the most natural lakes?"
+        },
+        {
+          "role": "assistant",
+          "content": "Canada"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which country has the most natural lakes?<|im_end|>\n<|im_start|>assistant\nCanada<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Canada"
+    },
+    {
+      "id": "medium_10",
+      "difficulty": "medium",
+      "question": "What is the name of the boundary around a black hole beyond which light cannot escape?",
+      "accepted_answers": [
+        "event horizon"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the name of the boundary around a black hole beyond which light cannot escape?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the name of the boundary around a black hole beyond which light cannot escape?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Event horizon",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the name of the boundary around a black hole beyond which light cannot escape?"
+        },
+        {
+          "role": "assistant",
+          "content": "Event horizon"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the name of the boundary around a black hole beyond which light cannot escape?<|im_end|>\n<|im_start|>assistant\nEvent horizon<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "event horizon"
+    },
+    {
+      "id": "medium_11",
+      "difficulty": "medium",
+      "question": "Which artist painted 'The Persistence of Memory'?",
+      "accepted_answers": [
+        "Salvador Dalí",
+        "Salvador Dali",
+        "Dalí",
+        "Dali"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which artist painted 'The Persistence of Memory'?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which artist painted 'The Persistence of Memory'?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Salvador Dalí",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which artist painted 'The Persistence of Memory'?"
+        },
+        {
+          "role": "assistant",
+          "content": "Salvador Dalí"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which artist painted 'The Persistence of Memory'?<|im_end|>\n<|im_start|>assistant\nSalvador Dalí<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Salvador Dalí"
+    },
+    {
+      "id": "medium_12",
+      "difficulty": "medium",
+      "question": "What is the smallest bone in the human body?",
+      "accepted_answers": [
+        "stapes",
+        "stirrup",
+        "stirrup bone"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the smallest bone in the human body?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the smallest bone in the human body?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Stapes",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the smallest bone in the human body?"
+        },
+        {
+          "role": "assistant",
+          "content": "Stapes"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the smallest bone in the human body?<|im_end|>\n<|im_start|>assistant\nStapes<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "stapes"
+    },
+    {
+      "id": "medium_13",
+      "difficulty": "medium",
+      "question": "Which ancient Greek mathematician is associated with a method for approximating pi using inscribed and circumscribed polygons?",
+      "accepted_answers": [
+        "Archimedes"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which ancient Greek mathematician is associated with a method for approximating pi using inscribed and circumscribed polygons?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which ancient Greek mathematician is associated with a method for approximating pi using inscribed and circumscribed polygons?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Archimedes",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which ancient Greek mathematician is associated with a method for approximating pi using inscribed and circumscribed polygons?"
+        },
+        {
+          "role": "assistant",
+          "content": "Archimedes"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which ancient Greek mathematician is associated with a method for approximating pi using inscribed and circumscribed polygons?<|im_end|>\n<|im_start|>assistant\nArchimedes<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Archimedes"
+    },
+    {
+      "id": "hard_01",
+      "difficulty": "hard",
+      "question": "What is the capital of Palau?",
+      "accepted_answers": [
+        "Ngerulmud"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of Palau?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of Palau?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Ngerulmud",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of Palau?"
+        },
+        {
+          "role": "assistant",
+          "content": "Ngerulmud"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of Palau?<|im_end|>\n<|im_start|>assistant\nNgerulmud<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Ngerulmud"
+    },
+    {
+      "id": "hard_02",
+      "difficulty": "hard",
+      "question": "Which chemical element was first discovered by spectroscopy rather than isolated on Earth?",
+      "accepted_answers": [
+        "helium",
+        "He"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which chemical element was first discovered by spectroscopy rather than isolated on Earth?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which chemical element was first discovered by spectroscopy rather than isolated on Earth?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Cesium",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which chemical element was first discovered by spectroscopy rather than isolated on Earth?"
+        },
+        {
+          "role": "assistant",
+          "content": "Cesium"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which chemical element was first discovered by spectroscopy rather than isolated on Earth?<|im_end|>\n<|im_start|>assistant\nCesium<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": false,
+      "matched_answer_alias": null
+    },
+    {
+      "id": "hard_03",
+      "difficulty": "hard",
+      "question": "Who wrote the 17th-century novel 'The Blazing World'?",
+      "accepted_answers": [
+        "Margaret Cavendish",
+        "Cavendish"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote the 17th-century novel 'The Blazing World'?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote the 17th-century novel 'The Blazing World'?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Mary Wollstonecraft Godwin, pen name Mary Shelley",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote the 17th-century novel 'The Blazing World'?"
+        },
+        {
+          "role": "assistant",
+          "content": "Mary Wollstonecraft Godwin, pen name Mary Shelley"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Who wrote the 17th-century novel 'The Blazing World'?<|im_end|>\n<|im_start|>assistant\nMary Wollstonecraft Godwin, pen name Mary Shelley<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": false,
+      "matched_answer_alias": null
+    },
+    {
+      "id": "hard_04",
+      "difficulty": "hard",
+      "question": "What is the largest moon of Neptune?",
+      "accepted_answers": [
+        "Triton"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest moon of Neptune?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest moon of Neptune?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Triton",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest moon of Neptune?"
+        },
+        {
+          "role": "assistant",
+          "content": "Triton"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the largest moon of Neptune?<|im_end|>\n<|im_start|>assistant\nTriton<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Triton"
+    },
+    {
+      "id": "hard_05",
+      "difficulty": "hard",
+      "question": "In what year did the Defenestration of Prague that began the Thirty Years' War occur?",
+      "accepted_answers": [
+        "1618"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In what year did the Defenestration of Prague that began the Thirty Years' War occur?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In what year did the Defenestration of Prague that began the Thirty Years' War occur?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "1618",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In what year did the Defenestration of Prague that began the Thirty Years' War occur?"
+        },
+        {
+          "role": "assistant",
+          "content": "1618"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: In what year did the Defenestration of Prague that began the Thirty Years' War occur?<|im_end|>\n<|im_start|>assistant\n1618<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "1618"
+    },
+    {
+      "id": "hard_06",
+      "difficulty": "hard",
+      "question": "What is the SI derived unit of catalytic activity?",
+      "accepted_answers": [
+        "katal",
+        "kat"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the SI derived unit of catalytic activity?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the SI derived unit of catalytic activity?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "katal",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the SI derived unit of catalytic activity?"
+        },
+        {
+          "role": "assistant",
+          "content": "katal"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the SI derived unit of catalytic activity?<|im_end|>\n<|im_start|>assistant\nkatal<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "katal"
+    },
+    {
+      "id": "hard_07",
+      "difficulty": "hard",
+      "question": "Which composer wrote the opera 'The Cunning Little Vixen'?",
+      "accepted_answers": [
+        "Leoš Janáček",
+        "Leos Janacek",
+        "Janáček",
+        "Janacek"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which composer wrote the opera 'The Cunning Little Vixen'?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which composer wrote the opera 'The Cunning Little Vixen'?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Leoš Janáček",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which composer wrote the opera 'The Cunning Little Vixen'?"
+        },
+        {
+          "role": "assistant",
+          "content": "Leoš Janáček"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which composer wrote the opera 'The Cunning Little Vixen'?<|im_end|>\n<|im_start|>assistant\nLeoš Janáček<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Leoš Janáček"
+    },
+    {
+      "id": "hard_08",
+      "difficulty": "hard",
+      "question": "What is the deepest known point in the Mediterranean Sea?",
+      "accepted_answers": [
+        "Calypso Deep",
+        "Calypso"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the deepest known point in the Mediterranean Sea?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the deepest known point in the Mediterranean Sea?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "The deepest known point in the Mediterranean Sea is the Calypso Deep, located in the Greece-Turkey trench, with a depth of approximately 5,343 meters.",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the deepest known point in the Mediterranean Sea?"
+        },
+        {
+          "role": "assistant",
+          "content": "The deepest known point in the Mediterranean Sea is the Calypso Deep, located in the Greece-Turkey trench, with a depth of approximately 5,343 meters."
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the deepest known point in the Mediterranean Sea?<|im_end|>\n<|im_start|>assistant\nThe deepest known point in the Mediterranean Sea is the Calypso Deep, located in the Greece-Turkey trench, with a depth of approximately 5,343 meters.<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": false,
+      "matched_answer_alias": null
+    },
+    {
+      "id": "hard_09",
+      "difficulty": "hard",
+      "question": "Which scholar coined the term 'cell' after observing cork under a microscope?",
+      "accepted_answers": [
+        "Robert Hooke",
+        "Hooke"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which scholar coined the term 'cell' after observing cork under a microscope?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which scholar coined the term 'cell' after observing cork under a microscope?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Robert Hooke",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which scholar coined the term 'cell' after observing cork under a microscope?"
+        },
+        {
+          "role": "assistant",
+          "content": "Robert Hooke"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which scholar coined the term 'cell' after observing cork under a microscope?<|im_end|>\n<|im_start|>assistant\nRobert Hooke<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Robert Hooke"
+    },
+    {
+      "id": "hard_10",
+      "difficulty": "hard",
+      "question": "What is the name of the scale used to classify mineral hardness from talc to diamond?",
+      "accepted_answers": [
+        "Mohs scale",
+        "Mohs hardness scale",
+        "Mohs scale of mineral hardness"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the name of the scale used to classify mineral hardness from talc to diamond?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the name of the scale used to classify mineral hardness from talc to diamond?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Mohs scale",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the name of the scale used to classify mineral hardness from talc to diamond?"
+        },
+        {
+          "role": "assistant",
+          "content": "Mohs scale"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the name of the scale used to classify mineral hardness from talc to diamond?<|im_end|>\n<|im_start|>assistant\nMohs scale<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Mohs scale"
+    },
+    {
+      "id": "hard_11",
+      "difficulty": "hard",
+      "question": "Which Roman emperor made Nicene Christianity the official religion of the Roman Empire in 380 CE?",
+      "accepted_answers": [
+        "Theodosius I",
+        "Theodosius the First",
+        "Theodosius"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which Roman emperor made Nicene Christianity the official religion of the Roman Empire in 380 CE?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which Roman emperor made Nicene Christianity the official religion of the Roman Empire in 380 CE?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Theodosius I",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which Roman emperor made Nicene Christianity the official religion of the Roman Empire in 380 CE?"
+        },
+        {
+          "role": "assistant",
+          "content": "Theodosius I"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which Roman emperor made Nicene Christianity the official religion of the Roman Empire in 380 CE?<|im_end|>\n<|im_start|>assistant\nTheodosius I<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Theodosius I"
+    },
+    {
+      "id": "hard_12",
+      "difficulty": "hard",
+      "question": "What is the capital of the Sakha Republic?",
+      "accepted_answers": [
+        "Yakutsk"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of the Sakha Republic?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of the Sakha Republic?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Yakutsk",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of the Sakha Republic?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yakutsk"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: What is the capital of the Sakha Republic?<|im_end|>\n<|im_start|>assistant\nYakutsk<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Yakutsk"
+    },
+    {
+      "id": "hard_13",
+      "difficulty": "hard",
+      "question": "Which physicist first proposed the neutrino in 1930?",
+      "accepted_answers": [
+        "Wolfgang Pauli",
+        "Pauli",
+        "Wolfgang Ernst Pauli"
+      ],
+      "phase_1_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which physicist first proposed the neutrino in 1930?"
+        }
+      ],
+      "phase_1_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which physicist first proposed the neutrino in 1930?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_1_answer": "Wolfgang Pauli",
+      "phase_2_messages": [
+        {
+          "role": "user",
+          "content": "Answer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which physicist first proposed the neutrino in 1930?"
+        },
+        {
+          "role": "assistant",
+          "content": "Wolfgang Pauli"
+        },
+        {
+          "role": "user",
+          "content": "You may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice."
+        }
+      ],
+      "phase_2_rendered_prompt": "<|im_start|>user\nAnswer the following factual question as concisely as possible. Give only the answer, with no explanation. If you are unsure, still give your best answer.\n\nQuestion: Which physicist first proposed the neutrino in 1930?<|im_end|>\n<|im_start|>assistant\nWolfgang Pauli<|im_end|>\n<|im_start|>user\nYou may either submit your previous answer as your final answer or decline to submit it. Reply with exactly one word: COMMIT or ABSTAIN. COMMIT means submit the answer as final. ABSTAIN means decline to submit the answer. Do not explain your choice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "phase_2_response": "COMMIT",
+      "parsed_decision": "COMMIT",
+      "correct": true,
+      "matched_answer_alias": "Wolfgang Pauli"
+    }
+  ]
+}

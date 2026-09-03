@@ -1,0 +1,328 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files:  20%|██        | 1/5 [00:03<00:15,  3.83s/it]Fetching 5 files:  40%|████      | 2/5 [00:10<00:16,  5.39s/it]Fetching 5 files:  60%|██████    | 3/5 [00:13<00:08,  4.27s/it]Fetching 5 files:  80%|████████  | 4/5 [00:14<00:02,  2.98s/it]Fetching 5 files: 100%|██████████| 5/5 [00:14<00:00,  1.95s/it]Fetching 5 files: 100%|██████████| 5/5 [00:14<00:00,  2.87s/it]
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 19103.32it/s]
+Generated 1/40: easy_01
+Generated 2/40: easy_02
+Generated 3/40: easy_03
+Generated 4/40: easy_04
+Generated 5/40: easy_05
+Generated 6/40: easy_06
+Generated 7/40: easy_07
+Generated 8/40: easy_08
+Generated 9/40: easy_09
+Generated 10/40: easy_10
+Generated 11/40: easy_11
+Generated 12/40: easy_12
+Generated 13/40: easy_13
+Generated 14/40: easy_14
+Generated 15/40: medium_01
+Generated 16/40: medium_02
+Generated 17/40: medium_03
+Generated 18/40: medium_04
+Generated 19/40: medium_05
+Generated 20/40: medium_06
+Generated 21/40: medium_07
+Generated 22/40: medium_08
+Generated 23/40: medium_09
+Generated 24/40: medium_10
+Generated 25/40: medium_11
+Generated 26/40: medium_12
+Generated 27/40: medium_13
+Generated 28/40: hard_01
+Generated 29/40: hard_02
+Generated 30/40: hard_03
+Generated 31/40: hard_04
+Generated 32/40: hard_05
+Generated 33/40: hard_06
+Generated 34/40: hard_07
+Generated 35/40: hard_08
+Generated 36/40: hard_09
+Generated 37/40: hard_10
+Generated 38/40: hard_11
+Generated 39/40: hard_12
+Generated 40/40: hard_13
+
+RAW GENERATIONS (inspect these before the summary)
+
+[easy_01] EASY: What is the capital of France?
+  answer:   'Paris'
+  expected: ['Paris']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_02] EASY: Which planet is known as the Red Planet?
+  answer:   'Mars'
+  expected: ['Mars']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_03] EASY: Who wrote the novel 'Pride and Prejudice'?
+  answer:   'Jane Austen'
+  expected: ['Jane Austen', 'Austen']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_04] EASY: What is the chemical symbol for gold?
+  answer:   'Au'
+  expected: ['Au']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_05] EASY: How many sides does a hexagon have?
+  answer:   '6'
+  expected: ['6', 'six']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_06] EASY: What is the largest ocean on Earth?
+  answer:   'Pacific Ocean'
+  expected: ['Pacific Ocean', 'Pacific']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_07] EASY: In what year did the Second World War end?
+  answer:   '1945'
+  expected: ['1945']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_08] EASY: What gas do plants absorb from the atmosphere during photosynthesis?
+  answer:   'Carbon dioxide'
+  expected: ['carbon dioxide', 'CO2', 'CO₂']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_09] EASY: Who painted the Mona Lisa?
+  answer:   'Leonardo da Vinci'
+  expected: ['Leonardo da Vinci', 'da Vinci', 'Leonardo']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_10] EASY: What is the square root of 144?
+  answer:   '12'
+  expected: ['12', 'twelve']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_11] EASY: Which language is primarily spoken in Brazil?
+  answer:   'Portuguese'
+  expected: ['Portuguese']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_12] EASY: What is the freezing point of pure water in degrees Celsius at standard pressure?
+  answer:   '0'
+  expected: ['0', '0 degrees Celsius', '0°C', 'zero degrees Celsius']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_13] EASY: Who was the first person to walk on the Moon?
+  answer:   'Neil Armstrong'
+  expected: ['Neil Armstrong', 'Armstrong']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[easy_14] EASY: What is the currency of Japan?
+  answer:   'Japanese yen'
+  expected: ['yen', 'Japanese yen']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_01] MEDIUM: What is the capital of Slovenia?
+  answer:   'Ljubljana'
+  expected: ['Ljubljana']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_02] MEDIUM: Which element has atomic number 74?
+  answer:   'Tungsten'
+  expected: ['tungsten', 'wolfram', 'W']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_03] MEDIUM: Who composed the opera 'The Magic Flute'?
+  answer:   'Wolfgang Amadeus Mozart'
+  expected: ['Wolfgang Amadeus Mozart', 'Mozart', 'W. A. Mozart']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_04] MEDIUM: In which year was the Treaty of Versailles signed?
+  answer:   '1919'
+  expected: ['1919']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_05] MEDIUM: What is the largest moon of Saturn?
+  answer:   'Titan'
+  expected: ['Titan']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_06] MEDIUM: Which river flows through Budapest?
+  answer:   'Danube River'
+  expected: ['Danube', 'Danube River']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_07] MEDIUM: Who wrote 'The Master and Margarita'?
+  answer:   'Mikhail Bulgakov'
+  expected: ['Mikhail Bulgakov', 'Bulgakov']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_08] MEDIUM: What is the SI unit of electric capacitance?
+  answer:   'Farad'
+  expected: ['farad', 'F']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_09] MEDIUM: Which country has the most natural lakes?
+  answer:   'Canada'
+  expected: ['Canada']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_10] MEDIUM: What is the name of the boundary around a black hole beyond which light cannot escape?
+  answer:   'Event horizon'
+  expected: ['event horizon']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_11] MEDIUM: Which artist painted 'The Persistence of Memory'?
+  answer:   'Salvador Dalí'
+  expected: ['Salvador Dalí', 'Salvador Dali', 'Dalí', 'Dali']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_12] MEDIUM: What is the smallest bone in the human body?
+  answer:   'Stapes'
+  expected: ['stapes', 'stirrup', 'stirrup bone']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[medium_13] MEDIUM: Which ancient Greek mathematician is associated with a method for approximating pi using inscribed and circumscribed polygons?
+  answer:   'Archimedes'
+  expected: ['Archimedes']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_01] HARD: What is the capital of Palau?
+  answer:   'Ngerulmud'
+  expected: ['Ngerulmud']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_02] HARD: Which chemical element was first discovered by spectroscopy rather than isolated on Earth?
+  answer:   'Cesium'
+  expected: ['helium', 'He']
+  correct:  False
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_03] HARD: Who wrote the 17th-century novel 'The Blazing World'?
+  answer:   'Mary Wollstonecraft Godwin, pen name Mary Shelley'
+  expected: ['Margaret Cavendish', 'Cavendish']
+  correct:  False
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_04] HARD: What is the largest moon of Neptune?
+  answer:   'Triton'
+  expected: ['Triton']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_05] HARD: In what year did the Defenestration of Prague that began the Thirty Years' War occur?
+  answer:   '1618'
+  expected: ['1618']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_06] HARD: What is the SI derived unit of catalytic activity?
+  answer:   'katal'
+  expected: ['katal', 'kat']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_07] HARD: Which composer wrote the opera 'The Cunning Little Vixen'?
+  answer:   'Leoš Janáček'
+  expected: ['Leoš Janáček', 'Leos Janacek', 'Janáček', 'Janacek']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_08] HARD: What is the deepest known point in the Mediterranean Sea?
+  answer:   'The deepest known point in the Mediterranean Sea is the Calypso Deep, located in the Greece-Turkey trench, with a depth of approximately 5,343 meters.'
+  expected: ['Calypso Deep', 'Calypso']
+  correct:  False
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_09] HARD: Which scholar coined the term 'cell' after observing cork under a microscope?
+  answer:   'Robert Hooke'
+  expected: ['Robert Hooke', 'Hooke']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_10] HARD: What is the name of the scale used to classify mineral hardness from talc to diamond?
+  answer:   'Mohs scale'
+  expected: ['Mohs scale', 'Mohs hardness scale', 'Mohs scale of mineral hardness']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_11] HARD: Which Roman emperor made Nicene Christianity the official religion of the Roman Empire in 380 CE?
+  answer:   'Theodosius I'
+  expected: ['Theodosius I', 'Theodosius the First', 'Theodosius']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_12] HARD: What is the capital of the Sakha Republic?
+  answer:   'Yakutsk'
+  expected: ['Yakutsk']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+[hard_13] HARD: Which physicist first proposed the neutrino in 1930?
+  answer:   'Wolfgang Pauli'
+  expected: ['Wolfgang Pauli', 'Pauli', 'Wolfgang Ernst Pauli']
+  correct:  True
+  phase 2:  'COMMIT'
+  parsed:   COMMIT
+
+AGGREGATE SUMMARY (interpret only after raw inspection)
+{
+  "n": 40,
+  "overall_accuracy": 0.925,
+  "valid_decisions": 40,
+  "decision_counts": {
+    "COMMIT": 40
+  },
+  "invalid_decisions": 0,
+  "committed_accuracy": 0.925,
+  "abstained_accuracy": null,
+  "accuracy_gap_commit_minus_abstain": null,
+  "majority_decision_baseline": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "n": 14,
+      "accuracy": 1.0,
+      "commit": 14,
+      "abstain": 0,
+      "invalid": 0
+    },
+    "medium": {
+      "n": 13,
+      "accuracy": 1.0,
+      "commit": 13,
+      "abstain": 0,
+      "invalid": 0
+    },
+    "hard": {
+      "n": 13,
+      "accuracy": 0.7692307692307693,
+      "commit": 13,
+      "abstain": 0,
+      "invalid": 0
+    }
+  },
+  "pre_registered_feasibility_pass": false
+}
+
+Saved complete raw results to /workspace/mats-project/candidates/02_commitment_transfer/results/behavioral_positive_control.json
