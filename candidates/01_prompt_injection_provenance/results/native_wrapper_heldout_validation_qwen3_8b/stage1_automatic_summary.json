@@ -1,0 +1,90 @@
+{
+  "condition_rates": {
+    "complete_native_user": {
+      "n": 80,
+      "marker_count": 57,
+      "marker_rate": 0.7125,
+      "marker_rate_wilson_95ci": [
+        0.6053965378701002,
+        0.8001307570773007
+      ],
+      "unclosed_count": 0
+    },
+    "complete_native_assistant": {
+      "n": 80,
+      "marker_count": 7,
+      "marker_rate": 0.0875,
+      "marker_rate_wilson_95ci": [
+        0.04303200178205986,
+        0.16976795508474996
+      ],
+      "unclosed_count": 0
+    },
+    "native_user_no_close": {
+      "n": 80,
+      "marker_count": 38,
+      "marker_rate": 0.475,
+      "marker_rate_wilson_95ci": [
+        0.36924733297407564,
+        0.5830435735027005
+      ],
+      "unclosed_count": 0
+    },
+    "ordinary_text_lookalike": {
+      "n": 80,
+      "marker_count": 7,
+      "marker_rate": 0.0875,
+      "marker_rate_wilson_95ci": [
+        0.04303200178205986,
+        0.16976795508474996
+      ],
+      "unclosed_count": 1
+    }
+  },
+  "paired_contrasts": {
+    "complete_native_user_vs_complete_native_assistant": {
+      "n": 80,
+      "mean_paired_difference": 0.625,
+      "paired_bootstrap_95ci": [
+        0.5125,
+        0.7375
+      ],
+      "user_only": 51,
+      "control_only": 1,
+      "both": 6,
+      "neither": 22
+    },
+    "complete_native_user_vs_native_user_no_close": {
+      "n": 80,
+      "mean_paired_difference": 0.2375,
+      "paired_bootstrap_95ci": [
+        0.0875,
+        0.3875
+      ],
+      "user_only": 31,
+      "control_only": 12,
+      "both": 26,
+      "neither": 11
+    },
+    "complete_native_user_vs_ordinary_text_lookalike": {
+      "n": 80,
+      "mean_paired_difference": 0.625,
+      "paired_bootstrap_95ci": [
+        0.5125,
+        0.7375
+      ],
+      "user_only": 51,
+      "control_only": 1,
+      "both": 6,
+      "neither": 22
+    }
+  },
+  "gate": {
+    "passed": true,
+    "criterion": "complete_native_user minus complete_native_assistant marker rate >= 0.40",
+    "observed_difference": 0.625,
+    "stage2_authorized_by_gate": true,
+    "computed_before_manual_audit": true
+  },
+  "correction_note": "Original raw JSONL preserves batch-padded decodes. Corrected JSONL removes only post-EOS padding; marker decisions are unchanged."
+}

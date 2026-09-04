@@ -1,0 +1,26 @@
+{
+  "config.json": {
+    "sha256": "3986892f178bb202659111ab8ecc0a39f3b8ce8f12b23328d3177304fbde619a",
+    "bytes": 3481
+  },
+  "stage1_frozen_prompts.jsonl": {
+    "sha256": "a7e6f7dc0f0f561d4783b67f2b17994dd0462a6b02b005d14550590c575ec6e4",
+    "bytes": 4190776
+  },
+  "stage1_manual_audit_prompt_ids.json": {
+    "sha256": "27eefb5dff0b58222a3616d792143d1a769375f96ba61e619b32bd1da04d9f54",
+    "bytes": 2845
+  },
+  "stage2_frozen_prompts.jsonl": {
+    "sha256": "effeafd8ddbfa24b73a1c4ef952965cc7c22a530d1d1d80b4ea3bc5f62693c6c",
+    "bytes": 4409076
+  },
+  "stage2_subset_ids.json": {
+    "sha256": "9489e5a08c9156049a79d0feb39e47b0c87c0801577d78db8ba3fc2fd594c1cf",
+    "bytes": 579
+  },
+  "validation_selection.jsonl": {
+    "sha256": "2175ce1d2242a873353ff58bb6d9babad4949ddac17fc403c768c2fdf45c2d56",
+    "bytes": 213671
+  }
+}

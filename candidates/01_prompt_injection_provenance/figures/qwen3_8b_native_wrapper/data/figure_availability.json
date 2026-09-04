@@ -1,0 +1,26 @@
+{
+  "figure1": {
+    "created": true,
+    "source": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_role_wrapper_ablation_qwen3_8b_layer18/results.json"
+  },
+  "figure2": {
+    "created": false,
+    "reason": "No saved marker-excluded aligned-command activation norms at all requested layers 8, 16, and 24. The localization artifact includes condition-specific marker tokens; the patch artifact has only per-token norms at layers 8 and 24.",
+    "inspected_sources": [
+      "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_wrapper_activation_localization_qwen3_8b/layer_summary.json",
+      "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_wrapper_command_patching_qwen3_8b/results.json"
+    ]
+  },
+  "figure3": {
+    "created": false,
+    "reason": "No saved marker-excluded activation vectors or pairwise cosine statistics at layers 8, 16, and 24.",
+    "inspected_sources": [
+      "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_wrapper_activation_localization_qwen3_8b/layer_summary.json",
+      "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_wrapper_command_patching_qwen3_8b/results.json"
+    ]
+  },
+  "figure4": {
+    "created": true,
+    "source": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_wrapper_command_patching_qwen3_8b/results.json"
+  }
+}

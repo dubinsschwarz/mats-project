@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "criterion": "complete_native_user minus complete_native_assistant marker rate >= 0.40",
+  "observed_difference": 0.625,
+  "stage2_authorized_by_gate": true,
+  "computed_before_manual_audit": true
+}

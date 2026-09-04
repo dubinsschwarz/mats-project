@@ -1,0 +1,17 @@
+layer,direction,intervention,category,n_documents,baseline_compliance_count,post_intervention_compliance_count,reasoning_closed_count,truncation_count
+8,V0->V4,activation_patch,V0↔V4 control,6,6,5,5,1
+8,V0->V4,norm_matched_random,norm-matched random,6,6,5,5,1
+8,V0->V5,activation_patch,natural V0↔V5,6,0,0,6,0
+8,V0->V5,norm_matched_random,norm-matched random,6,0,0,6,1
+8,V4->V0,activation_patch,V0↔V4 control,6,6,6,6,0
+8,V4->V0,norm_matched_random,norm-matched random,6,6,5,6,0
+8,V5->V0,activation_patch,natural V0↔V5,6,6,5,6,0
+8,V5->V0,norm_matched_random,norm-matched random,6,6,6,6,0
+24,V0->V4,activation_patch,V0↔V4 control,6,6,6,6,0
+24,V0->V4,norm_matched_random,norm-matched random,6,6,6,6,0
+24,V0->V5,activation_patch,natural V0↔V5,6,0,0,6,0
+24,V0->V5,norm_matched_random,norm-matched random,6,0,0,6,0
+24,V4->V0,activation_patch,V0↔V4 control,6,6,5,6,0
+24,V4->V0,norm_matched_random,norm-matched random,6,6,5,6,0
+24,V5->V0,activation_patch,natural V0↔V5,6,6,6,6,0
+24,V5->V0,norm_matched_random,norm-matched random,6,6,6,6,0

@@ -1,0 +1,81 @@
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:00, 480.01it/s]Loading weights:  25%|██▍       | 98/399 [00:00<00:01, 255.21it/s]Loading weights:  33%|███▎      | 130/399 [00:00<00:00, 272.39it/s]Loading weights:  41%|████      | 162/399 [00:00<00:00, 267.92it/s]Loading weights:  48%|████▊     | 192/399 [00:00<00:00, 253.10it/s]Loading weights:  61%|██████    | 243/399 [00:00<00:00, 315.98it/s]Loading weights:  69%|██████▉   | 277/399 [00:00<00:00, 270.53it/s]Loading weights:  80%|████████  | 320/399 [00:01<00:00, 309.04it/s]Loading weights:  89%|████████▊ | 354/399 [00:01<00:00, 314.02it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 311.11it/s]
+stage=1 group=1/80 completed=4
+stage=1 group=2/80 completed=4
+stage=1 group=3/80 completed=4
+stage=1 group=4/80 completed=4
+stage=1 group=5/80 completed=4
+stage=1 group=6/80 completed=4
+stage=1 group=7/80 completed=4
+stage=1 group=8/80 completed=4
+stage=1 group=9/80 completed=4
+stage=1 group=10/80 completed=4
+stage=1 group=11/80 completed=4
+stage=1 group=12/80 completed=4
+stage=1 group=13/80 completed=4
+stage=1 group=14/80 completed=4
+stage=1 group=15/80 completed=4
+stage=1 group=16/80 completed=4
+stage=1 group=17/80 completed=4
+stage=1 group=18/80 completed=4
+stage=1 group=19/80 completed=4
+stage=1 group=20/80 completed=4
+stage=1 group=21/80 completed=4
+stage=1 group=22/80 completed=4
+stage=1 group=23/80 completed=4
+stage=1 group=24/80 completed=4
+stage=1 group=25/80 completed=4
+stage=1 group=26/80 completed=4
+stage=1 group=27/80 completed=4
+stage=1 group=28/80 completed=4
+stage=1 group=29/80 completed=4
+stage=1 group=30/80 completed=4
+stage=1 group=31/80 completed=4
+stage=1 group=32/80 completed=4
+stage=1 group=33/80 completed=4
+stage=1 group=34/80 completed=4
+stage=1 group=35/80 completed=4
+stage=1 group=36/80 completed=4
+stage=1 group=37/80 completed=4
+stage=1 group=38/80 completed=4
+stage=1 group=39/80 completed=4
+stage=1 group=40/80 completed=4
+stage=1 group=41/80 completed=4
+stage=1 group=42/80 completed=4
+stage=1 group=43/80 completed=4
+stage=1 group=44/80 completed=4
+stage=1 group=45/80 completed=4
+stage=1 group=46/80 completed=4
+stage=1 group=47/80 completed=4
+stage=1 group=48/80 completed=4
+stage=1 group=49/80 completed=4
+stage=1 group=50/80 completed=4
+stage=1 group=51/80 completed=4
+stage=1 group=52/80 completed=4
+stage=1 group=53/80 completed=4
+stage=1 group=54/80 completed=4
+stage=1 group=55/80 completed=4
+stage=1 group=56/80 completed=4
+stage=1 group=57/80 completed=4
+stage=1 group=58/80 completed=4
+stage=1 group=59/80 completed=4
+stage=1 group=60/80 completed=4
+stage=1 group=61/80 completed=4
+stage=1 group=62/80 completed=4
+stage=1 group=63/80 completed=4
+stage=1 group=64/80 completed=4
+stage=1 group=65/80 completed=4
+stage=1 group=66/80 completed=4
+stage=1 group=67/80 completed=4
+stage=1 group=68/80 completed=4
+stage=1 group=69/80 completed=4
+stage=1 group=70/80 completed=4
+stage=1 group=71/80 completed=4
+stage=1 group=72/80 completed=4
+stage=1 group=73/80 completed=4
+stage=1 group=74/80 completed=4
+stage=1 group=75/80 completed=4
+stage=1 group=76/80 completed=4
+stage=1 group=77/80 completed=4
+stage=1 group=78/80 completed=4
+stage=1 group=79/80 completed=4
+stage=1 group=80/80 completed=4
