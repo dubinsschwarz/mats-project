@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "layer": 18,
+  "activation": "mean hidden_states[18] over frozen command-overlapping tokens",
+  "probe_path": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/tool_injection_provenance_qwen3_8b_layer18/formal_provenance_probe_hidden_state_18.pkl",
+  "probe_sha256": "eb809e413dc02c724527f143c4cc2028f95f34db98369b489f41e491515cbcd8",
+  "probe_class_mapping": {
+    "0": "USER",
+    "1": "TOOL"
+  },
+  "probe_w_norm": 1.371749255735101,
+  "probe_intercept": -0.00015421785064972937,
+  "n_pairs": 48,
+  "generation": false,
+  "probe_training": false,
+  "source_hashes": {
+    "attack_results": "6d0319f1cc49ca3da59e7222a213047b6a7d4445925e4df29abd4439939cbcf3",
+    "frozen_attacks": "be1b2fd55924e40b49625a2a4066f9fefc85f447bfb45d0fc69f734064190462",
+    "clean_validation": "5060c83ca8acc52b20cd9cf172fe062d56a6cd7f31f0bc20dd745c2596cf9b8c"
+  },
+  "pair_construction": "replace only the final outer TOOL message by a USER message with identical payload; search minimal padding for identical command token IDs and absolute positions; never alter document, wrapper, or command"
+}

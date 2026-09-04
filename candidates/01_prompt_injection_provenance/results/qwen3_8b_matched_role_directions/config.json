@@ -1,0 +1,40 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seed": 123,
+  "layers_zero_based": [
+    12,
+    16,
+    20
+  ],
+  "position_bins_within_segment": [
+    "32-63",
+    "64-127",
+    "128+"
+  ],
+  "skip_first_content_tokens": 32,
+  "activation_site": "post_attention_layernorm output (normalized pre-MLP)",
+  "contrasts": [
+    "tool-user",
+    "assistant-user"
+  ],
+  "alignment": "base passage + within-segment index + identical token ID",
+  "probe": {
+    "classes": [
+      "user",
+      "tool"
+    ],
+    "C": 0.1,
+    "penalty": "l2",
+    "scaled": false,
+    "fit_intercept": true,
+    "max_iter": 5000,
+    "threshold": 0.5
+  },
+  "frozen_artifact_sha256": {
+    "config.json": "f48ead11eeaed0fd1f63121bb080d2b236edd4475da5cb801dbaa746ddea753a",
+    "prompts_and_token_ids.jsonl": "4be8d9bd6d8f4121af464e043941cf8000308670d501159d467fe23226a5ca23",
+    "selected_tokens.parquet": "1acdfae638d522d35bc21bf1c9e9643cdd4ca3de0cb4b1d4c63d28cba4b9259e",
+    "splits.npz": "1444b73e6ebaa0f5b09a7e66c17687a66138e7d021e4413d62d27e659a31fd6a"
+  }
+}

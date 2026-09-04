@@ -1,0 +1,52 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seed": 123,
+  "max_new_tokens": 1024,
+  "do_sample": false,
+  "variants": [
+    0,
+    5
+  ],
+  "site_layers": {
+    "embedded_role": [
+      0,
+      1,
+      4,
+      8
+    ],
+    "embedded_im_end": [
+      1,
+      4,
+      8,
+      16,
+      24
+    ],
+    "final_prompt_token": [
+      1,
+      4,
+      8,
+      16,
+      24
+    ]
+  },
+  "directions": {
+    "V0_to_V5": [
+      0,
+      5
+    ],
+    "V5_to_V0": [
+      5,
+      0
+    ]
+  },
+  "baseline_gate": "V0 >= 5/6 compliant and V5 <= 1/6 compliant",
+  "activation_definition": "hidden_states[L] residual stream; L=0 embedding output, L>=1 output of block L-1",
+  "patch_definition": "one destination prefill token replaced by matched natural source state",
+  "final_prompt_token": "last token, ID 198 newline after real assistant header",
+  "self_patch": "document 0, both variants, every declared site/layer; require exact generated-token match",
+  "random_control_trigger": "natural patch expected-direction compliance flip on >=2/6 documents",
+  "random_controls": "three fixed-seed isotropic deltas norm-matched per document to natural delta",
+  "source_prompts": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_role_wrapper_ablation_qwen3_8b_layer18/same_marker_single_site_patching/same_marker_prompts.json",
+  "source_prompts_sha256": "24471343a483f526fe16c273dfa811e8cbaa9f58cc8611ee7ed8c356b0fcdab1"
+}

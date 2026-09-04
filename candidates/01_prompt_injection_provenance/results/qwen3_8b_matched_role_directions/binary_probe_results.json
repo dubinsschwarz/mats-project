@@ -1,0 +1,80 @@
+{
+  "12": {
+    "paper_style": {
+      "n_tokens": 15246,
+      "accuracy": 0.11734225370589008,
+      "balanced_accuracy": 0.12379761584930901,
+      "auroc": 0.05453761863168555,
+      "user_accuracy": 0.15729606759831005,
+      "tool_accuracy": 0.09029916410030796,
+      "n_user": 6154,
+      "n_tool": 9092,
+      "n_train_tokens": 144231,
+      "n_iter": 153
+    },
+    "passage_grouped": {
+      "n_tokens": 15702,
+      "accuracy": 0.5896064195643868,
+      "balanced_accuracy": 0.5896064195643866,
+      "auroc": 0.6125452947596572,
+      "user_accuracy": 0.5380206343141001,
+      "tool_accuracy": 0.6411922048146733,
+      "n_user": 7851,
+      "n_tool": 7851,
+      "n_train_tokens": 143775,
+      "n_iter": 122
+    }
+  },
+  "16": {
+    "paper_style": {
+      "n_tokens": 15246,
+      "accuracy": 0.11589925226288862,
+      "balanced_accuracy": 0.12295532498401134,
+      "auroc": 0.05665736669935649,
+      "user_accuracy": 0.15957101072473187,
+      "tool_accuracy": 0.0863396392432908,
+      "n_user": 6154,
+      "n_tool": 9092,
+      "n_train_tokens": 144231,
+      "n_iter": 193
+    },
+    "passage_grouped": {
+      "n_tokens": 15702,
+      "accuracy": 0.5838746656476882,
+      "balanced_accuracy": 0.5838746656476882,
+      "auroc": 0.6131010134445682,
+      "user_accuracy": 0.6359699401350146,
+      "tool_accuracy": 0.5317793911603618,
+      "n_user": 7851,
+      "n_tool": 7851,
+      "n_train_tokens": 143775,
+      "n_iter": 144
+    }
+  },
+  "20": {
+    "paper_style": {
+      "n_tokens": 15246,
+      "accuracy": 0.11865407319952774,
+      "balanced_accuracy": 0.12473995645709385,
+      "auroc": 0.056283127402677234,
+      "user_accuracy": 0.1563210919727007,
+      "tool_accuracy": 0.09315882094148702,
+      "n_user": 6154,
+      "n_tool": 9092,
+      "n_train_tokens": 144231,
+      "n_iter": 364
+    },
+    "passage_grouped": {
+      "n_tokens": 15702,
+      "accuracy": 0.5785887148133996,
+      "balanced_accuracy": 0.5785887148133996,
+      "auroc": 0.6114284548960148,
+      "user_accuracy": 0.7053878486816966,
+      "tool_accuracy": 0.4517895809451025,
+      "n_user": 7851,
+      "n_tool": 7851,
+      "n_train_tokens": 143775,
+      "n_iter": 286
+    }
+  }
+}

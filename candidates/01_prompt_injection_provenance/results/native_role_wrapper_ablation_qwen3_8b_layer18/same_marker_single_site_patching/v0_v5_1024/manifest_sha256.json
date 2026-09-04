@@ -1,0 +1,12 @@
+{
+  "config.json": "954b3f5dc15d804eeb5d12d2855cdd153ef4b6fd211c777d419176a87eb00588",
+  "saved_v0_v5_prompts.json": "707c53a2841ac3c1abaf15dab738e25e8ca7277aa7115729f08fd6988115e666",
+  "results.json": "0d6b8ee3f0d0a968f6f75f83315a05800a24da145c1a5a717fc046b3c557cea2",
+  "summary.json": "00905e61685f740b738600c0fe82dfb9eb31d1cad7a2f2771b8d876b04e0ee2c",
+  "baseline_per_document.csv": "9f73b06b4e5ab0d54657d25b240756cf76f2425dc8bc052d9ccb37723a86c00e",
+  "self_patch_per_document.csv": "380083b3c2e0f981e24a6bda003f91eaab4c72edf9e7405607d271011ddc2a13",
+  "natural_patch_per_document.csv": "6b382b8cbc9b3af694033bdc5cdd14c15f39042dd8237effbc9fae15836676fc",
+  "random_control_per_document.csv": "1b1bfb762dc7011d4499d58cd24a69eb20eae78aa6823ff0b763431a1d5d73a0",
+  "natural_patch_summary.csv": "eea11dd8a2521a1376703b871d9950a66a12a98bc9c8ab5b245956ee6bb11a35",
+  "random_control_summary.csv": "7897f9b9f72bef170029140ff74d29851bb11259909196b87ea379d0997bca44"
+}

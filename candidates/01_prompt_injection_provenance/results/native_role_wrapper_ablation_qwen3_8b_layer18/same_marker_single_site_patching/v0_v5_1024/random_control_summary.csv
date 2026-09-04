@@ -1,0 +1,9 @@
+direction,site,layer,n,compliant,closed,truncated
+V0_to_V5,embedded_im_end,16,18,2,16,2
+V0_to_V5,embedded_role,0,18,5,15,3
+V0_to_V5,embedded_role,1,18,1,17,1
+V0_to_V5,embedded_role,4,18,2,18,0
+V0_to_V5,embedded_role,8,18,0,17,1
+V5_to_V0,embedded_role,0,18,16,18,0
+V5_to_V0,embedded_role,1,18,18,18,0
+V5_to_V0,embedded_role,4,18,18,18,0
