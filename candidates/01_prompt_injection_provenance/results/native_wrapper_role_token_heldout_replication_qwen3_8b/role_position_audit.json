@@ -1,0 +1,1282 @@
+[
+  {
+    "passage_id": "dolma3:114",
+    "condition": "complete_native_user",
+    "role_token_position": 523,
+    "role_token_id": 872,
+    "header_positions": [
+      522,
+      523,
+      524
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:114",
+    "condition": "complete_native_assistant",
+    "role_token_position": 523,
+    "role_token_id": 77091,
+    "header_positions": [
+      522,
+      523,
+      524
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:141",
+    "condition": "complete_native_user",
+    "role_token_position": 1054,
+    "role_token_id": 872,
+    "header_positions": [
+      1053,
+      1054,
+      1055
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:141",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1054,
+    "role_token_id": 77091,
+    "header_positions": [
+      1053,
+      1054,
+      1055
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:61",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:61",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:9",
+    "condition": "complete_native_user",
+    "role_token_position": 412,
+    "role_token_id": 872,
+    "header_positions": [
+      411,
+      412,
+      413
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:9",
+    "condition": "complete_native_assistant",
+    "role_token_position": 412,
+    "role_token_id": 77091,
+    "header_positions": [
+      411,
+      412,
+      413
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:44",
+    "condition": "complete_native_user",
+    "role_token_position": 340,
+    "role_token_id": 872,
+    "header_positions": [
+      339,
+      340,
+      341
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:44",
+    "condition": "complete_native_assistant",
+    "role_token_position": 340,
+    "role_token_id": 77091,
+    "header_positions": [
+      339,
+      340,
+      341
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:10",
+    "condition": "complete_native_user",
+    "role_token_position": 659,
+    "role_token_id": 872,
+    "header_positions": [
+      658,
+      659,
+      660
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:10",
+    "condition": "complete_native_assistant",
+    "role_token_position": 659,
+    "role_token_id": 77091,
+    "header_positions": [
+      658,
+      659,
+      660
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:62",
+    "condition": "complete_native_user",
+    "role_token_position": 843,
+    "role_token_id": 872,
+    "header_positions": [
+      842,
+      843,
+      844
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:62",
+    "condition": "complete_native_assistant",
+    "role_token_position": 843,
+    "role_token_id": 77091,
+    "header_positions": [
+      842,
+      843,
+      844
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:149",
+    "condition": "complete_native_user",
+    "role_token_position": 702,
+    "role_token_id": 872,
+    "header_positions": [
+      701,
+      702,
+      703
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:149",
+    "condition": "complete_native_assistant",
+    "role_token_position": 702,
+    "role_token_id": 77091,
+    "header_positions": [
+      701,
+      702,
+      703
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:98",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_positions": [
+      1112,
+      1113,
+      1114
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:98",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_positions": [
+      1112,
+      1113,
+      1114
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:45",
+    "condition": "complete_native_user",
+    "role_token_position": 215,
+    "role_token_id": 872,
+    "header_positions": [
+      214,
+      215,
+      216
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:45",
+    "condition": "complete_native_assistant",
+    "role_token_position": 215,
+    "role_token_id": 77091,
+    "header_positions": [
+      214,
+      215,
+      216
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:134",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:134",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:76",
+    "condition": "complete_native_user",
+    "role_token_position": 552,
+    "role_token_id": 872,
+    "header_positions": [
+      551,
+      552,
+      553
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:76",
+    "condition": "complete_native_assistant",
+    "role_token_position": 552,
+    "role_token_id": 77091,
+    "header_positions": [
+      551,
+      552,
+      553
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:29",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_positions": [
+      1112,
+      1113,
+      1114
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:29",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_positions": [
+      1112,
+      1113,
+      1114
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:53",
+    "condition": "complete_native_user",
+    "role_token_position": 925,
+    "role_token_id": 872,
+    "header_positions": [
+      924,
+      925,
+      926
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:53",
+    "condition": "complete_native_assistant",
+    "role_token_position": 925,
+    "role_token_id": 77091,
+    "header_positions": [
+      924,
+      925,
+      926
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:36",
+    "condition": "complete_native_user",
+    "role_token_position": 862,
+    "role_token_id": 872,
+    "header_positions": [
+      861,
+      862,
+      863
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:36",
+    "condition": "complete_native_assistant",
+    "role_token_position": 862,
+    "role_token_id": 77091,
+    "header_positions": [
+      861,
+      862,
+      863
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:106",
+    "condition": "complete_native_user",
+    "role_token_position": 370,
+    "role_token_id": 872,
+    "header_positions": [
+      369,
+      370,
+      371
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:106",
+    "condition": "complete_native_assistant",
+    "role_token_position": 370,
+    "role_token_id": 77091,
+    "header_positions": [
+      369,
+      370,
+      371
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:127",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_positions": [
+      1112,
+      1113,
+      1114
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:127",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_positions": [
+      1112,
+      1113,
+      1114
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:48",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:48",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:8",
+    "condition": "complete_native_user",
+    "role_token_position": 963,
+    "role_token_id": 872,
+    "header_positions": [
+      962,
+      963,
+      964
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:8",
+    "condition": "complete_native_assistant",
+    "role_token_position": 963,
+    "role_token_id": 77091,
+    "header_positions": [
+      962,
+      963,
+      964
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:77",
+    "condition": "complete_native_user",
+    "role_token_position": 367,
+    "role_token_id": 872,
+    "header_positions": [
+      366,
+      367,
+      368
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:77",
+    "condition": "complete_native_assistant",
+    "role_token_position": 367,
+    "role_token_id": 77091,
+    "header_positions": [
+      366,
+      367,
+      368
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:136",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:136",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:26",
+    "condition": "complete_native_user",
+    "role_token_position": 167,
+    "role_token_id": 872,
+    "header_positions": [
+      166,
+      167,
+      168
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:26",
+    "condition": "complete_native_assistant",
+    "role_token_position": 167,
+    "role_token_id": 77091,
+    "header_positions": [
+      166,
+      167,
+      168
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:129",
+    "condition": "complete_native_user",
+    "role_token_position": 793,
+    "role_token_id": 872,
+    "header_positions": [
+      792,
+      793,
+      794
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:129",
+    "condition": "complete_native_assistant",
+    "role_token_position": 793,
+    "role_token_id": 77091,
+    "header_positions": [
+      792,
+      793,
+      794
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:54",
+    "condition": "complete_native_user",
+    "role_token_position": 794,
+    "role_token_id": 872,
+    "header_positions": [
+      793,
+      794,
+      795
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:54",
+    "condition": "complete_native_assistant",
+    "role_token_position": 794,
+    "role_token_id": 77091,
+    "header_positions": [
+      793,
+      794,
+      795
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:27",
+    "condition": "complete_native_user",
+    "role_token_position": 314,
+    "role_token_id": 872,
+    "header_positions": [
+      313,
+      314,
+      315
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:27",
+    "condition": "complete_native_assistant",
+    "role_token_position": 314,
+    "role_token_id": 77091,
+    "header_positions": [
+      313,
+      314,
+      315
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:21",
+    "condition": "complete_native_user",
+    "role_token_position": 315,
+    "role_token_id": 872,
+    "header_positions": [
+      314,
+      315,
+      316
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:21",
+    "condition": "complete_native_assistant",
+    "role_token_position": 315,
+    "role_token_id": 77091,
+    "header_positions": [
+      314,
+      315,
+      316
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:13",
+    "condition": "complete_native_user",
+    "role_token_position": 307,
+    "role_token_id": 872,
+    "header_positions": [
+      306,
+      307,
+      308
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:13",
+    "condition": "complete_native_assistant",
+    "role_token_position": 307,
+    "role_token_id": 77091,
+    "header_positions": [
+      306,
+      307,
+      308
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:37",
+    "condition": "complete_native_user",
+    "role_token_position": 524,
+    "role_token_id": 872,
+    "header_positions": [
+      523,
+      524,
+      525
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:37",
+    "condition": "complete_native_assistant",
+    "role_token_position": 524,
+    "role_token_id": 77091,
+    "header_positions": [
+      523,
+      524,
+      525
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:39",
+    "condition": "complete_native_user",
+    "role_token_position": 542,
+    "role_token_id": 872,
+    "header_positions": [
+      541,
+      542,
+      543
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:39",
+    "condition": "complete_native_assistant",
+    "role_token_position": 542,
+    "role_token_id": 77091,
+    "header_positions": [
+      541,
+      542,
+      543
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:123",
+    "condition": "complete_native_user",
+    "role_token_position": 825,
+    "role_token_id": 872,
+    "header_positions": [
+      824,
+      825,
+      826
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:123",
+    "condition": "complete_native_assistant",
+    "role_token_position": 825,
+    "role_token_id": 77091,
+    "header_positions": [
+      824,
+      825,
+      826
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:81",
+    "condition": "complete_native_user",
+    "role_token_position": 348,
+    "role_token_id": 872,
+    "header_positions": [
+      347,
+      348,
+      349
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:81",
+    "condition": "complete_native_assistant",
+    "role_token_position": 348,
+    "role_token_id": 77091,
+    "header_positions": [
+      347,
+      348,
+      349
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:105",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:105",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:122",
+    "condition": "complete_native_user",
+    "role_token_position": 651,
+    "role_token_id": 872,
+    "header_positions": [
+      650,
+      651,
+      652
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:122",
+    "condition": "complete_native_assistant",
+    "role_token_position": 651,
+    "role_token_id": 77091,
+    "header_positions": [
+      650,
+      651,
+      652
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:20",
+    "condition": "complete_native_user",
+    "role_token_position": 389,
+    "role_token_id": 872,
+    "header_positions": [
+      388,
+      389,
+      390
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "c4:20",
+    "condition": "complete_native_assistant",
+    "role_token_position": 389,
+    "role_token_id": 77091,
+    "header_positions": [
+      388,
+      389,
+      390
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:108",
+    "condition": "complete_native_user",
+    "role_token_position": 403,
+    "role_token_id": 872,
+    "header_positions": [
+      402,
+      403,
+      404
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:108",
+    "condition": "complete_native_assistant",
+    "role_token_position": 403,
+    "role_token_id": 77091,
+    "header_positions": [
+      402,
+      403,
+      404
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:133",
+    "condition": "complete_native_user",
+    "role_token_position": 938,
+    "role_token_id": 872,
+    "header_positions": [
+      937,
+      938,
+      939
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:133",
+    "condition": "complete_native_assistant",
+    "role_token_position": 938,
+    "role_token_id": 77091,
+    "header_positions": [
+      937,
+      938,
+      939
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:75",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:75",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:115",
+    "condition": "complete_native_user",
+    "role_token_position": 928,
+    "role_token_id": 872,
+    "header_positions": [
+      927,
+      928,
+      929
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:115",
+    "condition": "complete_native_assistant",
+    "role_token_position": 928,
+    "role_token_id": 77091,
+    "header_positions": [
+      927,
+      928,
+      929
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:89",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:89",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_positions": [
+      1113,
+      1114,
+      1115
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:140",
+    "condition": "complete_native_user",
+    "role_token_position": 427,
+    "role_token_id": 872,
+    "header_positions": [
+      426,
+      427,
+      428
+    ],
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "passage_id": "dolma3:140",
+    "condition": "complete_native_assistant",
+    "role_token_position": 427,
+    "role_token_id": 77091,
+    "header_positions": [
+      426,
+      427,
+      428
+    ],
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  }
+]

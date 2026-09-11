@@ -1,0 +1,139 @@
+{
+  "primary_n": 40,
+  "baseline": [
+    {
+      "condition": "complete_native_user",
+      "n": 40,
+      "success": 26,
+      "truncated": 0
+    },
+    {
+      "condition": "complete_native_assistant",
+      "n": 40,
+      "success": 4,
+      "truncated": 0
+    }
+  ],
+  "patches": [
+    {
+      "site": "layer_1",
+      "direction": "complete_native_user->complete_native_assistant",
+      "control": "natural_replacement",
+      "n": 40,
+      "success": 27,
+      "truncated": 0
+    },
+    {
+      "site": "layer_1",
+      "direction": "complete_native_user->complete_native_assistant",
+      "control": "norm_matched_random",
+      "n": 40,
+      "success": 4,
+      "truncated": 0
+    },
+    {
+      "site": "layer_1",
+      "direction": "complete_native_assistant->complete_native_user",
+      "control": "natural_replacement",
+      "n": 40,
+      "success": 5,
+      "truncated": 0
+    },
+    {
+      "site": "layer_1",
+      "direction": "complete_native_assistant->complete_native_user",
+      "control": "norm_matched_random",
+      "n": 40,
+      "success": 21,
+      "truncated": 0
+    },
+    {
+      "site": "layer_4",
+      "direction": "complete_native_user->complete_native_assistant",
+      "control": "natural_replacement",
+      "n": 40,
+      "success": 21,
+      "truncated": 0
+    },
+    {
+      "site": "layer_4",
+      "direction": "complete_native_user->complete_native_assistant",
+      "control": "norm_matched_random",
+      "n": 40,
+      "success": 3,
+      "truncated": 0
+    },
+    {
+      "site": "layer_4",
+      "direction": "complete_native_assistant->complete_native_user",
+      "control": "natural_replacement",
+      "n": 40,
+      "success": 7,
+      "truncated": 1
+    },
+    {
+      "site": "layer_4",
+      "direction": "complete_native_assistant->complete_native_user",
+      "control": "norm_matched_random",
+      "n": 40,
+      "success": 23,
+      "truncated": 0
+    }
+  ],
+  "self_patches": [
+    {
+      "site": "layer_1",
+      "condition": "complete_native_user",
+      "n": 8,
+      "success": 6,
+      "truncated": 0
+    },
+    {
+      "site": "layer_1",
+      "condition": "complete_native_assistant",
+      "n": 8,
+      "success": 2,
+      "truncated": 0
+    },
+    {
+      "site": "layer_4",
+      "condition": "complete_native_user",
+      "n": 8,
+      "success": 6,
+      "truncated": 0
+    },
+    {
+      "site": "layer_4",
+      "condition": "complete_native_assistant",
+      "n": 8,
+      "success": 2,
+      "truncated": 0
+    }
+  ],
+  "secondary_differing_baseline_pair_ids": [
+    "dolma3:114",
+    "dolma3:141",
+    "dolma3:61",
+    "c4:9",
+    "dolma3:98",
+    "c4:29",
+    "dolma3:53",
+    "c4:36",
+    "dolma3:106",
+    "dolma3:127",
+    "dolma3:48",
+    "dolma3:77",
+    "dolma3:136",
+    "c4:26",
+    "dolma3:54",
+    "c4:27",
+    "c4:13",
+    "dolma3:37",
+    "dolma3:39",
+    "dolma3:105",
+    "dolma3:133",
+    "dolma3:75",
+    "dolma3:89",
+    "dolma3:140"
+  ]
+}

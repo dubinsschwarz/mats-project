@@ -1,0 +1,178 @@
+{
+  "behavior": [
+    {
+      "condition": "depth1_user",
+      "n": 12,
+      "compliance": 8,
+      "reasoning_closed": 12,
+      "truncated_or_unclosed": 0,
+      "sequence_length_min": 249,
+      "sequence_length_max": 1148
+    },
+    {
+      "condition": "depth2_user_user",
+      "n": 12,
+      "compliance": 12,
+      "reasoning_closed": 12,
+      "truncated_or_unclosed": 0,
+      "sequence_length_min": 254,
+      "sequence_length_max": 1153
+    },
+    {
+      "condition": "depth3_user_user_user",
+      "n": 12,
+      "compliance": 12,
+      "reasoning_closed": 12,
+      "truncated_or_unclosed": 0,
+      "sequence_length_min": 259,
+      "sequence_length_max": 1158
+    },
+    {
+      "condition": "depth4_user_user_user_user",
+      "n": 12,
+      "compliance": 12,
+      "reasoning_closed": 12,
+      "truncated_or_unclosed": 0,
+      "sequence_length_min": 264,
+      "sequence_length_max": 1163
+    },
+    {
+      "condition": "depth2_user_assistant",
+      "n": 12,
+      "compliance": 3,
+      "reasoning_closed": 12,
+      "truncated_or_unclosed": 0,
+      "sequence_length_min": 254,
+      "sequence_length_max": 1153
+    },
+    {
+      "condition": "depth2_assistant_user",
+      "n": 12,
+      "compliance": 12,
+      "reasoning_closed": 12,
+      "truncated_or_unclosed": 0,
+      "sequence_length_min": 254,
+      "sequence_length_max": 1153
+    },
+    {
+      "condition": "depth2_assistant_assistant",
+      "n": 12,
+      "compliance": 2,
+      "reasoning_closed": 12,
+      "truncated_or_unclosed": 0,
+      "sequence_length_min": 254,
+      "sequence_length_max": 1153
+    },
+    {
+      "condition": "depth2_ordinary_outer_user_native_inner_user",
+      "n": 12,
+      "compliance": 9,
+      "reasoning_closed": 12,
+      "truncated_or_unclosed": 0,
+      "sequence_length_min": 258,
+      "sequence_length_max": 1157
+    }
+  ],
+  "depth_analysis": [
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "n": 12,
+      "monotonic_nondecreasing_count": 12,
+      "strictly_increasing_count": 0,
+      "spearman_defined_n": 0,
+      "spearman_undefined_n": 12,
+      "spearman_undefined_reasons": {
+        "zero_centroid_direction_norm_and_constant_projections": 12
+      },
+      "mean_spearman_rho_defined_only": null
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "n": 12,
+      "monotonic_nondecreasing_count": 12,
+      "strictly_increasing_count": 12,
+      "spearman_defined_n": 12,
+      "spearman_undefined_n": 0,
+      "spearman_undefined_reasons": {},
+      "mean_spearman_rho_defined_only": 1.0
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "n": 12,
+      "monotonic_nondecreasing_count": 12,
+      "strictly_increasing_count": 12,
+      "spearman_defined_n": 12,
+      "spearman_undefined_n": 0,
+      "spearman_undefined_reasons": {},
+      "mean_spearman_rho_defined_only": 1.0
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "n": 12,
+      "monotonic_nondecreasing_count": 12,
+      "strictly_increasing_count": 12,
+      "spearman_defined_n": 12,
+      "spearman_undefined_n": 0,
+      "spearman_undefined_reasons": {},
+      "mean_spearman_rho_defined_only": 1.0
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "n": 12,
+      "monotonic_nondecreasing_count": 12,
+      "strictly_increasing_count": 0,
+      "spearman_defined_n": 0,
+      "spearman_undefined_n": 12,
+      "spearman_undefined_reasons": {
+        "zero_centroid_direction_norm_and_constant_projections": 12
+      },
+      "mean_spearman_rho_defined_only": null
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "n": 12,
+      "monotonic_nondecreasing_count": 10,
+      "strictly_increasing_count": 10,
+      "spearman_defined_n": 12,
+      "spearman_undefined_n": 0,
+      "spearman_undefined_reasons": {},
+      "mean_spearman_rho_defined_only": 0.9666666666666667
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "n": 12,
+      "monotonic_nondecreasing_count": 12,
+      "strictly_increasing_count": 12,
+      "spearman_defined_n": 12,
+      "spearman_undefined_n": 0,
+      "spearman_undefined_reasons": {},
+      "mean_spearman_rho_defined_only": 1.0
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "n": 12,
+      "monotonic_nondecreasing_count": 12,
+      "strictly_increasing_count": 12,
+      "spearman_defined_n": 12,
+      "spearman_undefined_n": 0,
+      "spearman_undefined_reasons": {},
+      "mean_spearman_rho_defined_only": 1.0
+    }
+  ],
+  "interpretation_status": "not interpreted in launch session",
+  "confounds": [
+    "token count and sequence length",
+    "absolute token position",
+    "repeated special-token exposure",
+    "malformed/out-of-distribution recursive syntax",
+    "distance from outer tool boundary"
+  ]
+}

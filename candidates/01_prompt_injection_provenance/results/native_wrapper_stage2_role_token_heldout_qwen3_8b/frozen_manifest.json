@@ -1,0 +1,22 @@
+{
+  "config.json": {
+    "sha256": "bfdb85428757cd6e97f99c769816524d01fcc677b70081a4626ba831245ccb6f",
+    "bytes": 1737
+  },
+  "frozen_prompts.jsonl": {
+    "sha256": "e230a038c1a71c1684e1ce082f8d7952000745525edd92aff7833e94438de5a5",
+    "bytes": 1326098
+  },
+  "role_position_audit.json": {
+    "sha256": "f31ca293dd9d94b634d1f7d6182a55a240ac5ea5a6da181e8daf1f82c66c2861",
+    "bytes": 26023
+  },
+  "selection_manifest.jsonl": {
+    "sha256": "400958c0c9ae3e922dd28362b9ecddcaa9af503c6682f3484b838ee114ec8182",
+    "bytes": 69897
+  },
+  "runner_code": {
+    "path": "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/confirm_stage2_role_token_heldout_qwen3_8b.py",
+    "sha256": "f8fd81a80ec987e7e53ae542932789c5d707fa9a98961cf6616f7f404da3df5e"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "failures": [],
+  "selected_n": 20,
+  "source_counts": {
+    "dolma3": 15,
+    "c4": 5
+  },
+  "prompt_n": 80,
+  "role_audit_n": 80,
+  "completed_patch_runner_sha256": "500f6915522fe1fe87d4b79c0dab594e0b2703c8401ada7dcac64410fcbcfe7c",
+  "runner_sha256": "f8fd81a80ec987e7e53ae542932789c5d707fa9a98961cf6616f7f404da3df5e",
+  "pinned_snapshot": "/workspace/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218"
+}

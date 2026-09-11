@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "model_config_commit_hash": "b968826d9c46dd6066d109eabc6255188de91218",
+  "gpu": "NVIDIA RTX PRO 4500 Blackwell",
+  "num_hidden_layers": 36
+}

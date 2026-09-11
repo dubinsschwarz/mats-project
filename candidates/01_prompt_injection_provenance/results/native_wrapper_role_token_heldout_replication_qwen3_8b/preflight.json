@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "failures": [],
+  "selected_n": 40,
+  "source_counts": {
+    "dolma3": 30,
+    "c4": 10
+  },
+  "prompt_n": 80,
+  "self_patch_n": 8,
+  "role_audit_n": 80,
+  "token_ids": {
+    "user": 872,
+    "assistant": 77091
+  },
+  "implementation": {
+    "development_sha256": "4f4f7a894e853e586960e5a80a7b039b35cfb617df063b8c04ece3d4cb819073",
+    "runner_sha256": "500f6915522fe1fe87d4b79c0dab594e0b2703c8401ada7dcac64410fcbcfe7c",
+    "random_helper_imported_from_development": true
+  }
+}

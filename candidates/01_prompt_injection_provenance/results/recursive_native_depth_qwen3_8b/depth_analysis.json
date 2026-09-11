@@ -1,0 +1,1637 @@
+{
+  "method": "prespecified leave-one-passage-out depth4-depth1 centroid",
+  "per_passage": [
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "c4:10",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "c4:29",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "c4:9",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:114",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:134",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:141",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:149",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:44",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:45",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:61",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:62",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:98",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "c4:10",
+      "centroid_direction_norm": 2.118351936340332,
+      "projections": {
+        "1": 5.354487419128418,
+        "2": 6.698179244995117,
+        "3": 7.185086727142334,
+        "4": 7.36612606048584
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "c4:29",
+      "centroid_direction_norm": 2.1141397953033447,
+      "projections": {
+        "1": 5.3214850425720215,
+        "2": 6.8243937492370605,
+        "3": 7.157310485839844,
+        "4": 7.38170051574707
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "c4:9",
+      "centroid_direction_norm": 2.1049270629882812,
+      "projections": {
+        "1": 5.617570877075195,
+        "2": 7.286360263824463,
+        "3": 7.532794952392578,
+        "4": 7.778112888336182
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:114",
+      "centroid_direction_norm": 2.1123647689819336,
+      "projections": {
+        "1": 5.525837421417236,
+        "2": 7.127488136291504,
+        "3": 7.3354597091674805,
+        "4": 7.602935314178467
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:134",
+      "centroid_direction_norm": 2.1315507888793945,
+      "projections": {
+        "1": 5.273171901702881,
+        "2": 6.651520729064941,
+        "3": 6.978839874267578,
+        "4": 7.1409406661987305
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:141",
+      "centroid_direction_norm": 2.105024814605713,
+      "projections": {
+        "1": 5.4730024337768555,
+        "2": 7.012552261352539,
+        "3": 7.508524417877197,
+        "4": 7.628186225891113
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:149",
+      "centroid_direction_norm": 2.1129074096679688,
+      "projections": {
+        "1": 5.255916118621826,
+        "2": 6.795173645019531,
+        "3": 7.175321578979492,
+        "4": 7.326465606689453
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:44",
+      "centroid_direction_norm": 2.0969278812408447,
+      "projections": {
+        "1": 5.8626298904418945,
+        "2": 7.525537967681885,
+        "3": 7.884293556213379,
+        "4": 8.104045867919922
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:45",
+      "centroid_direction_norm": 2.0955405235290527,
+      "projections": {
+        "1": 5.826387405395508,
+        "2": 7.674692630767822,
+        "3": 7.9637861251831055,
+        "4": 8.084625244140625
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:61",
+      "centroid_direction_norm": 2.1173272132873535,
+      "projections": {
+        "1": 5.433314323425293,
+        "2": 6.903868675231934,
+        "3": 7.241873741149902,
+        "4": 7.456820487976074
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:62",
+      "centroid_direction_norm": 2.105449914932251,
+      "projections": {
+        "1": 5.5432024002075195,
+        "2": 7.035958290100098,
+        "3": 7.496532440185547,
+        "4": 7.697151184082031
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:98",
+      "centroid_direction_norm": 2.1113996505737305,
+      "projections": {
+        "1": 5.157599449157715,
+        "2": 6.690321922302246,
+        "3": 7.033748626708984,
+        "4": 7.245795249938965
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "c4:10",
+      "centroid_direction_norm": 8.232179641723633,
+      "projections": {
+        "1": -1.5550718307495117,
+        "2": 3.3966352939605713,
+        "3": 5.376887798309326,
+        "4": 6.16658878326416
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "c4:29",
+      "centroid_direction_norm": 8.174361228942871,
+      "projections": {
+        "1": -2.0674939155578613,
+        "2": 3.452033758163452,
+        "3": 5.342394828796387,
+        "4": 6.302624225616455
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "c4:9",
+      "centroid_direction_norm": 8.25346851348877,
+      "projections": {
+        "1": -1.654726505279541,
+        "2": 3.49831485748291,
+        "3": 5.352200508117676,
+        "4": 5.848271369934082
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:114",
+      "centroid_direction_norm": 8.202333450317383,
+      "projections": {
+        "1": -1.9607099294662476,
+        "2": 4.236818313598633,
+        "3": 5.582490921020508,
+        "4": 6.106715202331543
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:134",
+      "centroid_direction_norm": 8.166574478149414,
+      "projections": {
+        "1": -2.19337797164917,
+        "2": 3.885721206665039,
+        "3": 5.336173057556152,
+        "4": 6.251979827880859
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:141",
+      "centroid_direction_norm": 8.171575546264648,
+      "projections": {
+        "1": -2.128164529800415,
+        "2": 4.0075178146362305,
+        "3": 5.946745872497559,
+        "4": 6.261285781860352
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:149",
+      "centroid_direction_norm": 8.178528785705566,
+      "projections": {
+        "1": -2.1589274406433105,
+        "2": 3.8315000534057617,
+        "3": 5.464847087860107,
+        "4": 6.169191360473633
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:44",
+      "centroid_direction_norm": 8.231684684753418,
+      "projections": {
+        "1": -1.6252597570419312,
+        "2": 3.8774514198303223,
+        "3": 5.356484413146973,
+        "4": 6.096779823303223
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:45",
+      "centroid_direction_norm": 8.270729064941406,
+      "projections": {
+        "1": -1.0768343210220337,
+        "2": 4.283072471618652,
+        "3": 5.564316749572754,
+        "4": 6.209541320800781
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:61",
+      "centroid_direction_norm": 8.180567741394043,
+      "projections": {
+        "1": -1.8289499282836914,
+        "2": 3.9094905853271484,
+        "3": 5.638637542724609,
+        "4": 6.460436820983887
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:62",
+      "centroid_direction_norm": 8.192030906677246,
+      "projections": {
+        "1": -2.3148813247680664,
+        "2": 3.615772247314453,
+        "3": 5.261516571044922,
+        "4": 5.877366065979004
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:98",
+      "centroid_direction_norm": 8.142334938049316,
+      "projections": {
+        "1": -2.617600202560425,
+        "2": 3.220101833343506,
+        "3": 5.2167181968688965,
+        "4": 6.052762508392334
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "c4:10",
+      "centroid_direction_norm": 19.515026092529297,
+      "projections": {
+        "1": -15.232205390930176,
+        "2": -1.5568636655807495,
+        "3": 1.8301382064819336,
+        "4": 3.6487550735473633
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "c4:29",
+      "centroid_direction_norm": 19.471923828125,
+      "projections": {
+        "1": -15.502254486083984,
+        "2": -0.8701841235160828,
+        "3": 2.5857858657836914,
+        "4": 3.871335506439209
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "c4:9",
+      "centroid_direction_norm": 19.529499053955078,
+      "projections": {
+        "1": -15.060832023620605,
+        "2": -0.7806293368339539,
+        "3": 2.639399528503418,
+        "4": 3.690579414367676
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:114",
+      "centroid_direction_norm": 19.52978515625,
+      "projections": {
+        "1": -15.008306503295898,
+        "2": 0.0664135217666626,
+        "3": 2.8636109828948975,
+        "4": 3.7508859634399414
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:134",
+      "centroid_direction_norm": 19.45754623413086,
+      "projections": {
+        "1": -16.04812240600586,
+        "2": -0.9640427827835083,
+        "3": 2.308499574661255,
+        "4": 3.479921817779541
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:141",
+      "centroid_direction_norm": 19.42982292175293,
+      "projections": {
+        "1": -15.858753204345703,
+        "2": -0.43733811378479004,
+        "3": 3.1746504306793213,
+        "4": 3.968945026397705
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:149",
+      "centroid_direction_norm": 19.412397384643555,
+      "projections": {
+        "1": -16.059810638427734,
+        "2": -0.27032768726348877,
+        "3": 2.7265737056732178,
+        "4": 3.9905943870544434
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:44",
+      "centroid_direction_norm": 19.459735870361328,
+      "projections": {
+        "1": -14.742238998413086,
+        "2": 0.056865572929382324,
+        "3": 3.374403476715088,
+        "4": 4.76234769821167
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:45",
+      "centroid_direction_norm": 19.60879898071289,
+      "projections": {
+        "1": -13.904622077941895,
+        "2": -0.44057226181030273,
+        "3": 2.7418363094329834,
+        "4": 3.9388153553009033
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:61",
+      "centroid_direction_norm": 19.397354125976562,
+      "projections": {
+        "1": -15.57896614074707,
+        "2": -0.2082434892654419,
+        "3": 2.895399332046509,
+        "4": 4.614629745483398
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:62",
+      "centroid_direction_norm": 19.455286026000977,
+      "projections": {
+        "1": -16.176103591918945,
+        "2": -1.0684853792190552,
+        "3": 2.2198357582092285,
+        "4": 3.4071779251098633
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "innermost_role",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:98",
+      "centroid_direction_norm": 19.495481491088867,
+      "projections": {
+        "1": -15.356525421142578,
+        "2": -1.6091923713684082,
+        "3": 2.4256489276885986,
+        "4": 3.689967393875122
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "c4:10",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "c4:29",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "c4:9",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:114",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:134",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:141",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:149",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:44",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:45",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:61",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:62",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 0,
+      "held_out_passage_id": "dolma3:98",
+      "centroid_direction_norm": 0.0,
+      "projections": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": false,
+      "spearman_rho": null,
+      "spearman_undefined_reason": "zero_centroid_direction_norm_and_constant_projections",
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "c4:10",
+      "centroid_direction_norm": 1.180742859840393,
+      "projections": {
+        "1": 1.131071925163269,
+        "2": 1.9159523248672485,
+        "3": 2.1232008934020996,
+        "4": 2.663048267364502
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "c4:29",
+      "centroid_direction_norm": 1.2139509916305542,
+      "projections": {
+        "1": 1.295363187789917,
+        "2": 1.8004646301269531,
+        "3": 2.4638173580169678,
+        "4": 2.4698333740234375
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "c4:9",
+      "centroid_direction_norm": 1.2010376453399658,
+      "projections": {
+        "1": 1.8892631530761719,
+        "2": 2.3666110038757324,
+        "3": 2.7137136459350586,
+        "4": 3.1897196769714355
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:114",
+      "centroid_direction_norm": 1.1793692111968994,
+      "projections": {
+        "1": 1.9599521160125732,
+        "2": 2.562208414077759,
+        "3": 3.2776331901550293,
+        "4": 3.5091981887817383
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:134",
+      "centroid_direction_norm": 1.2335057258605957,
+      "projections": {
+        "1": 1.4585047960281372,
+        "2": 1.9916547536849976,
+        "3": 2.5297062397003174,
+        "4": 2.41896915435791
+      },
+      "monotonic_nondecreasing": false,
+      "strictly_increasing": false,
+      "spearman_rho": 0.8,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:141",
+      "centroid_direction_norm": 1.210942029953003,
+      "projections": {
+        "1": 1.8616738319396973,
+        "2": 2.5065932273864746,
+        "3": 2.9493279457092285,
+        "4": 3.0674941539764404
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:149",
+      "centroid_direction_norm": 1.2124148607254028,
+      "projections": {
+        "1": 1.4877803325653076,
+        "2": 2.031367063522339,
+        "3": 2.3700623512268066,
+        "4": 2.679243564605713
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:44",
+      "centroid_direction_norm": 1.2152130603790283,
+      "projections": {
+        "1": 2.03265380859375,
+        "2": 2.6596410274505615,
+        "3": 2.6719160079956055,
+        "4": 3.192004919052124
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:45",
+      "centroid_direction_norm": 1.2207473516464233,
+      "projections": {
+        "1": 2.2150583267211914,
+        "2": 2.845259428024292,
+        "3": 3.230602264404297,
+        "4": 3.3143560886383057
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:61",
+      "centroid_direction_norm": 1.2378756999969482,
+      "projections": {
+        "1": 1.5609564781188965,
+        "2": 2.024393320083618,
+        "3": 2.5631189346313477,
+        "4": 2.4690213203430176
+      },
+      "monotonic_nondecreasing": false,
+      "strictly_increasing": false,
+      "spearman_rho": 0.8,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:62",
+      "centroid_direction_norm": 1.2089598178863525,
+      "projections": {
+        "1": 1.7107601165771484,
+        "2": 2.335474729537964,
+        "3": 2.5420634746551514,
+        "4": 2.9401512145996094
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 1,
+      "held_out_passage_id": "dolma3:98",
+      "centroid_direction_norm": 1.2256438732147217,
+      "projections": {
+        "1": 1.533416748046875,
+        "2": 2.0612809658050537,
+        "3": 2.4000442028045654,
+        "4": 2.5736794471740723
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "c4:10",
+      "centroid_direction_norm": 3.880546808242798,
+      "projections": {
+        "1": -0.4853368401527405,
+        "2": 2.003495216369629,
+        "3": 2.4138026237487793,
+        "4": 3.244478702545166
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "c4:29",
+      "centroid_direction_norm": 3.8507843017578125,
+      "projections": {
+        "1": -1.053685188293457,
+        "2": 1.5097380876541138,
+        "3": 2.6729583740234375,
+        "4": 3.022409439086914
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "c4:9",
+      "centroid_direction_norm": 3.8327527046203613,
+      "projections": {
+        "1": -0.6973912715911865,
+        "2": 1.8291789293289185,
+        "3": 2.7969183921813965,
+        "4": 3.57532000541687
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:114",
+      "centroid_direction_norm": 3.8340210914611816,
+      "projections": {
+        "1": -0.4613867998123169,
+        "2": 2.18691349029541,
+        "3": 3.3324782848358154,
+        "4": 3.7919912338256836
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:134",
+      "centroid_direction_norm": 3.899627447128296,
+      "projections": {
+        "1": -0.6014899611473083,
+        "2": 1.6301319599151611,
+        "3": 2.603391170501709,
+        "4": 2.9258174896240234
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:141",
+      "centroid_direction_norm": 3.8794867992401123,
+      "projections": {
+        "1": 0.08113288879394531,
+        "2": 2.44755220413208,
+        "3": 3.359105110168457,
+        "4": 3.8295624256134033
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:149",
+      "centroid_direction_norm": 3.870572805404663,
+      "projections": {
+        "1": -0.43460506200790405,
+        "2": 1.839542031288147,
+        "3": 2.7597568035125732,
+        "4": 3.4214272499084473
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:44",
+      "centroid_direction_norm": 3.8517518043518066,
+      "projections": {
+        "1": -1.3838999271392822,
+        "2": 1.3606879711151123,
+        "3": 1.8417149782180786,
+        "4": 2.6377930641174316
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:45",
+      "centroid_direction_norm": 3.931260108947754,
+      "projections": {
+        "1": 0.6532065272331238,
+        "2": 2.703807830810547,
+        "3": 3.3945391178131104,
+        "4": 3.8429360389709473
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:61",
+      "centroid_direction_norm": 3.9268908500671387,
+      "projections": {
+        "1": 0.3341449201107025,
+        "2": 2.3750529289245605,
+        "3": 3.2233893871307373,
+        "4": 3.5757508277893066
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:62",
+      "centroid_direction_norm": 3.8788812160491943,
+      "projections": {
+        "1": -0.3109549880027771,
+        "2": 2.1015946865081787,
+        "3": 2.8458962440490723,
+        "4": 3.461862325668335
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 4,
+      "held_out_passage_id": "dolma3:98",
+      "centroid_direction_norm": 3.856107234954834,
+      "projections": {
+        "1": -1.0513933897018433,
+        "2": 1.5608620643615723,
+        "3": 2.479729652404785,
+        "4": 2.953350067138672
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "c4:10",
+      "centroid_direction_norm": 7.07237434387207,
+      "projections": {
+        "1": -2.9867067337036133,
+        "2": 1.7486470937728882,
+        "3": 2.7828001976013184,
+        "4": 3.5339572429656982
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "c4:29",
+      "centroid_direction_norm": 6.959170818328857,
+      "projections": {
+        "1": -4.386707305908203,
+        "2": 0.8317881226539612,
+        "3": 2.6053361892700195,
+        "4": 3.4243061542510986
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "c4:9",
+      "centroid_direction_norm": 7.026530742645264,
+      "projections": {
+        "1": -3.492258310317993,
+        "2": 0.8731881380081177,
+        "3": 2.631561756134033,
+        "4": 3.591885566711426
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:114",
+      "centroid_direction_norm": 7.082817554473877,
+      "projections": {
+        "1": -2.853736162185669,
+        "2": 1.638629674911499,
+        "3": 2.986985206604004,
+        "4": 3.5938212871551514
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:134",
+      "centroid_direction_norm": 7.031232833862305,
+      "projections": {
+        "1": -3.251418113708496,
+        "2": 1.6512136459350586,
+        "3": 3.0097761154174805,
+        "4": 3.745450019836426
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:141",
+      "centroid_direction_norm": 7.055245399475098,
+      "projections": {
+        "1": -2.4808669090270996,
+        "2": 1.9386333227157593,
+        "3": 3.491804599761963,
+        "4": 4.253448486328125
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:149",
+      "centroid_direction_norm": 7.042618751525879,
+      "projections": {
+        "1": -2.764671802520752,
+        "2": 1.6635915040969849,
+        "3": 3.203996181488037,
+        "4": 4.157641410827637
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:44",
+      "centroid_direction_norm": 7.0176520347595215,
+      "projections": {
+        "1": -4.17368221282959,
+        "2": 0.4980297088623047,
+        "3": 1.8902236223220825,
+        "4": 2.9463748931884766
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:45",
+      "centroid_direction_norm": 7.120541095733643,
+      "projections": {
+        "1": -2.59975528717041,
+        "2": 1.5872039794921875,
+        "3": 2.5730063915252686,
+        "4": 3.440484046936035
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:61",
+      "centroid_direction_norm": 7.14823579788208,
+      "projections": {
+        "1": -1.262144684791565,
+        "2": 2.548896312713623,
+        "3": 3.6757607460021973,
+        "4": 4.4826273918151855
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:62",
+      "centroid_direction_norm": 7.004017353057861,
+      "projections": {
+        "1": -3.8306546211242676,
+        "2": 1.1849112510681152,
+        "3": 2.5105583667755127,
+        "4": 3.4957189559936523
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    },
+    {
+      "site": "first_task_token",
+      "layer": 8,
+      "held_out_passage_id": "dolma3:98",
+      "centroid_direction_norm": 6.948033809661865,
+      "projections": {
+        "1": -4.247443675994873,
+        "2": 1.2136876583099365,
+        "3": 2.781329393386841,
+        "4": 3.649470329284668
+      },
+      "monotonic_nondecreasing": true,
+      "strictly_increasing": true,
+      "spearman_rho": 1.0,
+      "spearman_undefined_reason": null,
+      "training_passage_n": 11
+    }
+  ]
+}

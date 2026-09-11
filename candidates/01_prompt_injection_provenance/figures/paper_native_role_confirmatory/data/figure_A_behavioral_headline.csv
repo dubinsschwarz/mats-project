@@ -1,0 +1,13 @@
+panel,condition,condition_label,n,success,rate
+Marker task,complete_native_user,Native user,80,57,0.7125
+Marker task,complete_native_assistant,Native assistant,80,7,0.0875
+Marker task,native_user_no_close,"User, no close",80,38,0.475
+Marker task,ordinary_text_lookalike,Text lookalike,80,7,0.0875
+Arithmetic,complete_native_user,Native user,40,31,0.775
+Arithmetic,complete_native_assistant,Native assistant,40,0,0.0
+Arithmetic,native_user_no_close,"User, no close",40,17,0.425
+Arithmetic,ordinary_text_lookalike,Text lookalike,40,3,0.075
+String transformation,complete_native_user,Native user,40,33,0.825
+String transformation,complete_native_assistant,Native assistant,40,0,0.0
+String transformation,native_user_no_close,"User, no close",40,20,0.5
+String transformation,ordinary_text_lookalike,Text lookalike,40,3,0.075

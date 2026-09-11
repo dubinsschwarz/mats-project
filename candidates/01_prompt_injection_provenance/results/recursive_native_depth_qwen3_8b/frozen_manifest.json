@@ -1,0 +1,18 @@
+{
+  "config.json": {
+    "sha256": "8796dbcd1a0752394580d3b11d8e7a5b7e6fa6f96536afa27b56ee3943f51a52",
+    "bytes": 1934
+  },
+  "frozen_prompts.jsonl": {
+    "sha256": "3104eefdf0fe44762f2cb97abb6ea74a77755f95d46336cdb7baa4157d6f102e",
+    "bytes": 1533276
+  },
+  "selection_manifest.jsonl": {
+    "sha256": "ea0ec2b6aee5d3ea84c61a36d0c84cfb8115e4ab03afeaa9f970958e45ae38a8",
+    "bytes": 39093
+  },
+  "runner_code": {
+    "path": "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/explore_recursive_native_depth_qwen3_8b.py",
+    "sha256": "10f1a7773c82e6c00ba1bceba4998d562f26ce50c8a19b6840cb544bffb7071f"
+  }
+}

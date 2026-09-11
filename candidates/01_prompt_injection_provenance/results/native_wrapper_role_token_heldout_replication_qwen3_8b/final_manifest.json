@@ -1,0 +1,58 @@
+{
+  "baselines.jsonl": {
+    "sha256": "aacc6e53037337fc328d6ff96dfedd29a52560ee02cd92ddf053eecef07b2661",
+    "bytes": 166238
+  },
+  "config.json": {
+    "sha256": "10a4836cb6bd900c1f129bafd0dc23a5623cc8f0c3b2d3276dfe3e7e4eef43d1",
+    "bytes": 2101
+  },
+  "frozen_manifest.json": {
+    "sha256": "654a8cbae3078a357927e6982f16dccf85f9faa53d1df0cf4b59285c2a50b50e",
+    "bytes": 792
+  },
+  "frozen_prompts.jsonl": {
+    "sha256": "b3e1929c28d7b4d81654505471e5936ca16860225f5f55c79321c37c887ad048",
+    "bytes": 1160554
+  },
+  "patches.jsonl": {
+    "sha256": "dc35643c1562ec4f61bec18b9baa44cfa63efc94cdbf93a39bf22b6ac82c7bc6",
+    "bytes": 793446
+  },
+  "per_example.csv": {
+    "sha256": "37909f23f95c25d120322bcabff86fb3bf73b06464d64656600e18810fe1eeae",
+    "bytes": 196136
+  },
+  "preflight.json": {
+    "sha256": "3e11a84e709d4e81bc35509e15b6e4c947c65466dffb2452168205d11dc993c9",
+    "bytes": 501
+  },
+  "role_position_audit.json": {
+    "sha256": "31764d6e49cdb85e3123bc9c4c346313e69519ec0462aa3eec17f15b4b2bba54",
+    "bytes": 22077
+  },
+  "run.log": {
+    "sha256": "7e13b294f380d4144c5826bdc5afc17cbb541b5b2cb07e9ad184b01a2664a004",
+    "bytes": 39836
+  },
+  "run_command.txt": {
+    "sha256": "672d0d243c1f4fca8e260718df272eb69e13a77d9908eb0a904969c337b2689e",
+    "bytes": 175
+  },
+  "runtime_preflight.json": {
+    "sha256": "81c8ca9aaf2c5fa9c84a4fca68dc3f24614eecd5e04595f87b1f0a1b90a2fa55",
+    "bytes": 277
+  },
+  "selection_manifest.jsonl": {
+    "sha256": "8c67469175fcabd2a2dc273b2da3902c40850be4b0b0ff334bd1b5cc7fbf0ad7",
+    "bytes": 119630
+  },
+  "self_patches.jsonl": {
+    "sha256": "7c774dca69f3869b8be8a956319a191acc32de1f4d03c34fe4eb2717966f98c8",
+    "bytes": 66450
+  },
+  "summary.json": {
+    "sha256": "443e2bfd68bf766513b747e12d8c2655da5f7da13732867ee5974cb26d560f22",
+    "bytes": 2945
+  }
+}

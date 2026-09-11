@@ -1,0 +1,10 @@
+{
+  "behavior": {
+    "path": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_wrapper_heldout_validation_qwen3_8b/summary.json",
+    "sha256": "bb7598599fb497cd3c5335d818365560cc1e687eb8c38dc914f049c17cd121fb"
+  },
+  "patching": {
+    "path": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_wrapper_role_token_heldout_replication_qwen3_8b/summary.json",
+    "sha256": "443e2bfd68bf766513b747e12d8c2655da5f7da13732867ee5974cb26d560f22"
+  }
+}

@@ -1,0 +1,11 @@
+direction,direction_label,layer,intervention,intervention_label,n,success,rate,truncated
+complete_native_user->complete_native_assistant,User state → assistant prompt,baseline,baseline_recipient,Recipient baseline,40,4,0.1,0
+complete_native_user->complete_native_assistant,User state → assistant prompt,layer_1,natural_replacement,Opposite-role state,40,27,0.675,0
+complete_native_user->complete_native_assistant,User state → assistant prompt,layer_1,norm_matched_random,Norm-matched random,40,4,0.1,0
+complete_native_user->complete_native_assistant,User state → assistant prompt,layer_4,natural_replacement,Opposite-role state,40,21,0.525,0
+complete_native_user->complete_native_assistant,User state → assistant prompt,layer_4,norm_matched_random,Norm-matched random,40,3,0.075,0
+complete_native_assistant->complete_native_user,Assistant state → user prompt,baseline,baseline_recipient,Recipient baseline,40,26,0.65,0
+complete_native_assistant->complete_native_user,Assistant state → user prompt,layer_1,natural_replacement,Opposite-role state,40,5,0.125,0
+complete_native_assistant->complete_native_user,Assistant state → user prompt,layer_1,norm_matched_random,Norm-matched random,40,21,0.525,0
+complete_native_assistant->complete_native_user,Assistant state → user prompt,layer_4,natural_replacement,Opposite-role state,40,7,0.175,1
+complete_native_assistant->complete_native_user,Assistant state → user prompt,layer_4,norm_matched_random,Norm-matched random,40,23,0.575,0

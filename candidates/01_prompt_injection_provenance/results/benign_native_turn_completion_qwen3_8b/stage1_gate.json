@@ -1,0 +1,22 @@
+{
+  "passed": false,
+  "decision": "Stop after Stage 1; do not run Stage 2.",
+  "complete_native_user_answer_count": 3,
+  "required_complete_native_user_answer_count": 4,
+  "margins_over_negative_controls": {
+    "complete_native_assistant": 2,
+    "native_user_no_close": 2,
+    "ordinary_text_lookalike": 3
+  },
+  "required_margin_over_each_negative_control": 3,
+  "failed_criteria": [
+    "Complete native-user answered only 3/6, below the preregistered 4/6 minimum.",
+    "Its margins over complete native-assistant and native-user-without-close were 2/6, below the preregistered 3/6 margin."
+  ],
+  "positive_control": {
+    "condition": "genuine_top_level_user",
+    "embedded_question_answer_count": 6,
+    "n_documents": 6
+  },
+  "stage2_run": false
+}

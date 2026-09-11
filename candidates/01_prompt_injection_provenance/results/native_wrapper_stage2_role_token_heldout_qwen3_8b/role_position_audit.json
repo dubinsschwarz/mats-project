@@ -1,0 +1,1042 @@
+[
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:141:complete_native_user",
+    "passage_id": "dolma3:141",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1054,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:141:complete_native_assistant",
+    "passage_id": "dolma3:141",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1054,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:141:complete_native_user",
+    "passage_id": "dolma3:141",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1054,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:141:complete_native_assistant",
+    "passage_id": "dolma3:141",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1054,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:44:complete_native_user",
+    "passage_id": "dolma3:44",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 340,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:44:complete_native_assistant",
+    "passage_id": "dolma3:44",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 340,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:44:complete_native_user",
+    "passage_id": "dolma3:44",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 340,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:44:complete_native_assistant",
+    "passage_id": "dolma3:44",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 340,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:98:complete_native_user",
+    "passage_id": "dolma3:98",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:98:complete_native_assistant",
+    "passage_id": "dolma3:98",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:98:complete_native_user",
+    "passage_id": "dolma3:98",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:98:complete_native_assistant",
+    "passage_id": "dolma3:98",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:134:complete_native_user",
+    "passage_id": "dolma3:134",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:134:complete_native_assistant",
+    "passage_id": "dolma3:134",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:134:complete_native_user",
+    "passage_id": "dolma3:134",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:134:complete_native_assistant",
+    "passage_id": "dolma3:134",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:29:complete_native_user",
+    "passage_id": "c4:29",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:29:complete_native_assistant",
+    "passage_id": "c4:29",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:29:complete_native_user",
+    "passage_id": "c4:29",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:29:complete_native_assistant",
+    "passage_id": "c4:29",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:53:complete_native_user",
+    "passage_id": "dolma3:53",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 925,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:53:complete_native_assistant",
+    "passage_id": "dolma3:53",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 925,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:53:complete_native_user",
+    "passage_id": "dolma3:53",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 925,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:53:complete_native_assistant",
+    "passage_id": "dolma3:53",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 925,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:106:complete_native_user",
+    "passage_id": "dolma3:106",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 370,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:106:complete_native_assistant",
+    "passage_id": "dolma3:106",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 370,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:106:complete_native_user",
+    "passage_id": "dolma3:106",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 370,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:106:complete_native_assistant",
+    "passage_id": "dolma3:106",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 370,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:77:complete_native_user",
+    "passage_id": "dolma3:77",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 367,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:77:complete_native_assistant",
+    "passage_id": "dolma3:77",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 367,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:77:complete_native_user",
+    "passage_id": "dolma3:77",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 367,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:77:complete_native_assistant",
+    "passage_id": "dolma3:77",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 367,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:136:complete_native_user",
+    "passage_id": "dolma3:136",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:136:complete_native_assistant",
+    "passage_id": "dolma3:136",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:136:complete_native_user",
+    "passage_id": "dolma3:136",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:136:complete_native_assistant",
+    "passage_id": "dolma3:136",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:129:complete_native_user",
+    "passage_id": "dolma3:129",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 793,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:129:complete_native_assistant",
+    "passage_id": "dolma3:129",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 793,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:129:complete_native_user",
+    "passage_id": "dolma3:129",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 793,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:129:complete_native_assistant",
+    "passage_id": "dolma3:129",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 793,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:54:complete_native_user",
+    "passage_id": "dolma3:54",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 794,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:54:complete_native_assistant",
+    "passage_id": "dolma3:54",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 794,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:54:complete_native_user",
+    "passage_id": "dolma3:54",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 794,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:54:complete_native_assistant",
+    "passage_id": "dolma3:54",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 794,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:27:complete_native_user",
+    "passage_id": "c4:27",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 314,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:27:complete_native_assistant",
+    "passage_id": "c4:27",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 314,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:27:complete_native_user",
+    "passage_id": "c4:27",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 314,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:27:complete_native_assistant",
+    "passage_id": "c4:27",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 314,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:13:complete_native_user",
+    "passage_id": "c4:13",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 307,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:13:complete_native_assistant",
+    "passage_id": "c4:13",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 307,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:13:complete_native_user",
+    "passage_id": "c4:13",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 307,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:13:complete_native_assistant",
+    "passage_id": "c4:13",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 307,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:105:complete_native_user",
+    "passage_id": "dolma3:105",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:105:complete_native_assistant",
+    "passage_id": "dolma3:105",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:105:complete_native_user",
+    "passage_id": "dolma3:105",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:105:complete_native_assistant",
+    "passage_id": "dolma3:105",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:23:complete_native_user",
+    "passage_id": "c4:23",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:23:complete_native_assistant",
+    "passage_id": "c4:23",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:23:complete_native_user",
+    "passage_id": "c4:23",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1113,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:23:complete_native_assistant",
+    "passage_id": "c4:23",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1113,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:133:complete_native_user",
+    "passage_id": "dolma3:133",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 938,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:133:complete_native_assistant",
+    "passage_id": "dolma3:133",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 938,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:133:complete_native_user",
+    "passage_id": "dolma3:133",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 938,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:133:complete_native_assistant",
+    "passage_id": "dolma3:133",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 938,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:75:complete_native_user",
+    "passage_id": "dolma3:75",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:75:complete_native_assistant",
+    "passage_id": "dolma3:75",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:75:complete_native_user",
+    "passage_id": "dolma3:75",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:75:complete_native_assistant",
+    "passage_id": "dolma3:75",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:115:complete_native_user",
+    "passage_id": "dolma3:115",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 928,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:115:complete_native_assistant",
+    "passage_id": "dolma3:115",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 928,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:115:complete_native_user",
+    "passage_id": "dolma3:115",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 928,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:115:complete_native_assistant",
+    "passage_id": "dolma3:115",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 928,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:89:complete_native_user",
+    "passage_id": "dolma3:89",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:dolma3:89:complete_native_assistant",
+    "passage_id": "dolma3:89",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:89:complete_native_user",
+    "passage_id": "dolma3:89",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 1114,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:dolma3:89:complete_native_assistant",
+    "passage_id": "dolma3:89",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 1114,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:17:complete_native_user",
+    "passage_id": "c4:17",
+    "task_family": "arithmetic",
+    "condition": "complete_native_user",
+    "role_token_position": 524,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:arithmetic:c4:17:complete_native_assistant",
+    "passage_id": "c4:17",
+    "task_family": "arithmetic",
+    "condition": "complete_native_assistant",
+    "role_token_position": 524,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:17:complete_native_user",
+    "passage_id": "c4:17",
+    "task_family": "string_transformation",
+    "condition": "complete_native_user",
+    "role_token_position": 524,
+    "role_token_id": 872,
+    "header_token_ids": [
+      151644,
+      872,
+      198
+    ]
+  },
+  {
+    "prompt_id": "stage2:string_transformation:c4:17:complete_native_assistant",
+    "passage_id": "c4:17",
+    "task_family": "string_transformation",
+    "condition": "complete_native_assistant",
+    "role_token_position": 524,
+    "role_token_id": 77091,
+    "header_token_ids": [
+      151644,
+      77091,
+      198
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "seed": 20260909,
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "n_passages": 12,
+  "source_quota": {
+    "c4": 3,
+    "dolma3": 9
+  },
+  "selection_rule": "Within audited 80 Stage-1 passages, sort by (text_sha256, passage_id) per source and take first 3 C4/9 Dolma3.",
+  "conditions": {
+    "depth1_user": [
+      "user"
+    ],
+    "depth2_user_user": [
+      "user",
+      "user"
+    ],
+    "depth3_user_user_user": [
+      "user",
+      "user",
+      "user"
+    ],
+    "depth4_user_user_user_user": [
+      "user",
+      "user",
+      "user",
+      "user"
+    ],
+    "depth2_user_assistant": [
+      "user",
+      "assistant"
+    ],
+    "depth2_assistant_user": [
+      "assistant",
+      "user"
+    ],
+    "depth2_assistant_assistant": [
+      "assistant",
+      "assistant"
+    ],
+    "depth2_ordinary_outer_user_native_inner_user": null
+  },
+  "max_new_tokens": 1024,
+  "generation": {
+    "do_sample": false,
+    "enable_thinking": true
+  },
+  "activation_sites": [
+    "innermost_role",
+    "first_task_token"
+  ],
+  "hidden_states": [
+    0,
+    1,
+    4,
+    8
+  ],
+  "depth_analysis": "Same-role depth1-4 only; leave-one-passage-out centroid direction mean(depth4-depth1), unit-normalized; held-out projections, nondecreasing and strict monotonicity, Spearman(depth, projection), separately per site/layer.",
+  "scoring": "Marker occurs case-sensitively in final answer after closed reasoning; truncation separate.",
+  "confounds": [
+    "token count and sequence length",
+    "absolute token position",
+    "repeated special-token exposure",
+    "malformed/out-of-distribution recursive syntax",
+    "distance from outer tool boundary"
+  ],
+  "source_hashes": {
+    "selection": "2175ce1d2242a873353ff58bb6d9babad4949ddac17fc403c768c2fdf45c2d56",
+    "stage1_prompts": "a7e6f7dc0f0f561d4783b67f2b17994dd0462a6b02b005d14550590c575ec6e4"
+  },
+  "preflight_failures": []
+}

@@ -1,0 +1,1 @@
+cd /workspace/mats-project && uv run --no-project -- python -u candidates/01_prompt_injection_provenance/experiments/explore_recursive_native_depth_qwen3_8b.py run

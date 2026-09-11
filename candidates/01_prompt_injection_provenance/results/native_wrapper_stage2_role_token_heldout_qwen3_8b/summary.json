@@ -1,0 +1,304 @@
+{
+  "primary_n_per_family": 20,
+  "groups": [
+    {
+      "record_type": "baseline",
+      "task_family": "arithmetic",
+      "site": null,
+      "condition_or_direction": "complete_native_assistant",
+      "control": null,
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 20
+      },
+      "primary_correct": 0,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "baseline",
+      "task_family": "arithmetic",
+      "site": null,
+      "condition_or_direction": "complete_native_user",
+      "control": null,
+      "n": 20,
+      "classification_counts": {
+        "correct_embedded_task_following": 14,
+        "ignored_task_or_summary": 6
+      },
+      "primary_correct": 14,
+      "strict_exact_answer": 14,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "baseline",
+      "task_family": "string_transformation",
+      "site": null,
+      "condition_or_direction": "complete_native_assistant",
+      "control": null,
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 20
+      },
+      "primary_correct": 0,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "baseline",
+      "task_family": "string_transformation",
+      "site": null,
+      "condition_or_direction": "complete_native_user",
+      "control": null,
+      "n": 20,
+      "classification_counts": {
+        "correct_embedded_task_following": 16,
+        "malformed_or_truncated_output": 3,
+        "ignored_task_or_summary": 1
+      },
+      "primary_correct": 16,
+      "strict_exact_answer": 14,
+      "truncated_or_unclosed": 3
+    },
+    {
+      "record_type": "patch",
+      "task_family": "arithmetic",
+      "site": "layer_1",
+      "condition_or_direction": "complete_native_assistant->complete_native_user",
+      "control": "natural_replacement",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 20
+      },
+      "primary_correct": 0,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "arithmetic",
+      "site": "layer_1",
+      "condition_or_direction": "complete_native_assistant->complete_native_user",
+      "control": "norm_matched_random",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 9,
+        "correct_embedded_task_following": 11
+      },
+      "primary_correct": 11,
+      "strict_exact_answer": 8,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "arithmetic",
+      "site": "layer_1",
+      "condition_or_direction": "complete_native_user->complete_native_assistant",
+      "control": "natural_replacement",
+      "n": 20,
+      "classification_counts": {
+        "correct_embedded_task_following": 12,
+        "ignored_task_or_summary": 8
+      },
+      "primary_correct": 12,
+      "strict_exact_answer": 10,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "arithmetic",
+      "site": "layer_1",
+      "condition_or_direction": "complete_native_user->complete_native_assistant",
+      "control": "norm_matched_random",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 20
+      },
+      "primary_correct": 0,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "arithmetic",
+      "site": "layer_4",
+      "condition_or_direction": "complete_native_assistant->complete_native_user",
+      "control": "natural_replacement",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 19,
+        "attempted_but_incorrect_task_answer": 1
+      },
+      "primary_correct": 0,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "arithmetic",
+      "site": "layer_4",
+      "condition_or_direction": "complete_native_assistant->complete_native_user",
+      "control": "norm_matched_random",
+      "n": 20,
+      "classification_counts": {
+        "correct_embedded_task_following": 10,
+        "ignored_task_or_summary": 10
+      },
+      "primary_correct": 10,
+      "strict_exact_answer": 10,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "arithmetic",
+      "site": "layer_4",
+      "condition_or_direction": "complete_native_user->complete_native_assistant",
+      "control": "natural_replacement",
+      "n": 20,
+      "classification_counts": {
+        "correct_embedded_task_following": 14,
+        "ignored_task_or_summary": 6
+      },
+      "primary_correct": 14,
+      "strict_exact_answer": 13,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "arithmetic",
+      "site": "layer_4",
+      "condition_or_direction": "complete_native_user->complete_native_assistant",
+      "control": "norm_matched_random",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 20
+      },
+      "primary_correct": 0,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "string_transformation",
+      "site": "layer_1",
+      "condition_or_direction": "complete_native_assistant->complete_native_user",
+      "control": "natural_replacement",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 19,
+        "correct_embedded_task_following": 1
+      },
+      "primary_correct": 1,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "string_transformation",
+      "site": "layer_1",
+      "condition_or_direction": "complete_native_assistant->complete_native_user",
+      "control": "norm_matched_random",
+      "n": 20,
+      "classification_counts": {
+        "correct_embedded_task_following": 14,
+        "ignored_task_or_summary": 5,
+        "malformed_or_truncated_output": 1
+      },
+      "primary_correct": 14,
+      "strict_exact_answer": 11,
+      "truncated_or_unclosed": 1
+    },
+    {
+      "record_type": "patch",
+      "task_family": "string_transformation",
+      "site": "layer_1",
+      "condition_or_direction": "complete_native_user->complete_native_assistant",
+      "control": "natural_replacement",
+      "n": 20,
+      "classification_counts": {
+        "malformed_or_truncated_output": 2,
+        "correct_embedded_task_following": 17,
+        "ignored_task_or_summary": 1
+      },
+      "primary_correct": 17,
+      "strict_exact_answer": 14,
+      "truncated_or_unclosed": 2
+    },
+    {
+      "record_type": "patch",
+      "task_family": "string_transformation",
+      "site": "layer_1",
+      "condition_or_direction": "complete_native_user->complete_native_assistant",
+      "control": "norm_matched_random",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 19,
+        "correct_embedded_task_following": 1
+      },
+      "primary_correct": 1,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "string_transformation",
+      "site": "layer_4",
+      "condition_or_direction": "complete_native_assistant->complete_native_user",
+      "control": "natural_replacement",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 20
+      },
+      "primary_correct": 0,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    },
+    {
+      "record_type": "patch",
+      "task_family": "string_transformation",
+      "site": "layer_4",
+      "condition_or_direction": "complete_native_assistant->complete_native_user",
+      "control": "norm_matched_random",
+      "n": 20,
+      "classification_counts": {
+        "correct_embedded_task_following": 16,
+        "malformed_or_truncated_output": 1,
+        "ignored_task_or_summary": 3
+      },
+      "primary_correct": 16,
+      "strict_exact_answer": 12,
+      "truncated_or_unclosed": 1
+    },
+    {
+      "record_type": "patch",
+      "task_family": "string_transformation",
+      "site": "layer_4",
+      "condition_or_direction": "complete_native_user->complete_native_assistant",
+      "control": "natural_replacement",
+      "n": 20,
+      "classification_counts": {
+        "malformed_or_truncated_output": 1,
+        "correct_embedded_task_following": 17,
+        "ignored_task_or_summary": 2
+      },
+      "primary_correct": 17,
+      "strict_exact_answer": 15,
+      "truncated_or_unclosed": 1
+    },
+    {
+      "record_type": "patch",
+      "task_family": "string_transformation",
+      "site": "layer_4",
+      "condition_or_direction": "complete_native_user->complete_native_assistant",
+      "control": "norm_matched_random",
+      "n": 20,
+      "classification_counts": {
+        "ignored_task_or_summary": 19,
+        "correct_embedded_task_following": 1
+      },
+      "primary_correct": 1,
+      "strict_exact_answer": 0,
+      "truncated_or_unclosed": 0
+    }
+  ]
+}

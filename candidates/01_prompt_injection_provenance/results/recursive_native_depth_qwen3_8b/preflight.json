@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "failures": [],
+  "selected_n": 12,
+  "prompt_n": 96,
+  "runner_sha256": "10f1a7773c82e6c00ba1bceba4998d562f26ce50c8a19b6840cb544bffb7071f",
+  "pinned_snapshot": "/workspace/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218"
+}

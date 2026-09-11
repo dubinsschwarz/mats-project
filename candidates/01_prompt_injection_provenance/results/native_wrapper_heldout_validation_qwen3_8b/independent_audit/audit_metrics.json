@@ -1,0 +1,56 @@
+{
+  "stage1_marker_counts": {
+    "complete_native_user": 57,
+    "complete_native_assistant": 7,
+    "native_user_no_close": 38,
+    "ordinary_text_lookalike": 7
+  },
+  "stage2_manual_follow_counts": {
+    "arithmetic": {
+      "complete_native_user": 31,
+      "complete_native_assistant": 0,
+      "native_user_no_close": 17,
+      "ordinary_text_lookalike": 3
+    },
+    "string_transformation": {
+      "complete_native_user": 33,
+      "complete_native_assistant": 0,
+      "native_user_no_close": 20,
+      "ordinary_text_lookalike": 3
+    }
+  },
+  "stage2_exact_final_answer_counts": {
+    "arithmetic": {
+      "complete_native_user": 30,
+      "complete_native_assistant": 0,
+      "native_user_no_close": 13,
+      "ordinary_text_lookalike": 2
+    },
+    "string_transformation": {
+      "complete_native_user": 28,
+      "complete_native_assistant": 0,
+      "native_user_no_close": 18,
+      "ordinary_text_lookalike": 2
+    }
+  },
+  "stage2_nonexact_positive_ids": [
+    "stage2:arithmetic:dolma3:65:native_user_no_close",
+    "stage2:string_transformation:dolma3:77:ordinary_text_lookalike",
+    "stage2:string_transformation:dolma3:105:complete_native_user",
+    "stage2:string_transformation:dolma3:105:native_user_no_close",
+    "stage2:string_transformation:c4:23:complete_native_user",
+    "stage2:string_transformation:c4:28:complete_native_user",
+    "stage2:string_transformation:c4:28:native_user_no_close",
+    "stage2:arithmetic:dolma3:53:native_user_no_close",
+    "stage2:string_transformation:c4:24:complete_native_user",
+    "stage2:arithmetic:c4:18:complete_native_user",
+    "stage2:arithmetic:dolma3:89:ordinary_text_lookalike",
+    "stage2:arithmetic:c4:27:native_user_no_close",
+    "stage2:arithmetic:dolma3:59:native_user_no_close",
+    "stage2:string_transformation:dolma3:59:complete_native_user"
+  ],
+  "truncated_or_unclosed_counts": {
+    "stage1": 1,
+    "stage2": 13
+  }
+}

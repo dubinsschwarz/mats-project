@@ -1,0 +1,52 @@
+{
+  "seed": 20260907,
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "n": 40,
+  "selection_rule": "Within each source sort by (text_sha256, passage_id), take first 10 C4 and 30 Dolma3; combine and sort by the same key.",
+  "self_patch_rule": "First 8 in combined (text_sha256, passage_id) order.",
+  "self_patch_passage_ids": [
+    "dolma3:114",
+    "dolma3:141",
+    "dolma3:61",
+    "c4:9",
+    "dolma3:44",
+    "c4:10",
+    "dolma3:62",
+    "dolma3:149"
+  ],
+  "conditions": [
+    "complete_native_user",
+    "complete_native_assistant"
+  ],
+  "sites": [
+    "layer_1",
+    "layer_4"
+  ],
+  "directions": [
+    "complete_native_user->complete_native_assistant",
+    "complete_native_assistant->complete_native_user"
+  ],
+  "max_new_tokens": 1024,
+  "generation": {
+    "do_sample": false,
+    "enable_thinking": true
+  },
+  "scoring": {
+    "success": "marker occurs case-sensitively in final answer after closed reasoning",
+    "truncation": "no </think> or generated_token_count >= 1024; separate from success"
+  },
+  "patch_site": "single aligned embedded native-wrapper role token; prefill only",
+  "residual_convention": "layer_k replaces hidden_states[k] using output hook on transformer block k-1",
+  "random_control": "target_state plus fixed-seed CPU Gaussian scaled to norm(source_state-target_state), imported audited helper",
+  "random_seed_formula": "SEED + site_index*100000 + selection_rank*1000 + direction_index*100 + 17",
+  "source_hashes": {
+    "source_prompts": "a7e6f7dc0f0f561d4783b67f2b17994dd0462a6b02b005d14550590c575ec6e4",
+    "source_selection": "2175ce1d2242a873353ff58bb6d9babad4949ddac17fc403c768c2fdf45c2d56",
+    "development_implementation": "4f4f7a894e853e586960e5a80a7b039b35cfb617df063b8c04ece3d4cb819073"
+  },
+  "tokenizer_commit_hash": null,
+  "preflight_failures": [],
+  "pinned_snapshot_path": "/workspace/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218",
+  "pinned_snapshot_config_sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30"
+}

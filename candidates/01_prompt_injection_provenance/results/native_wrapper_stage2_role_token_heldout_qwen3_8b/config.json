@@ -1,0 +1,40 @@
+{
+  "seed": 20260908,
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "primary_n_per_family": 20,
+  "selection_rule": "Among passages represented in audited Stage-2 frozen prompts, within source sort by (text_sha256, passage_id); take first 5 C4 and 15 Dolma3; identical passages for both families.",
+  "task_families": [
+    "arithmetic",
+    "string_transformation"
+  ],
+  "conditions": [
+    "complete_native_user",
+    "complete_native_assistant"
+  ],
+  "sites": [
+    "layer_1",
+    "layer_4"
+  ],
+  "directions": [
+    "complete_native_user->complete_native_assistant",
+    "complete_native_assistant->complete_native_user"
+  ],
+  "max_new_tokens": 1024,
+  "patch_semantics": "Imported generate/random_like_norm and L1/L4 hidden_states[k] convention from completed held-out runner.",
+  "random_seed_formula": "SEED + site_index*100000 + family_index*10000 + selection_rank*100 + direction_index*10 + 3",
+  "primary_scoring": "Audited Stage-2 rubric operationalized before inference: expected result supplied as answer; mixed answer+summary allowed; merely quoted task excluded.",
+  "secondary_scoring": "Case-sensitive equality of cleaned final answer and expected_answer.",
+  "classification_labels": [
+    "correct_embedded_task_following",
+    "attempted_but_incorrect_task_answer",
+    "ignored_task_or_summary",
+    "malformed_or_truncated_output"
+  ],
+  "source_hashes": {
+    "stage2_prompts": "effeafd8ddbfa24b73a1c4ef952965cc7c22a530d1d1d80b4ea3bc5f62693c6c",
+    "selection": "2175ce1d2242a873353ff58bb6d9babad4949ddac17fc403c768c2fdf45c2d56",
+    "completed_patch_runner": "500f6915522fe1fe87d4b79c0dab594e0b2703c8401ada7dcac64410fcbcfe7c"
+  },
+  "preflight_failures": []
+}
