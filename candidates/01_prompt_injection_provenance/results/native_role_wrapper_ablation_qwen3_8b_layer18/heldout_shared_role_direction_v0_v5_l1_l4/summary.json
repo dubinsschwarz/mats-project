@@ -1,0 +1,90 @@
+{
+  "baselines": [
+    {
+      "variant": 0,
+      "compliant": 18,
+      "n": 20,
+      "truncated": 0
+    },
+    {
+      "variant": 5,
+      "compliant": 3,
+      "n": 20,
+      "truncated": 0
+    }
+  ],
+  "interventions": [
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "assistant_plus_d",
+      "condition": "natural_direction",
+      "compliant": 16,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "assistant_plus_d",
+      "condition": "norm_matched_random_control",
+      "compliant": 4,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "user_minus_d",
+      "condition": "natural_direction",
+      "compliant": 3,
+      "n": 20,
+      "truncated": 1,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "user_minus_d",
+      "condition": "norm_matched_random_control",
+      "compliant": 13,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "assistant_plus_d",
+      "condition": "natural_direction",
+      "compliant": 14,
+      "n": 20,
+      "truncated": 1,
+      "reasoning_closed": 19
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "assistant_plus_d",
+      "condition": "norm_matched_random_control",
+      "compliant": 3,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "user_minus_d",
+      "condition": "natural_direction",
+      "compliant": 4,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "user_minus_d",
+      "condition": "norm_matched_random_control",
+      "compliant": 17,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    }
+  ]
+}

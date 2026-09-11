@@ -1,0 +1,51 @@
+{
+  "contributors": [
+    {
+      "document_index": 0,
+      "user_position": 112,
+      "assistant_position": 112
+    },
+    {
+      "document_index": 1,
+      "user_position": 113,
+      "assistant_position": 113
+    },
+    {
+      "document_index": 2,
+      "user_position": 111,
+      "assistant_position": 111
+    },
+    {
+      "document_index": 3,
+      "user_position": 110,
+      "assistant_position": 110
+    },
+    {
+      "document_index": 4,
+      "user_position": 109,
+      "assistant_position": 109
+    },
+    {
+      "document_index": 5,
+      "user_position": 110,
+      "assistant_position": 110
+    }
+  ],
+  "layers": {
+    "1": {
+      "l2_norm": 12.614245414733887,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4096
+      ]
+    },
+    "4": {
+      "l2_norm": 26.103227615356445,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4096
+      ]
+    }
+  },
+  "formula": "mean over six development pairs of h_user - h_assistant"
+}

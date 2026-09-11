@@ -1,0 +1,74 @@
+[
+  {
+    "pair_id": "doc_1_to_doc_0",
+    "donor_document": 1,
+    "recipient_document": 0,
+    "offset": 1
+  },
+  {
+    "pair_id": "doc_2_to_doc_0",
+    "donor_document": 2,
+    "recipient_document": 0,
+    "offset": 2
+  },
+  {
+    "pair_id": "doc_2_to_doc_1",
+    "donor_document": 2,
+    "recipient_document": 1,
+    "offset": 1
+  },
+  {
+    "pair_id": "doc_3_to_doc_1",
+    "donor_document": 3,
+    "recipient_document": 1,
+    "offset": 2
+  },
+  {
+    "pair_id": "doc_3_to_doc_2",
+    "donor_document": 3,
+    "recipient_document": 2,
+    "offset": 1
+  },
+  {
+    "pair_id": "doc_4_to_doc_2",
+    "donor_document": 4,
+    "recipient_document": 2,
+    "offset": 2
+  },
+  {
+    "pair_id": "doc_4_to_doc_3",
+    "donor_document": 4,
+    "recipient_document": 3,
+    "offset": 1
+  },
+  {
+    "pair_id": "doc_5_to_doc_3",
+    "donor_document": 5,
+    "recipient_document": 3,
+    "offset": 2
+  },
+  {
+    "pair_id": "doc_5_to_doc_4",
+    "donor_document": 5,
+    "recipient_document": 4,
+    "offset": 1
+  },
+  {
+    "pair_id": "doc_0_to_doc_4",
+    "donor_document": 0,
+    "recipient_document": 4,
+    "offset": 2
+  },
+  {
+    "pair_id": "doc_0_to_doc_5",
+    "donor_document": 0,
+    "recipient_document": 5,
+    "offset": 1
+  },
+  {
+    "pair_id": "doc_1_to_doc_5",
+    "donor_document": 1,
+    "recipient_document": 5,
+    "offset": 2
+  }
+]

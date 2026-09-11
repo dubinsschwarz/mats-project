@@ -1,0 +1,74 @@
+{
+  "frozen": true,
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seed": 123,
+  "max_new_tokens": 1024,
+  "do_sample": false,
+  "layers_hidden_state_indices": [
+    1,
+    4
+  ],
+  "layer_definition": "hidden_states[L]; L1 after block 0, L4 after block 3",
+  "site": "embedded_role",
+  "patch": "one recipient prefill role-token residual state",
+  "conditions": {
+    "assistant_recipient": {
+      "cross_role_treatment": "foreign V0 user state -> V5 assistant",
+      "same_role_cross_document_control": "foreign V5 assistant state -> V5 assistant"
+    },
+    "user_recipient": {
+      "cross_role_treatment": "foreign V5 assistant state -> V0 user",
+      "same_role_cross_document_control": "foreign V0 user state -> V0 user"
+    }
+  },
+  "source_prompts": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_role_wrapper_ablation_qwen3_8b_layer18/same_marker_single_site_patching/v0_v5_1024/saved_v0_v5_prompts.json",
+  "source_prompts_sha256": "707c53a2841ac3c1abaf15dab738e25e8ca7277aa7115729f08fd6988115e666",
+  "reference_results": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_role_wrapper_ablation_qwen3_8b_layer18/same_marker_single_site_patching/v0_v5_1024/results.json",
+  "reference_results_sha256": "0d6b8ee3f0d0a968f6f75f83315a05800a24da145c1a5a717fc046b3c557cea2",
+  "independent_audit": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_role_wrapper_ablation_qwen3_8b_layer18/same_marker_single_site_patching/v0_v5_1024/independent_audit/verification_bundle.json",
+  "independent_audit_sha256": "aebbbe31250f8cbc99c466f750a8147a351d181b9acf4e7ca63983d0a5e8267d",
+  "code": "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/cross_document_role_state_transfer_qwen3_8b.py",
+  "code_sha256": "bbf2026cb1076c21ae6cf2cfd58608e8ba712cbb13a0ea493d0e857a3c34e172",
+  "preflight": {
+    "commit": "7ab9cc86d7c72598b2a08462b6386505ac3f7393",
+    "prompts": [
+      {
+        "document": 0,
+        "position": 112,
+        "token_count": 141,
+        "valid": true
+      },
+      {
+        "document": 1,
+        "position": 113,
+        "token_count": 142,
+        "valid": true
+      },
+      {
+        "document": 2,
+        "position": 111,
+        "token_count": 140,
+        "valid": true
+      },
+      {
+        "document": 3,
+        "position": 110,
+        "token_count": 139,
+        "valid": true
+      },
+      {
+        "document": 4,
+        "position": 109,
+        "token_count": 138,
+        "valid": true
+      },
+      {
+        "document": 5,
+        "position": 110,
+        "token_count": 139,
+        "valid": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "baseline": {
+    "V0": {
+      "compliant": 6,
+      "n": 6,
+      "reasoning_closed": 6,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    },
+    "V5": {
+      "compliant": 0,
+      "n": 6,
+      "reasoning_closed": 6,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    }
+  },
+  "self_patch": {
+    "exact_baseline_reproduction": 28,
+    "n": 28,
+    "documents_tested": [
+      0
+    ],
+    "reasoning_closed": 28,
+    "truncated_at_budget": 0,
+    "empty_final_answer": 0
+  },
+  "natural_embedded_role_L1_L4": [
+    {
+      "direction": "V0_to_V5",
+      "site": "embedded_role",
+      "layer_hidden_state_index": 1,
+      "source_variant": 0,
+      "destination_variant": 5,
+      "compliant": 6,
+      "n": 6,
+      "source_behavior_transferred": 6,
+      "reasoning_closed": 6,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    },
+    {
+      "direction": "V0_to_V5",
+      "site": "embedded_role",
+      "layer_hidden_state_index": 4,
+      "source_variant": 0,
+      "destination_variant": 5,
+      "compliant": 6,
+      "n": 6,
+      "source_behavior_transferred": 6,
+      "reasoning_closed": 6,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    },
+    {
+      "direction": "V5_to_V0",
+      "site": "embedded_role",
+      "layer_hidden_state_index": 1,
+      "source_variant": 5,
+      "destination_variant": 0,
+      "compliant": 0,
+      "n": 6,
+      "source_behavior_transferred": 6,
+      "reasoning_closed": 6,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    },
+    {
+      "direction": "V5_to_V0",
+      "site": "embedded_role",
+      "layer_hidden_state_index": 4,
+      "source_variant": 5,
+      "destination_variant": 0,
+      "compliant": 0,
+      "n": 6,
+      "source_behavior_transferred": 6,
+      "reasoning_closed": 6,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    }
+  ],
+  "random_control_embedded_role_L1_L4": [
+    {
+      "direction": "V0_to_V5",
+      "site": "embedded_role",
+      "layer_hidden_state_index": 1,
+      "source_variant": 0,
+      "destination_variant": 5,
+      "compliant": 1,
+      "n": 18,
+      "source_behavior_transferred": 1,
+      "by_draw": [
+        {
+          "draw": 0,
+          "compliant": 0,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        },
+        {
+          "draw": 1,
+          "compliant": 1,
+          "n": 6,
+          "source_behavior_transferred": 1,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        },
+        {
+          "draw": 2,
+          "compliant": 0,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 5,
+          "truncated_at_budget": 1,
+          "empty_final_answer": 1
+        }
+      ],
+      "reasoning_closed": 17,
+      "truncated_at_budget": 1,
+      "empty_final_answer": 1
+    },
+    {
+      "direction": "V0_to_V5",
+      "site": "embedded_role",
+      "layer_hidden_state_index": 4,
+      "source_variant": 0,
+      "destination_variant": 5,
+      "compliant": 2,
+      "n": 18,
+      "source_behavior_transferred": 2,
+      "by_draw": [
+        {
+          "draw": 0,
+          "compliant": 0,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        },
+        {
+          "draw": 1,
+          "compliant": 1,
+          "n": 6,
+          "source_behavior_transferred": 1,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        },
+        {
+          "draw": 2,
+          "compliant": 1,
+          "n": 6,
+          "source_behavior_transferred": 1,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        }
+      ],
+      "reasoning_closed": 18,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    },
+    {
+      "direction": "V5_to_V0",
+      "site": "embedded_role",
+      "layer_hidden_state_index": 1,
+      "source_variant": 5,
+      "destination_variant": 0,
+      "compliant": 18,
+      "n": 18,
+      "source_behavior_transferred": 0,
+      "by_draw": [
+        {
+          "draw": 0,
+          "compliant": 6,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        },
+        {
+          "draw": 1,
+          "compliant": 6,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        },
+        {
+          "draw": 2,
+          "compliant": 6,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        }
+      ],
+      "reasoning_closed": 18,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    },
+    {
+      "direction": "V5_to_V0",
+      "site": "embedded_role",
+      "layer_hidden_state_index": 4,
+      "source_variant": 5,
+      "destination_variant": 0,
+      "compliant": 18,
+      "n": 18,
+      "source_behavior_transferred": 0,
+      "by_draw": [
+        {
+          "draw": 0,
+          "compliant": 6,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        },
+        {
+          "draw": 1,
+          "compliant": 6,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        },
+        {
+          "draw": 2,
+          "compliant": 6,
+          "n": 6,
+          "source_behavior_transferred": 0,
+          "reasoning_closed": 6,
+          "truncated_at_budget": 0,
+          "empty_final_answer": 0
+        }
+      ],
+      "reasoning_closed": 18,
+      "truncated_at_budget": 0,
+      "empty_final_answer": 0
+    }
+  ],
+  "all_saved_generation_rows": {
+    "n": 352,
+    "reasoning_closed": 343,
+    "truncated_at_budget": 9,
+    "empty_final_answer": 9
+  },
+  "behavior_label_mismatches": []
+}

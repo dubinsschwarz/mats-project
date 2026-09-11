@@ -1,0 +1,23 @@
+panel,layer,role,condition,display,compliant,n,truncated
+A,1,Assistant,baseline,Assistant baseline,3,20,0
+A,1,Assistant,shared_direction,Assistant +d,16,20,0
+A,1,Assistant,equal_norm_random,Assistant random,4,20,0
+A,1,User,baseline,User baseline,18,20,0
+A,1,User,shared_direction,User -d,3,20,1
+A,1,User,equal_norm_random,User random,13,20,0
+A,4,Assistant,baseline,Assistant baseline,3,20,0
+A,4,Assistant,shared_direction,Assistant +d,14,20,1
+A,4,Assistant,equal_norm_random,Assistant random,3,20,0
+A,4,User,baseline,User baseline,18,20,0
+A,4,User,shared_direction,User -d,4,20,0
+A,4,User,equal_norm_random,User random,17,20,0
+B,,User,baseline,Baseline,18,20,0
+B,,Assistant,baseline,Baseline,3,20,0
+B,1,User,role_axis_erasure,L1 axis erasure,14,20,0
+B,1,Assistant,role_axis_erasure,L1 axis erasure,16,20,0
+B,1,User,norm_matched_random_control,L1 matched random,17,20,0
+B,1,Assistant,norm_matched_random_control,L1 matched random,3,20,0
+B,4,User,role_axis_erasure,L4 axis erasure,7,20,0
+B,4,Assistant,role_axis_erasure,L4 axis erasure,8,20,0
+B,4,User,norm_matched_random_control,L4 matched random,18,20,0
+B,4,Assistant,norm_matched_random_control,L4 matched random,2,20,1

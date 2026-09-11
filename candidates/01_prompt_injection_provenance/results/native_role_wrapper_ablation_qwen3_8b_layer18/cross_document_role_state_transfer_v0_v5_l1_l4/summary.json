@@ -1,0 +1,110 @@
+{
+  "cross_document": [
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "V0_to_V5",
+      "condition": "cross_role_treatment",
+      "compliant": 11,
+      "n": 12,
+      "reasoning_closed": 12,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "V0_to_V5",
+      "condition": "same_role_cross_document_control",
+      "compliant": 0,
+      "n": 12,
+      "reasoning_closed": 12,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "V5_to_V0",
+      "condition": "cross_role_treatment",
+      "compliant": 0,
+      "n": 12,
+      "reasoning_closed": 12,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "V5_to_V0",
+      "condition": "same_role_cross_document_control",
+      "compliant": 12,
+      "n": 12,
+      "reasoning_closed": 12,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "V0_to_V5",
+      "condition": "cross_role_treatment",
+      "compliant": 11,
+      "n": 12,
+      "reasoning_closed": 12,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "V0_to_V5",
+      "condition": "same_role_cross_document_control",
+      "compliant": 0,
+      "n": 12,
+      "reasoning_closed": 11,
+      "truncated": 1
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "V5_to_V0",
+      "condition": "cross_role_treatment",
+      "compliant": 0,
+      "n": 12,
+      "reasoning_closed": 12,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "V5_to_V0",
+      "condition": "same_role_cross_document_control",
+      "compliant": 11,
+      "n": 12,
+      "reasoning_closed": 12,
+      "truncated": 0
+    }
+  ],
+  "unpatched_reference": {
+    "0": 6,
+    "5": 0
+  },
+  "same_document_natural_patch_reference": [
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "V0_to_V5",
+      "compliant": 6,
+      "n": 6,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "V0_to_V5",
+      "compliant": 6,
+      "n": 6,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "direction": "V5_to_V0",
+      "compliant": 0,
+      "n": 6,
+      "truncated": 0
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "direction": "V5_to_V0",
+      "compliant": 0,
+      "n": 6,
+      "truncated": 0
+    }
+  ]
+}

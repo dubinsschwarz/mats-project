@@ -1,0 +1,161 @@
+{
+  "frozen": true,
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seed": 123,
+  "random_seed_base": 920000,
+  "max_new_tokens": 1024,
+  "do_sample": false,
+  "layers_hidden_state_indices": [
+    1,
+    4
+  ],
+  "direction": "raw mean across six dev (h_user - h_assistant); no normalization or tuning",
+  "selection_rule": "within source sort by (text_sha256, passage_id); first 5 C4 and first 15 Dolma3",
+  "passage_id_definition": "{source}:{base_ix} from saved behavioral-validation sample",
+  "conditions": [
+    "unpatched_baseline",
+    "natural_direction",
+    "norm_matched_random_control"
+  ],
+  "patch_site": "embedded_role",
+  "preflight": {
+    "commit": "7ab9cc86d7c72598b2a08462b6386505ac3f7393",
+    "dev_pair_count": 6,
+    "heldout_count": 20,
+    "no_heldout_contributes_to_direction": true,
+    "heldout_alignments": [
+      {
+        "passage_id": "c4:11",
+        "role_position": 228,
+        "token_count": 257,
+        "only_token_difference": 228
+      },
+      {
+        "passage_id": "c4:9",
+        "role_position": 412,
+        "token_count": 441,
+        "only_token_difference": 412
+      },
+      {
+        "passage_id": "c4:14",
+        "role_position": 922,
+        "token_count": 951,
+        "only_token_difference": 922
+      },
+      {
+        "passage_id": "c4:10",
+        "role_position": 659,
+        "token_count": 688,
+        "only_token_difference": 659
+      },
+      {
+        "passage_id": "c4:33",
+        "role_position": 152,
+        "token_count": 181,
+        "only_token_difference": 152
+      },
+      {
+        "passage_id": "dolma3:114",
+        "role_position": 523,
+        "token_count": 552,
+        "only_token_difference": 523
+      },
+      {
+        "passage_id": "dolma3:49",
+        "role_position": 1112,
+        "token_count": 1141,
+        "only_token_difference": 1112
+      },
+      {
+        "passage_id": "dolma3:93",
+        "role_position": 1114,
+        "token_count": 1143,
+        "only_token_difference": 1114
+      },
+      {
+        "passage_id": "dolma3:141",
+        "role_position": 1054,
+        "token_count": 1083,
+        "only_token_difference": 1054
+      },
+      {
+        "passage_id": "dolma3:66",
+        "role_position": 1113,
+        "token_count": 1142,
+        "only_token_difference": 1113
+      },
+      {
+        "passage_id": "dolma3:61",
+        "role_position": 1114,
+        "token_count": 1143,
+        "only_token_difference": 1114
+      },
+      {
+        "passage_id": "dolma3:137",
+        "role_position": 674,
+        "token_count": 703,
+        "only_token_difference": 674
+      },
+      {
+        "passage_id": "dolma3:44",
+        "role_position": 340,
+        "token_count": 369,
+        "only_token_difference": 340
+      },
+      {
+        "passage_id": "dolma3:50",
+        "role_position": 315,
+        "token_count": 344,
+        "only_token_difference": 315
+      },
+      {
+        "passage_id": "dolma3:62",
+        "role_position": 843,
+        "token_count": 872,
+        "only_token_difference": 843
+      },
+      {
+        "passage_id": "dolma3:149",
+        "role_position": 702,
+        "token_count": 731,
+        "only_token_difference": 702
+      },
+      {
+        "passage_id": "dolma3:98",
+        "role_position": 1113,
+        "token_count": 1142,
+        "only_token_difference": 1113
+      },
+      {
+        "passage_id": "dolma3:116",
+        "role_position": 347,
+        "token_count": 376,
+        "only_token_difference": 347
+      },
+      {
+        "passage_id": "dolma3:126",
+        "role_position": 747,
+        "token_count": 776,
+        "only_token_difference": 747
+      },
+      {
+        "passage_id": "dolma3:92",
+        "role_position": 476,
+        "token_count": 505,
+        "only_token_difference": 476
+      }
+    ],
+    "single_position_patch": "changed[0, position] only; one-shot prefill hook"
+  },
+  "code": "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/heldout_shared_role_direction_qwen3_8b.py",
+  "code_sha256": "4a5b292df80d7c82201e5992dc6bad22fa70b649995975201aa0fb5ca7a0619b",
+  "dev_prompts": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_role_wrapper_ablation_qwen3_8b_layer18/same_marker_single_site_patching/v0_v5_1024/saved_v0_v5_prompts.json",
+  "dev_prompts_sha256": "707c53a2841ac3c1abaf15dab738e25e8ca7277aa7115729f08fd6988115e666",
+  "dev_audit": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_role_wrapper_ablation_qwen3_8b_layer18/same_marker_single_site_patching/v0_v5_1024/independent_audit/verification_bundle.json",
+  "dev_audit_sha256": "aebbbe31250f8cbc99c466f750a8147a351d181b9acf4e7ca63983d0a5e8267d",
+  "heldout_pool": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/qwen3_8b_role_probe_layer16_validation/sampled_texts.jsonl",
+  "heldout_pool_sha256": "11dc308a2aa8a033f6b67379095338d0c7feafbcd7322bf64478898d1d69125b",
+  "heldout_pool_config": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/qwen3_8b_role_probe_layer16_validation/config.json",
+  "heldout_pool_config_sha256": "f48ead11eeaed0fd1f63121bb080d2b236edd4475da5cb801dbaa746ddea753a"
+}

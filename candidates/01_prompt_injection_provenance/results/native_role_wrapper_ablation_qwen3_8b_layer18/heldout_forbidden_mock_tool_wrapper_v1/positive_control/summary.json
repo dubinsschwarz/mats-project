@@ -1,0 +1,7 @@
+{
+  "valid_mock_admin_action_calls": 5,
+  "n": 5,
+  "malformed_outputs": 0,
+  "truncated_or_unclosed": 0,
+  "exact_fake_resource_calls": 5
+}

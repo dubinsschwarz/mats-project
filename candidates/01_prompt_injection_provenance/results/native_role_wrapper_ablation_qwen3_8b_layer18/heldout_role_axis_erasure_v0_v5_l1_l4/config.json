@@ -1,0 +1,116 @@
+{
+  "frozen": true,
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seed": 123,
+  "random_seed_base": 1830000,
+  "max_new_tokens": 1024,
+  "do_sample": false,
+  "layers_hidden_state_indices": [
+    1,
+    4
+  ],
+  "site": "embedded_role",
+  "direction": "d = mean over six dev pairs of h_user - h_assistant; u=d/||d||",
+  "midpoint": "m = (mean_dev_h_user + mean_dev_h_assistant)/2",
+  "erasure": "h_erased = h - ((h-m) dot u)u",
+  "random_control": "one seeded isotropic direction per example/role/layer, scaled to exact erasure displacement L2 norm",
+  "existing_baselines_reused": "/workspace/mats-project/candidates/01_prompt_injection_provenance/results/native_role_wrapper_ablation_qwen3_8b_layer18/heldout_shared_role_direction_v0_v5_l1_l4/results.json",
+  "preflight": {
+    "commit": "7ab9cc86d7c72598b2a08462b6386505ac3f7393",
+    "dev_pairs": 6,
+    "heldout_examples": 20,
+    "selection_exactly_reused": true,
+    "baseline_rows_reused": 40,
+    "heldout_alignments": [
+      {
+        "passage_id": "c4:11",
+        "role_position": 228
+      },
+      {
+        "passage_id": "c4:9",
+        "role_position": 412
+      },
+      {
+        "passage_id": "c4:14",
+        "role_position": 922
+      },
+      {
+        "passage_id": "c4:10",
+        "role_position": 659
+      },
+      {
+        "passage_id": "c4:33",
+        "role_position": 152
+      },
+      {
+        "passage_id": "dolma3:114",
+        "role_position": 523
+      },
+      {
+        "passage_id": "dolma3:49",
+        "role_position": 1112
+      },
+      {
+        "passage_id": "dolma3:93",
+        "role_position": 1114
+      },
+      {
+        "passage_id": "dolma3:141",
+        "role_position": 1054
+      },
+      {
+        "passage_id": "dolma3:66",
+        "role_position": 1113
+      },
+      {
+        "passage_id": "dolma3:61",
+        "role_position": 1114
+      },
+      {
+        "passage_id": "dolma3:137",
+        "role_position": 674
+      },
+      {
+        "passage_id": "dolma3:44",
+        "role_position": 340
+      },
+      {
+        "passage_id": "dolma3:50",
+        "role_position": 315
+      },
+      {
+        "passage_id": "dolma3:62",
+        "role_position": 843
+      },
+      {
+        "passage_id": "dolma3:149",
+        "role_position": 702
+      },
+      {
+        "passage_id": "dolma3:98",
+        "role_position": 1113
+      },
+      {
+        "passage_id": "dolma3:116",
+        "role_position": 347
+      },
+      {
+        "passage_id": "dolma3:126",
+        "role_position": 747
+      },
+      {
+        "passage_id": "dolma3:92",
+        "role_position": 476
+      }
+    ],
+    "single_position_patch": "changed[0, role_position] only; one-shot prefill hook"
+  },
+  "code": "/workspace/mats-project/candidates/01_prompt_injection_provenance/experiments/heldout_role_axis_erasure_qwen3_8b.py",
+  "code_sha256": "bf848ac23c178c30e37c1380dd64b954cb5b96e87a9b5cee801fd00520f2f6bc",
+  "prior_config_sha256": "216981ca3697f1d9850ffb6b34c2705a89794f98ee724b44563c76f15f19bbc0",
+  "prior_selection_sha256": "7864adb1ceab52297827868d27c06e59fcf8c265122357c85d936f8f4ca3665a",
+  "prior_results_sha256": "5fab12f9f117e66fe751b8aa96e6fc51fefd94abdb92d566700d1dd0f9f3ce78",
+  "prior_direction_vectors_sha256": "f81e3198d5ba4d96800cd6bf632a162367c78fc2989d0bf84bcdbdd61b57d362",
+  "dev_prompts_sha256": "707c53a2841ac3c1abaf15dab738e25e8ca7277aa7115729f08fd6988115e666"
+}

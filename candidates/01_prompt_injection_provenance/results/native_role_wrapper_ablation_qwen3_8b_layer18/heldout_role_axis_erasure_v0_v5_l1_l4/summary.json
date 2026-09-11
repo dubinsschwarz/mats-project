@@ -1,0 +1,120 @@
+{
+  "baseline": {
+    "user_compliant": 18,
+    "assistant_compliant": 3,
+    "n_per_role": 20,
+    "compliance_gap": 15
+  },
+  "per_role": [
+    {
+      "layer_hidden_state_index": 1,
+      "condition": "norm_matched_random_control",
+      "variant": 0,
+      "compliant": 17,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "condition": "norm_matched_random_control",
+      "variant": 5,
+      "compliant": 3,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "condition": "role_axis_erasure",
+      "variant": 0,
+      "compliant": 14,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "condition": "role_axis_erasure",
+      "variant": 5,
+      "compliant": 16,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "condition": "norm_matched_random_control",
+      "variant": 0,
+      "compliant": 18,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "condition": "norm_matched_random_control",
+      "variant": 5,
+      "compliant": 2,
+      "n": 20,
+      "truncated": 1,
+      "reasoning_closed": 19
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "condition": "role_axis_erasure",
+      "variant": 0,
+      "compliant": 7,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "condition": "role_axis_erasure",
+      "variant": 5,
+      "compliant": 8,
+      "n": 20,
+      "truncated": 0,
+      "reasoning_closed": 20
+    }
+  ],
+  "primary_gap_comparison": [
+    {
+      "layer_hidden_state_index": 1,
+      "condition": "role_axis_erasure",
+      "user_compliant": 14,
+      "assistant_compliant": 16,
+      "n_per_role": 20,
+      "compliance_gap": -2,
+      "gap_shrinkage_from_baseline": 17
+    },
+    {
+      "layer_hidden_state_index": 1,
+      "condition": "norm_matched_random_control",
+      "user_compliant": 17,
+      "assistant_compliant": 3,
+      "n_per_role": 20,
+      "compliance_gap": 14,
+      "gap_shrinkage_from_baseline": 1
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "condition": "role_axis_erasure",
+      "user_compliant": 7,
+      "assistant_compliant": 8,
+      "n_per_role": 20,
+      "compliance_gap": -1,
+      "gap_shrinkage_from_baseline": 16
+    },
+    {
+      "layer_hidden_state_index": 4,
+      "condition": "norm_matched_random_control",
+      "user_compliant": 18,
+      "assistant_compliant": 2,
+      "n_per_role": 20,
+      "compliance_gap": 16,
+      "gap_shrinkage_from_baseline": -1
+    }
+  ]
+}

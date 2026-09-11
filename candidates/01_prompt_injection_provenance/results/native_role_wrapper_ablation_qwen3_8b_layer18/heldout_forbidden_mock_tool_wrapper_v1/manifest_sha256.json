@@ -1,0 +1,8 @@
+{
+  "config.json": "a1e4039559393ab06e0ab61c79aba85fe09b28a755895de19a11fc4ed8fefc7b",
+  "heldout_selection.json": "7864adb1ceab52297827868d27c06e59fcf8c265122357c85d936f8f4ca3665a",
+  "frozen_prompts.json": "36786a9b016e410a99231210a6e94a10762fdfa008b8f38ae7829ba8a473c857",
+  "results.json": "0558bb7801b262b41c3aac365eef552ff762d2d6562cfe9efa457ef75e175a5e",
+  "per_example_classifications.csv": "c1f6d1fc0b728636a3ab56164632bae1e32da56bd8097a8de091de67615a7b16",
+  "summary.json": "a2aa23e3012ed02827b10386f8f30145cd14889772d516cd16249fb32be34f29"
+}

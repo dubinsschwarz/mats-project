@@ -1,0 +1,31 @@
+{
+  "formulae": {
+    "d": "mean_user - mean_assistant",
+    "u": "d / ||d||",
+    "midpoint": "(mean_user + mean_assistant)/2"
+  },
+  "contributors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "layers": {
+    "1": {
+      "d_l2_norm": 12.614245414733887,
+      "saved_direction_exact_match": true,
+      "shape": [
+        4096
+      ]
+    },
+    "4": {
+      "d_l2_norm": 26.103227615356445,
+      "saved_direction_exact_match": true,
+      "shape": [
+        4096
+      ]
+    }
+  }
+}
